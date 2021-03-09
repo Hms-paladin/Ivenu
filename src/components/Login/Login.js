@@ -196,11 +196,8 @@ this.props.LoginLoad(responseJson.data[0]);
       <button onClick={this.loginSubmit} type="button" class="btn btn-primary btn-lg mobverify" style={{backgroundColor:'#ea5c04',width:'125px',textAlign:'center'}}>LOGIN</button>
       </div>
       </Row>
-      
-      
       </ModalBody>
       <div class="mdlfooter mobfooter">
-        
       <div className="textsocial" style={{display:'block','text-align':'center'}}>
        (or) Login with
        <div style={{display:'flex',justifyContent:'center',alignItems:'center',padding:'10px'}}>

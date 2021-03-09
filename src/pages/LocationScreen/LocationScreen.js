@@ -4,7 +4,9 @@ import keyvenue from '../../images/onekey.jpg'
 import logo from '../../images/logo.png';
 import geolocation from '../../images/geolocation.png';
 import { Spin, Icon,notification } from 'antd';
-const antIcon = <Icon type="loading" style={{ fontSize:24,color:'#a60202' }} spin />;
+import { SmileOutlined } from '@ant-design/icons';
+const antIcon =<SmileOutlined type="loading" style={{ fontSize:24,color:'#a60202' }} spin />
+// const antIcon = <Icon type="loading" style={{ fontSize:24,color:'#a60202' }} spin />;
 export default class LocationScreen extends React.Component {
 	
 

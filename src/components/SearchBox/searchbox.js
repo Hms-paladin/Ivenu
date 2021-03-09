@@ -6,7 +6,9 @@ import './searchbox.css';
 import Apilink from '../../helpers/apilink';
 import { Popover, Button } from 'antd';
 import { Spin, Icon,notification } from 'antd';
-const antIcon = <Icon type="loading" style={{ fontSize:20 }} spin />;
+// const antIcon = <Icon type="loading" style={{ fontSize:20 }} spin />;
+import { SmileOutlined } from '@ant-design/icons';
+const antIcon =<SmileOutlined type="loading" style={{ fontSize:20 }} spin />
 export default class Searchbox extends React.Component {
 	constructor(props) {
 		super(props);
@@ -65,7 +67,9 @@ submitSearch=()=>{
 
 
 	render() {
-		const antIcon = <Icon type="loading" style={{ fontSize:16,color:'white',marginLeft:5}} spin />;
+		// const antIcon = <Icon type="loading" style={{ fontSize:16,color:'white',marginLeft:5}} spin />;
+	
+const antIcon =<SmileOutlined type="loading"  style={{ fontSize:16,color:'white',marginLeft:5}} spin />
 
 		return (
 			<div className="searchboxcomp">

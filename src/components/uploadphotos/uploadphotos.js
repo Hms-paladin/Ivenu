@@ -6,6 +6,8 @@ import Second_popup_style from '../../components/second-popup-style/second-popup
 import Greyright from '../../images/greyright.png';
 
 import { Upload, Icon, Modal } from 'antd';
+import { SmileOutlined } from '@ant-design/icons';
+// const antIcon =<SmileOutlined type="loading" style={{ fontSize:24,color:'#a60202' }} spin />
 import Bindname from '../bindname/bindname';
 import Choosediv from '../choosediv/choosediv';
 // import { Checkbox } from 'antd';
@@ -74,7 +76,7 @@ sendUploadClick=()=>{
 		const { previewVisible, previewImage, fileList } = this.state;
     const uploadButton = (
       <div>
-        <Icon type="plus" />
+        <SmileOutlined type="plus" />
         <div className="ant-upload-text">Upload</div>
       </div>
     );

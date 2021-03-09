@@ -280,7 +280,7 @@ this.loadwhere(data.venue_purpose_id,this.state.dovalue.venue_act_id);
 <LookingFor recieveCategory={(data)=>this.setState({nearbyCategory:data})}/>
 <NearByPlayGround   refresHeader={()=>this.props.refresHeader&&this.props.refresHeader()}  addvenueProps={(data)=>this.props.addvenueProps(data)} nearbyCategory={this.state.nearbyCategory} getlocation={this.props.latlng}/>
 {this.state.searchdata&&
-<Homeslider history={this.props.history}  refresHeader={()=>this.props.refresHeader&&this.props.refresHeader()} addvenueProps={(data)=>this.props.addvenueProps(data)} scroll={this.state.scroll} displaySlider={this.state.searchdata}/>
+<Homeslider history={this.props.history}  refresHeader={()=>this.props.refresHeader &&this.props.refresHeader()} addvenueProps={(data)=>this.props.addvenueProps(data)} scroll={this.state.scroll} displaySlider={this.state.searchdata}/>
 }
 
 

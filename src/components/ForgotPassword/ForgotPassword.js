@@ -17,9 +17,9 @@ export default class ForgotPassword extends React.Component {
 		}
 	}
   handleOnChange=(value, data,data1) =>{
-    console.log(data1);
-    console.log(data);
-    console.log(value);
+    console.log("data1_____________",data1);
+    console.log("data_____________",data);
+    console.log("value_____________",value);
     var code_length=0;
     var success=false;
     if(data1.format){
@@ -27,24 +27,34 @@ export default class ForgotPassword extends React.Component {
     	if(data1.format.length==value.length){
     		// alert("success");
     		success=true;
+			this.setState({success:true});
+			console.log("success",this.state.success);
     	}else{
     		success=false;
+			this.setState({success:false});
+			console.log("success",this.state.success);
     	}
     }else{
     		success=false;
+			this.setState({success:false});
+			console.log("success",this.state.success);
     }
-    if(data.dialCode != undefined){
+    if(data.dialCode !== undefined){
       code_length=data.dialCode.length;
     }
     
-    var mobile=value.replace(/[^0-9]+/g,'').slice(code_length);
-    console.log(mobile)
-    this.setState({ mobile:mobile });
+    var mobileNumber=value.replace(/[^0-9]+/g,'').slice(code_length);
+    console.log("mobile___________________--",mobileNumber)
+    this.setState({ mobile:mobileNumber });
     this.setState({ countrycode:data.dialCode});
     this.setState({ phone:value});
     this.setState({success:success});
+    // __________________________________________-
 
-    // console.log(this.state)
+	
+	// _________________________________________
+    console.log("mobile______setState_____________--",this.state.mobile)
+	console.log("mobile______Slice_____________--",value.slice(data.dialCode.length) )
   }
   loginSubmit=()=>{
   	// alert("");

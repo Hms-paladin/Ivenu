@@ -2,6 +2,8 @@ import React from 'react';
 import PaxModal from './paxModal';
 import './paxform.css'
 import {Icon,Popconfirm} from 'antd';
+import { SmileOutlined } from '@ant-design/icons';
+
 import dateFormat from 'dateformat';
 import DateFunctions from  '../../helpers/DateFunctions';
 export default class PaxForm extends React.Component {
@@ -41,7 +43,7 @@ export default class PaxForm extends React.Component {
 			<div className="paxListDiv">
 			<div className="addBoxPax bordered" onClick={()=>this.setState({paxmodal:true})}>
 			<div className="paxboxdiv">
-			<Icon type="plus-square" />
+			<SmileOutlined type="plus-square" />
 			<p>Add Pax</p>
 			</div>
 			</div>
@@ -63,7 +65,7 @@ export default class PaxForm extends React.Component {
     cancelText="No"
   	>
 		<a>
-			<Icon type="close" />
+			<SmileOutlined type="close" />
 			</a>
   </Popconfirm>
 			

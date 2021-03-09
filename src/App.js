@@ -214,7 +214,11 @@ receiveAddress=(data,latlng)=>{
      <Home history={props.history} clearScroll={()=>this.setState({scroll:false})}  addvenueProps={()=>this.LoginLoad('moredetails')}  scroll={this.state.scroll} latlng={this.state.latlng}  LoginLoad={()=>this.LoginLoad('addvenue')} categoryName={this.state.searchedVenueList&&this.state.searchedVenueList.length>0&&this.state.searchedVenueList[0].venue_cat_name} searchedVenue={this.state.searchedVenueList}/>
      }/>  
      <Route path="/addIndividualform/" initial render={(props)=>
-     <IndividualPage  history={props.history} addvenueProps={()=>this.LoginLoad('moredetails')}  scroll={this.state.scroll} CorporateClick={()=>this.setState({userType:null,LoginModelVisible:true})} requestLocation={()=>{this.setState({requestLocation:true})}} latlng={this.state.latlng} categoryName={this.state.searchedVenueList&&this.state.searchedVenueList.length>0&&this.state.searchedVenueList[0].venue_cat_name} searchedVenue={this.state.searchedVenueList} homeClick={()=>{this.setState({userType:null})}} userName={this.state.userName}/>
+     <IndividualPage  history={props.history} addvenueProps={()=>this.LoginLoad('moredetails')} 
+      scroll={this.state.scroll} CorporateClick={()=>this.setState({userType:null,LoginModelVisible:true})}
+       requestLocation={()=>{this.setState({requestLocation:true})}} latlng={this.state.latlng}
+        categoryName={this.state.searchedVenueList&&this.state.searchedVenueList.length>0&&this.state.searchedVenueList[0].venue_cat_name} 
+        searchedVenue={this.state.searchedVenueList} homeClick={()=>{this.setState({userType:null})}} userName={this.state.userName}/>
    }/>
      <Route path="/corporateForm/" initial render={(props)=>
      <CorporatePage history={props.history}  addvenueProps={()=>this.LoginLoad('addvenue')} scroll={this.state.scroll} CorporateClick={()=>this.setState({userType:null,LoginModelVisible:true})} latlng={this.state.latlng} categoryName={this.state.searchedVenueList&&this.state.searchedVenueList.length>0&&this.state.searchedVenueList[0].venue_cat_name} searchedVenue={this.state.searchedVenueList} homeClick={()=>{this.setState({userType:null})}} userName={this.state.userName}/>

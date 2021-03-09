@@ -164,9 +164,9 @@ console.log("do",this.state.doDropdown);
 // console.log("routerprops",this.props);
          if(localStorage.getItem('LoginStatus') && localStorage.getItem('LoginData')){
         var LoginData=JSON.parse(localStorage.getItem('LoginData'));
-        // console.log(LoginData)
+        console.log(LoginData)
         this.setState({userCatId:LoginData.user_cat_id,userName:LoginData.user_name +" "+ LoginData.user_surname})
-// this.props.history.push('/addIndividualform');
+this.props.history.push('/addIndividualform');
   if(!window.localStorage['pathname']){
         this.props.history.push('/addIndividualform');
       }

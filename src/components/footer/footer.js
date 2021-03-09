@@ -11,12 +11,15 @@ import ping from '../../images/ping.svg';
 import insta from '../../images/insta.png';
 import CancellationPolicy from '../../components/cancellationpolicy';
 import PrivacyPolicy from '../../components/privacypolicy';
-
+import AboutUs from '../../components/AboutUs';
+import Blog from '../../components/Blog';
+import ContactUs from '../../components/ContactUs';
+import HelpCenter from '../../components/HelpCenter';
 export default class Footer extends React.Component {
 	
 	constructor(props) {
 		super(props);
-		this.state={right:false,privacy:false}
+		this.state={right:false,privacy:false,cancel:false,about:false,blog:false,contact:false,helpcenter:false}
 	}
 
 	render() {
@@ -25,11 +28,23 @@ export default class Footer extends React.Component {
 			 <Drawer anchor="right" open={this.state.right} onClose={()=>this.setState({right:false})}>
 			 <div className="cancallationPolicyDiv">
 			 <div onClick={()=>this.setState({right:false})} className="closeAnimationDrawer"><i class="fa fa-times" aria-hidden="true"></i></div>
-			 {this.state.privacy==true&&
-			 	<PrivacyPolicy/>
+			 {this.state.privacy==true?
+			 	<PrivacyPolicy/>:''
 			 }
-			 {this.state.privacy==false&&
-			 	<CancellationPolicy/>
+			 {this.state.about==true?
+			 	<AboutUs/>:""
+			 }
+			  {this.state.blog==true?
+			 	<Blog/>:""
+			 }
+			  {this.state.contact==true?
+			 	<ContactUs/>:""
+			 }
+			 {this.state.helpcenter==true?
+			 	<HelpCenter/>:''
+			 }
+			  {this.state.cancel==true?
+			 	<CancellationPolicy/>:''
 			 }
 			 </div>
       </Drawer>
@@ -37,19 +52,20 @@ export default class Footer extends React.Component {
 					<ul className="footer-quicklinks-ul">
 					<li className="footer-quicklinks-bold">Quick Links:</li>
 						{/*
-						<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" href="https://ivneu.in/about-us/">About us</a></li>
+						<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" href="https://ivneu.in/about-us/">About us</a></li> {contact=href="https://ivneu.in/blog/} href="https://ivneu.in/help-center/""
 						<li className="footer-quiclinks-light">About Product</li>
 						<li className="footer-quiclinks-light">Management</li>
 						<li className="footer-quiclinks-light">Offers</li>
 						<li className="footer-quiclinks-light">Earn to Learn</li>
 						<li className="footer-quiclinks-light">Learn to Earn</li>
 						<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" href="https://ivneu.in/contact-us/">Contact</a></li>*/}
-							<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" href="https://ivneu.in/about-us/">About us</a></li>
+							<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank"  onClick={()=>this.setState({right:true,about:true})} >About us</a></li>
 								{/*<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" >FAQs</a></li>*/}
-								<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" href="https://ivneu.in/blog/">Blog</a></li><li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" href="https://ivneu.in/help-center/">Help Center</a></li>
+								<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank"  onClick={()=>this.setState({right:true,blog:true})} >Blog</a></li><li className="footer-quiclinks-light">
+									<a className="footer-quiclinks-light"  onClick={()=>this.setState({right:true,helpcenter:true})} target="_blank" >Help Center</a></li>
 								<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" onClick={()=>this.setState({right:true,privacy:true})}>Privacy Policy</a></li>	
-								<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" onClick={()=>this.setState({right:true,privacy:false})}>Cancellation Policy</a></li>
-								<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" href="https://ivneu.in/contact-us/">Contact Us</a></li>
+								<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank" onClick={()=>this.setState({right:true,privacy:true})}>Cancellation Policy</a></li>
+								<li className="footer-quiclinks-light"><a className="footer-quiclinks-light" target="_blank"  onClick={()=>this.setState({right:true,contact:true})} >Contact Us</a></li>
 
 					</ul>	
 				</div>

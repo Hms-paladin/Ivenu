@@ -55,7 +55,19 @@ var bookdetails={
 
 	constructor(props) {
 		super(props);
-		this.state={paxSeatId:null,validated:false,blockedslots:[],right:false,loginDetails:null,venueDetails:false,noavailability:true,BasicDetails:[{label:'Name',mandatory:true,value:'',validation:[{name:'required'}],error:null,errormsg:''},{label:'Event Name',mandatory:true,value:'',validation:[{name:'required'}],error:null,errormsg:''},{label:'Phone Number',value:'',mandatory:true,validation:[{name:'required'},{name:'mobile'}],error:null,errormsg:''},{label:'Email',mandatory:true,value:'',validation:[{name:'required'},{name:'email'}],error:null,errormsg:''},{label:'More Info',value:'',validation:[]}],showavail:false,arrayofSlots:[],promocode:'',discountedamount:0,showdaycalendar:false,fromDateObj:{fromDate:null,toDate:null},arrayofDates:[],count:0,pricetypedata:'',pricetypedataamt:0,showpax:false,currentpackage:null,nopaxshow:false,showseat:false,currentseat:null,hourlychosenslots:null};
+		this.state={paxSeatId:null,validated:false,blockedslots:[],right:false,loginDetails:null,venueDetails:false,noavailability:true,
+			BasicDetails:[
+				{label:'Name',mandatory:true,value:'',validation:[{name:'required'}],error:null,errormsg:''},
+				{label:'Event Name',mandatory:true,value:'',validation:[{name:'required'}],error:null,errormsg:''},
+				{label:'Phone Number',value:'',mandatory:true,validation:[{name:'required'},{name:'mobile'}],error:null,errormsg:''},
+				{label:'Email',mandatory:true,value:'',validation:[{name:'required'},{name:'email'}],error:null,errormsg:''},
+				{label:'More Info',value:'',validation:[]}],
+			showavail:false,
+			arrayofSlots:[],
+			promocode:'',
+			discountedamount:0,
+			showdaycalendar:false,
+			fromDateObj:{fromDate:null,toDate:null},arrayofDates:[],count:0,pricetypedata:'',pricetypedataamt:0,showpax:false,currentpackage:null,nopaxshow:false,showseat:false,currentseat:null,hourlychosenslots:null};
 	}
 	renderpricetype=(data)=>{
 		if(data){
@@ -496,6 +508,7 @@ if(filterRecords.length>0){
     		success=false;
     }
     BasicDetails[2].error=!success;
+
     BasicDetails[2].errormsg=success==true?"":"Invalid Mobile Number";
     if(data.dialCode != undefined){
       code_length=data.dialCode.length;
@@ -735,9 +748,12 @@ var filterRecords=BasicDetails.filter((obj)=>obj.error==true&&obj.mandatory==tru
 			{this.state.BasicDetails.map((obj,index)=>{
 			return(	
 			<div className="LabelBox">
-			<label>{obj.label} {obj.mandatory&&<span style={{color:'red'}}>*</span>}</label>
+			<label>{obj.label} {<span style={{color:'red'}}>*</span>}</label>
 		{index==2&&
-    <ReactPhoneInput  value={obj.value}  onChange={this.handleOnChange} className="ant-input"/>
+    <ReactPhoneInput 
+	//  value={obj.value}  
+	required={true}
+	 onChange={this.handleOnChange} className="ant-input"/>
 
 		}
 		{index!=2&&

@@ -10,10 +10,13 @@ import moment from 'moment';
 import './MyCalendar.css';
 import dateformat from 'dateformat';
 import { Spin, Icon,notification } from 'antd';
+import { SmileOutlined } from '@ant-design/icons';
 import WeekCalendar from '../../components/weekCalendar/WeekCalendar';
 const daysData={1:'Hourly',2:'Daily',3:'Weekly',4:'Monthly'};
 const excludeDays=[{label:'Sun',value:0},{label:'Mon',value:1},{label:'Tue',value:2},{label:'Wed',value:3},{label:'Thu',value:4},{label:'Fri',value:5},{label:'Sat',value:6}]
-const antIcon = <Icon type="loading" style={{ fontSize:24,color:'#a70404' }} spin />;
+// const antIcon = <Icon type="loading" style={{ fontSize:24,color:'#a70404' }} spin />;
+
+const antIcon =<SmileOutlined type="loading" style={{ fontSize:24,color:'#a70404' }}spin />
 
 export default class MyCalendarMobile extends React.Component {
 

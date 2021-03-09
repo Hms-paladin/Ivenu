@@ -2,10 +2,13 @@ import React from 'react';
 import CardViewComp from '../../components/CardComp';
 import Apilink from '../../helpers/apilink';
 import { BrowserRouter as Router, Route, Link,withRouter } from "react-router-dom";
+import { SmileOutlined } from '@ant-design/icons';
+
+
 import { Spin, Icon,notification } from 'antd';
 import  './myvenues.css';
 
-const antIcon = <Icon type="loading" style={{ fontSize:24 }} spin />;
+// const antIcon = <Icon type="loading" style={{ fontSize:24 }} spin />;
  class MyVenues extends React.Component {
 
 
@@ -58,7 +61,8 @@ const antIcon = <Icon type="loading" style={{ fontSize:24 }} spin />;
 		this.props.history.push(window.innerWidth>767?'/addIndividualform':'individualForm',{editVenueData:data});
 	}
 	render() {
-		const antIcon = <Icon type="loading" style={{ fontSize:24,color:'#a60202' }} spin />;
+		// const antIcon = <Icon type="loading" style={{ fontSize:24,color:'#a60202' }} spin />;
+		const antIcon =<SmileOutlined type="loading" style={{ fontSize:24,color:'#a60202' }} spin />
 		return (
 			<div className="MyVenuesFlexMain">
 			<h5>My Venues</h5>

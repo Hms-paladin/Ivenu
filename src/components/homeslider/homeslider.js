@@ -105,10 +105,10 @@ const items = [
   }
 
   handleImageErrored(item,key) {
-    // this.setState({ imageStatus:false });
-      // var homeslider=this.state.homeslider;
-      // homeslider[key].imageStatus=null;
-      // this.setState({homeslider});
+    this.setState({ imageStatus:false });
+      var homeslider=this.state.homeslider;
+      homeslider[key].imageStatus=null;
+      this.setState({homeslider});
   }
   LoginLoad=()=>{
     // this.props.refresHeader&&this.props.refresHeader();

@@ -105,7 +105,6 @@ var getData=arrayData.map((obj)=>{
 })
 return getData.join(',');
 }else{
-
 return "0";
 }
 }
@@ -696,11 +695,11 @@ if(filterRecords.length>0){
 	bookdetails.code=data.dailcode;
     // console.log('mobile',BasicDetails)
     this.setState({BasicDetails});
-var filterRecords=BasicDetails.filter((obj)=>obj.error==true&&obj.mandatory==true);
+    var filterRecords=BasicDetails.filter((obj)=>obj.error==true&&obj.mandatory==true);
 	this.setState({validated:filterRecords.length>0?false:true})
-    // this.setState({ mobile:mobile });
-    // this.setState({ countrycode:data.dialCode});
-    // this.setState({ phone:value});
+    this.setState({ mobile:mobile });
+    this.setState({ countrycode:data.dialCode});
+    this.setState({ phone:value});
 
     console.log(this.state)
   }
@@ -734,7 +733,6 @@ var filterRecords=BasicDetails.filter((obj)=>obj.error==true&&obj.mandatory==tru
   		this.setState({arrayofSlots:data.seatslots,showseat:false});
   	}else{
   		// console.log("SeatDataAvail",data)
-  		
   		bookdetails.bookingFrom=data.dates.fromDate;
   		bookdetails.bookingTo=data.dates.toDate;
   		var getDates=DateFunctions.enumerateDaysBetweenDates(bookdetails.bookingFrom,bookdetails.bookingTo);

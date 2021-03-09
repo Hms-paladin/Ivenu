@@ -1,6 +1,7 @@
 // import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import Slider from "react-slick";
+import Slider from 'react-slick';
+import {PlusIcon} from "../"
 import { Card,Rate,Row,Col,Icon,Button,Popover  } from 'antd';
 import './Corporate_near_you.css';
 import Popupbox from'../../components/popupbox/popupbox';
@@ -24,7 +25,8 @@ const right_down=require("../../images/right.png");
 
 const RightArrow=require("../../images/arrow_icon.svg");
 const slider8=require("../../images/slider8.png");
-const pluse=require("../../images/+.png");
+const pluse=require("../../images/Plus.png");
+
 
 function LeftNavButton(props){
   const {className,style,onClick} =props;
@@ -249,7 +251,7 @@ corporateNearYou=()=>{
 
        <div class="plusStyle">
        <div class="inlinePluss" onClick={()=>this.AddVenue()}>       
-       <img src={pluse }  />
+       <img src={PlusIcon}  />
        </div>
        </div> 
       </div>
@@ -385,17 +387,10 @@ return(
     )
 })}
 
-      
-
-      
-       
-
-
-
       </Slider>
       </div>
       </div>
-      <div class="lightborder"></div>
+      {/* <div class="lightborder"></div> */}
       {this.state.BookVisible==true&&
         <Modal
          className="popupboxcentermodal"
