@@ -1,0 +1,64 @@
+/**/
+.BlockForm{
+	/*padding: 12px;*/
+	width: 90%;
+	margin:12px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.centerDiv{
+    display: block;
+    text-align: center;
+}
+.centerDiv .MuiCircularProgress-root{
+    width: 20px!important;
+    height:20px!important;
+    margin-top: 12px;
+}
+.BlockForm .SlotBoxMain{
+	width: 48%;
+	margin-right: 0;
+}
+.BlockForm .SlotBoxMain label{
+	width:100%; 
+	padding: 8px;
+	font-size: 13px;
+}
+
+.BlockFormContent .FormBoxBasic{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.BlockFormContent .FormBoxBasic .LabelBox{
+	width: 100%;
+    position: relative;
+}
+.errormsg{
+	float: right;
+    color: red;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 118px;
+    white-space: nowrap;
+    text-align: right;
+}
+.BlockButton{
+	text-align: center;
+	padding-bottom: 12px;
+}
+.BlockButton button {
+    outline: 0;
+    border: 0;
+    border: 1px solid;
+    width: 100px;
+    padding: 4px;
+    box-shadow: 0 0 5.5px #b0b0b0;
+}
+@media screen and (max-width: 768px){
+    .BlockForm{
+        padding-top: 15px;
+    }
+}

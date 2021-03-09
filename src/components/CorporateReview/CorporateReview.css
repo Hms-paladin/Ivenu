@@ -1,0 +1,68 @@
+
+.review-maindiv
+{
+	width:100%;
+  margin-top:30px;
+    margin-bottom:30px;
+}
+
+.reviewsave-button
+{
+	padding:15px 30px 15px 30px;
+	background-color:#0f3eb0;
+	border:none;
+	border-radius:5px;
+}
+
+.reviewsave-span
+{
+	font-size:22px;
+	color:#fff;
+  text-transform:uppercase;
+}
+
+.reviewform-div
+{
+  width:calc(100% - 250px);
+  margin:0 auto;
+  padding:12px;
+}
+
+/*.price-in-box 
+{
+	width:50%;
+	display:flex;
+}
+*/
+
+
+
+.reviewsave-div
+{
+
+  position:absolute;
+  right:0;
+  z-index:999;
+}
+
+.review-form
+{
+  position:relative;
+  display:flex;
+  padding:10px 0px 10px 0px;
+
+}
+.reviewform-text1
+{
+      min-width:30%;
+      font-size:27px;
+      color:#615f5f;
+
+}
+
+.reviewform-text2
+{
+      min-width:50%;
+      font-size:27px;
+      font-weight:500;
+}

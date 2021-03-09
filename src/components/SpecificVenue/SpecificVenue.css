@@ -1,0 +1,39 @@
+.main-div
+{
+	display:flex;
+	width:100%;
+	justify-content:center;
+	position:relative;
+	border-bottom:3px solid #ea5b03;
+	margin-top:61px;
+}
+.specificVenue .main-div{
+	justify-content:flex-start;
+	padding-left:120px; 
+	/*justify-content:space-evenly;*/
+}
+.specificVenue .main-div>div{
+	margin-right:4%
+}
+@media only screen and (max-width:767px) {
+.specificVenue .main-div{
+margin-top:0;
+padding-left:0!important;
+padding:12px!important;
+flex-wrap:wrap;
+justify-content:space-between!important;
+border-bottom:none;
+}
+.specificVenue .main-div > div{
+margin-right:0!important;
+margin-bottom:18px;
+}
+.specificVenue .main-div .specific1{
+width:24vw!important;
+height:24vw!important;
+border-radius:50%!important;
+}
+.specificVenue .main-menu{
+	display:none!important;
+}
+}

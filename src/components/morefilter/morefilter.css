@@ -1,0 +1,60 @@
+.more-div {
+
+  min-width:180px;
+
+  padding:10px;
+
+  border-radius:3px;
+
+  background-color:#ea5b03;
+  display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.More-Filter {
+
+ 
+  font-size:24px;
+
+  /*font-weight:500;*/
+  display:inline-flex;
+
+  font-style:normal;
+
+  font-stretch:normal;
+
+  line-height:normal;
+
+  letter-spacing:0.2px;
+
+  color:#ffffff;
+
+}
+
+.moreouter-div
+{
+	width:40%;
+	display:inline-flex;
+	justify-content:flex-end;
+}
+
+.down-span
+{
+	padding-left:8px;
+
+}
+.downarrow-icon
+{
+  font-size:32px;
+}
+@media only screen and (max-width:767px) {
+  .more-div{
+    justify-content:flex-start;
+  }
+  .More-Filter,.down-span>i{
+font-size:16px;
+  }
+}
+

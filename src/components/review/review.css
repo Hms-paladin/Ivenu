@@ -1,0 +1,128 @@
+.ant-btn:hover, .ant-btn:focus, .ant-btn:active, .ant-btn.active{
+  background:#0f3eb0!important;
+}
+.review-maindiv
+{
+	width:100%;
+  margin-top:30px;
+  margin-bottom:30px;
+  border-bottom:3px solid #ea5b03;
+}
+
+.reviewsave-button
+{
+	padding:15px 30px 15px 30px;
+	background-color:#0f3eb0;
+	border:none;
+	border-radius:5px;
+}
+
+.reviewsave-span
+{
+	font-size:22px;
+	color:#fff;
+  text-transform:uppercase;
+}
+
+.reviewform-div
+{
+  width:calc(100% - 250px);
+  margin:0 auto;
+  padding:12px;
+}
+
+/*.price-in-box 
+{
+	width:50%;
+	display:flex;
+}
+*/
+
+
+
+.reviewsave-div
+{
+
+  position:absolute;
+  right:0;
+  z-index:999;
+}
+
+.review-form
+{
+  position:relative;
+  display:flex;
+  padding:10px 0px 10px 0px;
+
+}
+.reviewform-text1
+{
+      min-width:30%;
+      font-size:27px;
+      color:#615f5f;
+
+}
+
+.reviewform-text2
+{
+      min-width:50%;
+      font-size:27px;
+      font-weight:500;
+}
+  @media (max-width:767px)
+{
+
+.reviewform-div{
+  width:100%!important;
+}
+.ActionsReviewBtns{
+display:flex;
+    justify-content:space-between;
+    padding:12px;
+}
+.ActionsReviewBtns button {
+    outline:0;
+    border:none;
+    padding:7px 9px;
+    min-width:93px;
+    border-radius:4px;
+    color:white;
+    font-size:19px;
+    background:#eb5c00;
+}
+.review-maindiv{
+      margin-top:0px!important;
+    margin-bottom:0px;
+    border-bottom:none;
+}
+.reviewsave-div{
+  display:none;
+}
+.reviewform-text1,.reviewform-text2{
+  width:50%;
+      font-size:16px!important;
+      white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+}
+.reviewform-div{
+  position: relative;
+}
+.PageLoader{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.78);
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}

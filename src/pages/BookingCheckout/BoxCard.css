@@ -1,0 +1,26 @@
+/**/
+.BoxCard{
+	background-color:white;
+	border-radius:3px;
+}
+.BoxHeader{
+	    display:flex;
+    align-items:center;
+}
+.BoxHeader img{
+    width:25px;
+    height:25px;
+display:inline-block;
+}
+.BoxHeader p{
+	margin:0;
+    padding-left:11px;
+    font-size:20px;
+    color:#575555;
+    font-family:poppins;
+}
+@media screen and (max-width: 768px){
+    .BoxCard{
+        padding: 6px;
+    }
+}

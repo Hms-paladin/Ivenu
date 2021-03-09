@@ -1,0 +1,220 @@
+/**************carosaul*/
+
+.carouselbuttonmargin .carousel-indicators{
+  margin-left:5%;
+
+}
+.carousel-indicators {
+  position:absolute !important;
+  bottom:10px!important;
+  /*left:50%!important;*/
+  z-index:15!important;
+  /*width:50%!important;*/
+  padding-left:3!important;
+  /*margin-left:-30%!important;*/
+  /*text-align:center!important;*/
+  list-style:none!important;
+  justify-content:flex-start !important;
+}
+.carousel-indicators li {
+  display:inline-block !important;
+  width:8px!important;
+  height:8px!important;
+  margin:3px!important;
+  text-indent:-999px!important;
+  cursor:pointer!important;
+  background-color:#000 \9!important;
+  background-color:#eee !important;
+  border:1px solid #fff!important;
+  border-radius:10px!important;
+}
+.carousel-control.left:hover, .carousel-control-prev:hover{
+  background:transparent !important;
+}
+.carousel-control, .carousel-control-prev, .carousel-control-next{
+  /*z-index:9999999 !important;*/
+}
+.carousel-control-next, .carousel-control-prev{
+  opacity:1 !important;
+}
+ .carousel-control-prev{
+  justify-content:flex-start!important;
+
+ }
+ .carousel-control-next{
+
+  justify-content:flex-end!important;
+}
+
+.carouselVideoHeader .modal-title{
+  color:rgb(166, 2, 2);
+}
+.guidedVideocls{
+  font-size:18px!important;
+}
+.carouselVideoHeader .modal-title a{
+  font-weight:normal;
+  font-size:14px;
+  display:block;
+     color:#1C4CB7!important;
+}
+.carousel-caption{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.slider_play{
+  position:absolute;
+  top:10%;
+  right:4%;
+  z-index:99;
+}
+.slider_play_span{
+  color:#fff;
+  font-size:16px;
+  font-weight:300;
+
+}
+.guidevideo{
+  color:#FF9008;
+  margin-top:0px;
+  margin-left:39px;
+  margin-top:-10px;
+
+}
+.left-arrow-i{
+  font-size:55px !important;
+  color:#fff;
+  cursor:pointer;
+}
+.right-arrow-i{
+  font-size:55px !important;
+  color:#fff;
+  cursor:pointer;
+}
+
+
+.carousel-control-prev{
+ display:inline-flex;
+ align-items:center;
+ justify-content:flex-start;
+ padding-left:25px;
+}
+
+.carousel-control-next{
+ display:inline-flex;
+ align-items:center;
+ justify-content:flex-end;
+ padding-right:25px;
+}
+@media only screen and (max-width:767px) {
+  .innerResponsiveHeight{
+    height:100%!important;
+  }
+.carousel-item {
+  height:54vw;
+}
+.carousel-item div{
+  height:100%;
+}
+.left-arrow-i{
+  font-size:41px!important;
+}
+.right-arrow-i{
+  font-size:41px!important;
+
+}
+.carousel-control-prev{
+  display:none!important;
+  position:absolute;
+  top:0;
+  bottom:0;
+  height:35px;
+  margin:auto;
+  padding-left:0;
+}.carousel-control-next{
+  padding-right:0;
+display:none!important;
+  position:absolute;
+  top:0;
+  bottom:0;
+  height:35px;
+  margin:auto;
+}
+.carousel-indicators{
+  display:none!important;
+}
+.slider_play{
+      /*top:5%;*/
+}
+.slider_play img{
+  width:30px!important;
+}
+.guidevideo {
+
+    margin-left:34px;
+    margin-top:-10px;
+    font-size:14px;
+}
+.slider_play_span {
+    color:#fff;
+    font-size:14px;
+    }
+}
+.SearchFlexBox{
+  width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.secondslide{
+  position: absolute!important;
+  top:0;
+  right: 0;
+  bottom:0;
+  left:0;
+  margin:auto;
+  background:rgba(0,0,0,0.5);
+}
+ .searchboxcomp p{
+    color: white;
+  }
+@media screen and (max-width:1050px){
+  .firstslide{
+    display: none;
+  }
+  .secondslide{
+        padding: 25px!important;
+    max-width: 100%!important;
+    /* width: 100%!important; */
+    flex: 0 0 100%!important;
+    background: #a60202;
+    position: relative!important;
+  }
+  .searchboxcomp p{
+    font-size: 22px;
+  }
+  .searchboxcomp .searchinputbox{
+    background: white;
+    min-width: 100%;
+  }
+  .additionalBoxes{
+    color: white;
+  }
+  .additionalBoxes svg path{
+    color: white;
+  }
+ 
+}
+.anmiateLoading{
+    position: absolute;
+    z-index: 99;
+    background: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

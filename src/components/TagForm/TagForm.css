@@ -1,0 +1,219 @@
+.tagForm_tag_check {
+    margin-top:4%;
+}
+.tagForm_tag_check input[type=checkbox] + label {
+    padding:10px 20px;
+    border:1px solid #f5c383;
+    color:#1f459e;
+    font-weight:400;
+    cursor:pointer;
+    font-size:17px;
+}
+.tooltip1 {
+  position:relative;
+  display:inline-block;
+  color:red;
+      font-size:20px;
+      cursor:pointer;
+  /*border-bottom:1px dotted black;*/
+}
+.PurposeClass{
+    font-size:20px;
+    margin-top:-12px;
+    padding-bottom:12px;
+    color:rgb(146, 145, 145);
+    padding-left:-12px;
+}
+.tooltip1 .tooltiptext {
+  visibility:hidden;
+  width:180px;
+  background-color:#555;
+  color:#fff;
+  font-size:16px;
+  text-align:center;
+  border-radius:6px;
+  padding:5px 6px;
+  position:absolute;
+  z-index:1;
+  bottom:125%;
+  left:50%;
+  margin-left:-60px;
+  opacity:0;
+  transition:opacity 0.3s;
+}
+
+.tooltip1 .tooltiptext::after {
+  content:"";
+  position:absolute;
+  top:100%;
+  left:50%;
+  margin-left:-5px;
+  border-width:5px;
+  border-style:solid;
+  border-color:#555 transparent transparent transparent;
+}
+
+.tooltip1:hover .tooltiptext {
+  visibility:visible;
+  opacity:1;
+}
+.Tagging-main-div{
+    border-bottom:3px solid #ea5b03;
+}
+.tagForm_tag_check input[type=checkbox]:checked + label {
+    color:white;
+    background:#eb5a00;
+}
+.width100percent .popupboxmain button{
+    width:100%!important;
+        border:1px solid #ddd;
+    border-radius:0;
+}
+.tag_btn{
+    width:40px!important;
+    height:40px!important;
+}
+
+.tag_btn:focus{
+    outline:unset !important;
+    box-shadow:unset !important;
+}
+
+.TagForm-div
+{
+    width:calc(100% - 250px);
+    margin:0 auto;
+}
+
+.inputdiv > .form-control
+{
+    font-size:19px !important;
+    border-radius:0px !important;
+}
+
+
+
+.TagForm-div .checkform-div
+{
+    display:flex;
+    width:unset;
+    border-bottom:1px solid #cac9c9;
+    margin:0 auto;
+    padding-bottom:28px;
+    margin-top:31px;
+}
+.TagForm-div .checkform-heading
+{
+    width:100%;
+    display:inline-flex;
+    align-items:center;
+    font-size:31px;
+}
+
+.TagForm-div .checkform-maindiv
+{
+    width:100%;
+}
+
+.TagForm-div .checksave-button
+{
+    padding:10px 30px 10px 30px;
+    background-color:#0f3eb0;
+    border:none;
+    border-radius:5px;
+}
+
+.TagForm-div .checksave-span
+{
+    font-size:22px;
+    color:#fff;
+}
+
+.form-text1
+{
+    color:#757474;
+    font-weight:400;
+}
+.borderrowtags
+{
+    margin-top:42px;
+}
+  @media (max-width:767px)
+{
+    .checkform-div{
+        display:none!important;
+    }
+    .TagForm-div{
+        width:100%;
+            padding:12px;
+    }
+    .borderrowtags{
+        margin-top:0;
+    }
+    .borderrowtags {
+    margin-top:0;
+    border-bottom:0.7px solid #c7c3c3;
+    padding-top:8px;
+}
+.Tagging-main-div{
+    border-bottom:0!important;
+}
+    .tagmob.row{
+        margin:0;
+    }
+    .webmodules {
+        display:none;
+    }
+     .TagForm-div .clr_blue.inputdiv{
+        width:82%!important;
+     }
+     .TagForm-div .clr_blue.inputdiv input{
+        font-size:14px!important;
+     }
+     .TagForm-div button.btn.tag_btn{
+            width:31px!important;
+    height:31px!important;
+     }
+     .TagForm-div button.btn.tag_btn img{
+        width:100%;
+        height:100%;
+     }
+     .tagForm_tag_check span{
+        margin-right:5px!important;
+     }
+     .tagForm_tag_check input[type=checkbox] + label {
+        padding:5px 12px!important;
+    font-size:13px!important;
+     }
+}
+span.circledodropodwn {
+    position:relative;
+    right:-12px;
+    border-radius:50%;
+    border:1px solid white;
+    color:white;
+    background:transparent;
+    min-width:27px;
+    height:27px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-size:10px;
+    padding:0px;
+    margin:0;
+    padding-left:5px;
+    padding-right:5px;
+}
+.selectedActionsPurpose{
+  padding:17px 0 17px 17px;
+}
+.selectedActionsPurpose span{
+  font-weight:500;
+}
+.tooltip1mob{
+  padding-left:12px;
+  position:relative;
+  top:5px;
+  font-size:24px;
+
+}

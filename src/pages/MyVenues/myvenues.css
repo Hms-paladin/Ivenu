@@ -1,0 +1,117 @@
+/**/
+.MyVenuesFlex{
+	display:flex;
+	width:95%;
+	margin:0 auto;
+	justify-content:space-between;
+	flex-wrap:wrap;
+
+
+
+}
+.MyVenuesFlexMain{
+		    box-shadow:0 0 4.5px black;
+    padding:0 18px;
+    margin:12px;
+    /*height:76vh;*/
+    position:sticky;
+    top:0;
+    /*overflow:auto;*/
+}
+.MyVenuesFlexMain h5{
+	   font-weight:bold;
+    width:95%;
+    margin:0 auto;
+   
+    z-index:99999;
+    background:white;
+    padding:12px;
+    height:60px;
+}
+.MyVenuesFlex .cardviewmain{
+	width:30%;
+	margin-bottom:20px;
+}
+.MyVenuesFlex .cardviewmain img{
+	width:100%;
+	height:250px;
+	position:relative;
+}
+.circleStatus{
+	display:flex;
+	align-items:center;
+	text-align:right;
+	justify-content:flex-end;
+}
+.cardviewmain .card-title{
+	font-weight:bold;
+}
+.circleStatus span{
+	width:16px;
+    height:16px;
+    background:red;
+    border-radius:50%;
+    /* border:1px solid red; */
+    margin:0;
+    margin-right:5px;
+    display:inline-block; 
+}
+.circleStatus.red span{
+	background:red;
+}.circleStatus.green span{
+	background:green;
+}.circleStatus.orange span{
+	background:orange;
+}.circleStatus.grey span{
+	background:grey;
+}.circleStatus.ivnuered span{
+	background:#a60202;
+}
+.circleStatus.red{
+	color:red;
+}
+.circleStatus.orange{
+	color:orange;
+}
+.circleStatus.orange{
+	color:orange;
+}
+.circleStatus.grey{
+	color:grey;
+}
+.circleStatus.ivnuered{
+	color:#a60202;
+}
+
+@media only screen and (max-width:1023px) {
+	.MyVenuesFlex .cardviewmain{
+width:47%;
+}
+}
+@media only screen and (max-width:767px) {
+.MyVenuesFlex .cardviewmain{
+width:100%;
+}
+.MyVenuesFlexMain{
+	padding:0!important;
+}
+.MyVenuesFlex .cardviewmain img{
+	width:100%;
+	height:250px!important;
+	position:relative;
+}
+}
+.cardviewmain .ant-progress-inner{
+	    width: 60px!important;
+    height: 60px!important;
+    font-size: 14px!important;
+}
+.cardviewmain .ant-progress{
+	position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+.cardviewmain .ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path{
+	stroke: rgb(15, 62, 176)!important;
+}
+

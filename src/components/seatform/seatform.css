@@ -1,0 +1,43 @@
+/**/
+.seatformbox{
+	margin-bottom: 10px;
+}
+.flexboxseat{
+	display: flex;
+	/*height: 30px;*/
+	align-items: center;
+}
+.flexboxseat input{
+	padding: 4px;
+	font-size:18px;
+	font-weight: bold;
+}
+.flexboxseat input:focus{
+	outline: 0;
+}
+.incrementbox{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    min-width: 95px;
+    margin: 0 8px 0 50px;
+    border: 1px solid;
+}
+.incrementbox input{
+    width: 80px;
+    text-align: center;
+    border: 0;
+}
+.incrementbox p{
+	margin:0;
+	font-size: 20px;
+}
+.incrementbox a{
+	font-size: 24px;
+}
+.plusicon{
+	font-size: 26px;
+font-weight: bold;
+	    margin: auto 2px;
+}

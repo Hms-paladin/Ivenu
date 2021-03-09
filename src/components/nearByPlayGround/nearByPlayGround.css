@@ -1,0 +1,319 @@
+/*************nearByPlayGround*/
+.nearby-div
+{
+  display:inline-flex;
+  align-items:center;
+  width:100%;
+}
+.nearByPlayGround .h2style img {
+    width:40px;
+     transform:rotate(0deg) !important; 
+}
+.flexWidth>.slick-dots{
+  width:96% ;
+}
+.nearByPlayGround .ant-card.ant-card-bordered{
+  background:white!important;
+}
+.flexWidth>.near-slick-special{
+  top:2.5% !important;
+}
+
+.norecords{
+    padding:12px;
+    text-align:center;
+    font-size:22px;
+  }
+.nearByPlayGround{
+  width:90%;
+  margin:0 auto;
+  background:#f7f7f7;
+  position:relative;
+}
+.PriceCard{
+  font-weight:bold;
+}
+.Homeslider.PriceCard{
+  padding-left:12px;
+}
+
+.h1style{
+  /*margin:0 auto;*/
+/*  margin-left:5%;
+width:0%;*/
+color:gray;
+padding:10px;
+/*font-size:25px;*/
+display:inline-flex;
+/*font-family:SFProDisplay;*/
+font-size:46px;
+width:100%;
+}
+.h2style{
+
+ margin-left:10px;
+ /*font-size:30px;*/
+ font-weight:500;
+ font-style:normal;
+ font-stretch:normal;
+ line-height:normal;
+ letter-spacing:0.4px;
+ color:#103eb0;
+
+}
+.iconStyle{
+  color:#1f459e;
+  width:23px;
+}
+.bookVenuIcon{
+  width:14px;
+  height:10px;
+  /*margin-left:2px;*/
+  transform:rotate(270deg);
+  margin:6px;
+}
+.cardpadd{
+  padding:8px;
+  /*padding-bottom:10px;*/
+  /*padding-right:10px;*/
+}
+.learndown{
+  font-size:24px !important;
+  color:#ff9102;
+}
+.widthCalc{
+  width:calc(100% - 144px);
+}
+.traingspan{
+  font-weight:100;
+  opacity:.7
+}
+.training_btn{
+  width:auto !important;
+  height:52px !important;
+  background-color:#ea5b02 !important;
+  float:right;
+  position:absolute !important;
+  top:0;
+  right:0;
+  border-radius:0 !important;
+
+  color:#fff !important;
+  /*height:5vh !important;*/
+}
+.addtrain{
+  /*  color:#FF9008;
+  font-weight:200;*/
+  width:200px !important;
+  height:21px !important;
+ /* font-family:SFProDisplay;*/
+  font-size:18px;
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.2px;
+  color:#ea5b02;
+  margin-left:0px !important;
+  /*float:left !important;*/
+}
+.addtrainspan{
+  color:#8a8a8a;
+  font-size:10px !important;
+  transform:rotate(270deg);
+}
+.specialimg{
+  /*width:275px;*/
+  width:100%;
+  height:auto;
+  /*height:144px;*/
+  border-radius:10px;
+}
+.rateup{
+  position:absolute;
+  left:7px;
+  bottom:7px;
+  font-size:22px !important;
+  color:#FF9008 !important; 
+  /*width:20%;*/
+}
+.lightborder{
+  border-bottom:1px solid #CFCFCF;
+}
+
+.homeMakersNew{
+  font-size:22px;
+}
+
+.Back-Arrow {
+  width:10px;
+  height:15.8px;
+  transform:rotate(180deg);
+  background-color:#959595;
+  /*transform:rotate(180deg);*/
+}
+
+.homemakers{
+
+  justify-content:flex-start !important;
+  text-align:left !important;
+  font-family:sans-serif;
+  font-size:25px;
+  font-weight:100;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:42px;
+  letter-spacing:0.3px;
+  color:#24479d;
+}
+
+.bookVenuLeft{
+  cursor:pointer;
+  /*margin-left:-23px;*/
+  display:inline-flex;
+}
+.inlinePluss{
+  width:unset !important;
+  background-color:#073cb2 !important;
+  /* text-align:center; */
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:7px 10px 7px 10px !important;
+}
+.nearByStyle{
+  width:100%;
+  color:gray;
+  /*display:inline-flex;   */
+}
+
+.slick-dots {
+
+  text-align:right !important;
+  /*top:0% !important;*/
+  height:0 !important;
+  width:95%;
+  /*margin-left:-66px;*/
+}
+.slick-dots li.slick-active button:before{
+  color:#FF9008;
+}
+.slick-dots li button:before{
+  font-size:15px !important;
+}
+.slick-dots li {
+  position:relative;
+  display:inline-block;
+  width:18px !important;
+  height:18px !important;
+  margin:0 0px !important;
+  padding:0;
+  cursor:pointer;
+}
+.near-slick-special {
+  /* background-color:green; */
+  text-align:right !important;
+  /* margin-top:9% !important; */
+  /* height:0 !important; */
+  position:absolute;
+  top:32px !important;
+  /* right:0px; */
+  /* margin-left:-84px !important; */
+}
+.slick-slider{
+  position:unset !important;
+}
+
+/*.slick-arrow
+{
+  display:none !important;
+  }*/
+
+.nearByPlayGround .popupboxmain .dropdown-btn{
+  font-size:46px!important;
+  font-weight: 500!important;
+  color:#103eb0!important;
+}
+.nearByPlayGround .popupboxmain .dropdown-btn i{
+  font-size:45px!important;
+
+}
+  @media only screen and (max-width:1200px) {
+
+    .nearByPlayGround{
+      width:95%; 
+    }
+  }
+
+  @media only screen and (max-width:810px) {
+.nearByPlayGround .popupboxmain .dropdown-btn{
+  font-size:30px!important;
+  font-weight: 500!important;
+  color:#103eb0!important;
+}
+.nearByPlayGround .popupboxmain .dropdown-btn i{
+  font-size:30px!important;
+
+}
+    .title-font-slider {
+      color:grey;
+      font-size:25px;
+    }
+    .ivenustyle {
+
+      font-size:25px;
+    }
+    .downArowIcon {
+      width:20px;
+      height:25px;
+      transform:rotate(90deg);
+    }
+
+    .flexWidth>.slick-dots{
+      width:90% !important ;
+    }
+    .flexWidth>.near-slick-special {
+      top:27px !important;
+    }
+
+    .slick-dots {
+      text-align:right !important;
+      top:0px !important;
+      padding:5px;
+      padding-left:0px !important;
+      padding-right:0px !important;
+    }
+
+    .nearByStyle{
+      color:gray;
+      font-size:25px !important;
+    }
+    .h2style{
+      font-size:25px !important;
+    }
+
+    .homemakers{
+      font-size:17px !important;
+      white-space:nowrap;
+    }
+    .rateup{
+      font-size:18px !important;
+      white-space:nowrap;
+    }
+
+
+
+  }
+
+  @media only screen and (max-width:467px) {
+
+    .training_btn{
+      top:39px !important;
+      height:46px !important;
+    }
+    .flexWidth>.slick-dots {
+    display:none !important;
+}
+  }
+
+

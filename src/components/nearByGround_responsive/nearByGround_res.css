@@ -1,0 +1,149 @@
+/*.specialimg{
+  width:100%;
+  padding:5px;
+  height:auto;
+  border-radius:10px;
+  }*/
+
+ 
+  @media only screen and (max-width:767px) {
+    .NearByGroundMob .swiper-container{
+      border-bottom:1px solid #ddd;
+    }
+    .NearByGroundMob .nearByStyle2{
+      display:inline-flex;
+      align-items:center;
+    }
+     .NearByGroundMob{
+      padding:6px;
+     }
+     .NearByGroundMob .dropdown-btn{}
+    .NearByGroundMob .nearby-text2 {
+    font-size:16px!important;
+}
+    .nearByStyle2
+    {
+        width:90%;
+        }
+     .responsive_slider .swiper-slide 
+  {
+    width:135px !important;
+    /*height:100px!important;*/
+  }
+  .nearbygroundsliderimg{
+    height:91px!important;
+        position:relative;
+
+  }
+     .responsive_slider .swiper-slide img{
+      height:100%!important;
+     }
+
+  .res_homemakers
+  {
+    font-size:15px;
+    line-height:normal;
+    padding-left:5px;
+  }
+  	.responsive-nearby-ground-header
+  	{
+      width:95%;
+    margin:0 auto;
+  		display:flex;
+          display:flex;
+    align-items:center;
+  	}
+  	.inlinePluss
+  	{
+      padding:5px 6px 4px 6px !important;
+  		/*width:21px;*/
+  		/*padding:6px;*/
+  	}
+  .responsive_slider .inlinePluss img {
+    width:80%!important;
+    height:80%!important;
+    }
+
+  	.h1style-nearby
+  	{
+  		padding:0px !important;
+  	}
+  	.iconStyle
+  	{
+  		width:15px;
+  	}
+  	.nearby-text2
+  	{
+  		font-size:12px !important;
+      
+  		color:#272626;
+  	}
+  	.responsive-nearby-text
+  	{
+  		font-size:12px !important;
+  		margin-left:10px;
+  		/*font-size:30px;*/
+  		font-weight:600;
+  		font-style:normal;
+  		font-stretch:normal;
+  		line-height:normal;
+  		letter-spacing:0.4px;
+  		color:#103eb0;
+
+  	}
+  	.title-font-slider {
+  		color:grey;
+  		font-size:25px;
+  	}
+/*  	.nearByStyle1
+  	{
+  		display:none;
+  	}*/
+  	.nearByStyle2
+  	{
+  		display:block;
+  	}
+  	.ivenustyle {
+
+  		font-size:25px;
+  	}
+  	.downArowIcon {
+  		width:20px;
+  		height:25px;
+  		transform:rotate(90deg);
+  	}
+
+  	.flexWidth>.slick-dots{
+  		width:90% !important ;
+  	}
+  	.flexWidth>.near-slick-special {
+  		top:27px !important;
+  	}
+
+  	.slick-dots {
+  		text-align:right !important;
+  		top:0px !important;
+  		padding:5px;
+  		padding-left:0px !important;
+  		padding-right:0px !important;
+  	}
+
+  	.nearByStyle1{
+  		font-size:25px !important;
+  	}
+  	.h2style-nearby{
+  		font-size:25px !important;
+  	}
+
+  	.homemakers{
+  		font-size:17px !important;
+  		white-space:nowrap;
+  	}
+  	.rateup{
+  		font-size:18px !important;
+  		white-space:nowrap;
+  	}
+
+
+
+  }

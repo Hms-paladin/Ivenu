@@ -1,0 +1,24 @@
+.sample-button
+{
+  background-color:blue;
+    width:30px;
+    position:relative;
+    display:flex;
+}
+
+.btn-wrapper
+{
+  background-color:transparent;
+}
+
+.panel-div
+{
+  position:absolute;
+  width:29vh;
+    height:33vh;
+    border-radius:7px;
+  background-color:blue;
+  left:37px;
+  /*transition-duration:5s;*/
+  display:none;
+}

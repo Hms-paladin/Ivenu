@@ -1,0 +1,684 @@
+.SlotsListBox label{
+  display:flex;
+}
+.SlotActions{
+  display:flex;
+  margin-left:5px;
+}
+.AvailbilityBtnSubmit{
+  width:95%;
+  margin-top:18px;
+  /*height:150px;*/
+}
+.SlotsListBox >label{
+  font-size:23px;
+  color:#757272;
+}
+.sloticon{
+  margin-right:5px;
+  cursor:pointer;
+}
+.sloticon.blue svg path{
+color:#334293;
+}.sloticon.red svg path{
+color:#eb5c00;
+}
+
+.bookingRadioBtns{
+  margin-top:20px;
+  text-align:center;
+}
+.bookingRadioBtns  .ant-radio-inner{
+  width:22px;
+  height:22px;
+  border-color:#a60202!important;
+}
+.bookingRadioBtns .ant-radio-wrapper{
+  font-size:19px;
+}
+.bookingRadioBtns .ant-radio-inner::after{
+    width:13px;
+    height:13px;
+    top:3.40px!important;
+    left:3.55px!important;
+    background-color:#a60202!important;
+    border-radius:50%;
+}
+.availabilityform-div1
+{
+	display:flex;
+	width:calc(100% - 250px);
+	/*border-bottom:1px solid #cac9c9;*/
+	margin:0 auto;
+	padding-bottom:28px;
+	margin-top:31px;
+  position:relative;
+}
+.availabilityform-div .save-div{
+  position:absolute;
+  right:0;
+}
+.availablityform-maindiv .ant-collapse-content
+{
+  border:none !important;
+}
+.availablityform-maindiv .ant-collapse > .ant-collapse-item
+{
+  border-bottom:none;
+}
+
+/*.checkform-heading
+{
+	width:100%;
+	display:inline-flex;
+	align-items:center;
+	font-size:31px;
+}
+*/
+.availablityform-maindiv .ant-collapse-header
+{
+  font-size:25px !important;
+  padding-left:7% !important;
+}
+.availablityform-maindiv
+{
+	width:100%;
+  margin-top:30px;
+    margin-bottom:30px;
+    border-bottom:3px solid #ea5b03;
+}
+.availablityform-maindiv .main-div{
+  justify-content:flex-start;
+  /*width:calc(100% - 250px);*/
+      padding-left:120px;
+}
+.availablityform-maindiv .main-div>div {
+    /* padding:12px; */
+    /*margin-left:20px;*/
+        margin-right:4%;
+}
+.availablitysave-button
+{
+	padding:15px 30px 15px 30px;
+	background-color:#0f3eb0;
+	border:none;
+	border-radius:5px;
+}
+
+.availabilitysave-span
+{
+	font-size:22px;
+	color:#fff;
+}
+
+.availability-div
+{
+	width:calc(100% - 250px);
+  margin:0 auto;
+  margin-top:31px;
+  display:flex;
+}
+
+.checkbox
+{
+	width:50%;
+}
+
+.drop-part2
+{
+	width:50%;
+	display:flex;
+}
+
+
+.availability-in-box > div >  .dropdown-btn{
+  border-radius:0px;
+  /*background-color:#eee !important;*/
+  min-width:304px;
+  border:none;
+  padding:4px;
+  font-family:SFProDisplay-Regular;
+  font-size:23px;
+  font-weight:500;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.2px;
+  color:#676666;
+  padding-left:9px;
+  padding-right:9px;
+  border:1px solid #c7c7c7;
+  text-align:left;
+  /*margin-left:104px;*/
+}
+
+.availability-in-box
+{
+  width:50%;
+  display:flex;
+}
+
+.day-text
+{
+  /*font-size:30px;*/
+      font-size:25px;
+  /*padding:9px;*/
+  padding-right:97px;
+}
+
+.availability-in-box i
+{
+  font-size:32px !important;
+  float:right;
+  bottom:6px;
+  padding-top:0px !important;
+}
+
+.save-div
+{
+  width:50%;
+  text-align:right;
+}
+
+.duration-div
+{
+  width:calc(100% - 250px);
+  margin:0 auto;
+  font-size:25px;
+  margin-top:9px;
+}
+
+.addmore-div
+{
+  width:calc(100% - 250px);
+  margin:0 auto;
+  font-size:30px;
+  margin-top:58px;
+  display:flex;
+  /*display:inline-flex;*/
+}
+
+.from-to-div
+{
+  display:flex;
+  margin-top:49px;
+}
+
+.from-div
+{
+  width:50%;
+  display:flex;
+}
+.to-div
+{
+  width:50%;
+  display:flex;
+}
+
+.from-box
+{
+  min-width:89%;
+  font-size:20px;
+  padding:8px;
+}
+
+.from-text
+{
+  padding-right:64px;
+  color:#b7b3b3;
+}
+
+.from-icon
+{
+  padding-left:26px;
+  width:84px;
+}
+.from-icon img
+{
+  width:100%;
+}
+
+/*.from-cal
+{
+  font-size:57px !important;
+  color:#0f3eb0 !important;
+  }*/
+
+  .to-box
+  {
+    min-width:89%;
+    font-size:20px;
+    padding:8px;
+  }
+
+  .to-text
+  {
+    padding-right:64px;
+    color:#b7b3b3;
+  }
+
+  .to-icon
+  {
+    padding-left:26px;
+    width:84px;
+  }
+  .to-icon img
+  {
+    width:100%;
+  }
+
+  .to-cal
+  {
+    font-size:57px !important;
+    color:#0f3eb0 !important;
+  }
+
+  .addmore-box
+  {
+    width:100%;
+    /*min-height:103px;*/
+    font-size:20px;
+    padding:14px;
+
+  }
+
+  .addmore-input
+  {
+    width:77%;
+  }
+  .addmore-text
+  {
+    padding-right:90px;
+    width:23%;
+    font-size:25px;
+  }
+  .availablityform-maindiv .flexRow,.availablityform-maindiv .ant-row{
+    display:flex;
+  }
+  .availablityform-maindiv .ant-row{
+    flex-wrap:wrap;
+    /*justify-content:space-between;*/
+    width:100%!important;
+  }.availablityform-maindiv .ant-row:before,.availablityform-maindiv .ant-row:after{
+    content:'';
+    display:none;
+  }
+  .availablityform-maindiv .ant-collapse
+  {
+    border:none;
+    background-color:transparent !important;
+  }
+  .availabilityform-div.noflex{
+    display:block;
+  } 
+  .availabilityform-div.noflex.tagForm_tag_check{
+    margin-top:0!important;
+  }
+  .availabilityform-div.noflex.durationform .day-text{
+    padding-bottom:12px;
+  }
+  .availablityform-maindiv .ant-calendar-picker-icon{
+    display:none;
+  }
+  .availablityform-maindiv .ant-input
+  {
+    border-radius:0px;
+  }
+  .availablityform-maindiv .ant-calendar-picker-input .ant-input{
+    height:45px;
+    border:1px solid #c7c7c7;
+  }
+  .flexRow.availduration{
+    margin-right:50px;
+  }
+  .flexRow.availduration span,.flexRow.availduration div,.flexRow.availduration input,.flexRow.availduration img{
+    height:100%!important;
+  }
+  .flexRow.availduration {
+    height:40px;
+    /*margin-right:50px;*/
+  }
+ .avail_RadioGroup .RadioBtns{
+  display:flex;
+  /* align-items:center; */
+ }
+ .AddBoxBtn{
+  margin-top:5px;
+
+ }
+ .AddBoxBtn svg{
+  cursor:pointer;
+  font-size:25px;
+ }
+ .avail_RadioGroup .RadioBtns input[type=radio]:checked + div svg path {
+  fill:rgb(235, 92, 0);
+ }
+ 
+ .avail_RadioGroup .RadioBtns .checkedRadioBtn > span{
+  
+      color:#eb5c00!important;
+}
+ .AddBoxBtn svg path{
+
+  fill:rgb(235, 92, 0);
+ }
+ .avail_RadioGroup .RadioBtns .MuiTypography-body1{
+  color:#707070;
+    font-weight:500;
+ }
+ .SecondAvailabilityDiv{
+  background-color:#f3f3f3;
+  padding:25px 0; 
+ }
+ .SlotBoxGrid{
+  margin-right:12px;
+ }
+  @media (min-width:768px){
+  
+    .SlotDescription{
+      width:90%;
+      margin:0 auto;
+      display:flex;
+    }
+    .AvailabilityDivForm{
+      width:90%;
+      margin:0 auto;
+    }
+    .
+    .SecondAvailabilityDiv{
+      background:#f3f3f3;
+      min-height:150px;
+    }
+    .SlotDescription h3{
+      color:rgb(235, 92, 0);
+    }
+    .SlotsDescriptionBox{
+      display:flex;
+      margin-left:20px;
+    }
+    .SlotsDescriptionBox .labelBoxLegend{
+      margin-left:16px;
+    }
+.ant-collapse-header{
+  display:none;
+  }
+  .availabilityform-div.noflex.durationform .day-text{
+    font-size:25px;
+  }
+  .availabilityform-div{
+    width:calc(100%);
+    margin:12px auto;
+  }
+  .ant-collapse-content > .ant-collapse-content-box{
+    padding-left:0;
+  }
+}
+ .flexRow.availduration .availerror {
+    position:absolute;
+    bottom:-24px;
+    height:auto!important;
+    left:0;
+    color:red;
+        font-size:14px;
+}
+ .availcol{
+    position:relative;
+  }
+@media (max-width:767px)
+{
+    .AvailbilityBtnSubmit{
+  width:100%;
+  height:auto;
+}
+  .availablityform-maindiv{
+    padding:0!important;
+  }
+  .CalendarMain{
+    margin:0!important;
+    width:95%!important;
+    padding-left:12px;
+    padding-right:12px;
+  }
+  .SlotDescription{
+    padding:0 12px;
+
+  }
+  .CalendarAction{
+    margin-bottom:12px;
+    margin-top:12px;
+    margin-left:0!important;
+    margin-right:auto;
+  }
+  .SecondAvailabilityDiv{
+    padding:12px 12px;
+  }
+  .availabilityform-div{
+    margin-top:0;
+  
+  }
+
+  .availablityform-maindiv .main-menu{
+    height:auto;
+  }
+    .availablityform-maindiv .main-div{
+    margin-top:0;
+    padding-left:0!important;
+    padding:12px!important;
+    flex-wrap:wrap;
+    justify-content:space-between!important;
+        padding:10px 4px 0 !important;
+        border-bottom:1px solid #a3a0a0!important;
+  }
+  .availablityform-maindiv .main-div > div{
+    margin-right:0!important;
+    margin-bottom:18px;
+    width:22vw!important;
+  }
+  .availability-in-box{
+    align-items:center;
+    padding:12px;
+    border-bottom:1px solid #c5c4c4;
+  }
+  .availability-in-box .day-text{
+    width:24%;
+    font-size:100%;
+  }
+  .availability-in-box .popupboxmain{
+    width:76%;
+
+  }
+  .availability-in-box .popupboxmain button{
+        height:35px!important;
+    padding:0px!important;
+    padding-left:12px!important;
+    padding-right:12px!important;
+    font-size:16px!important;
+  }.availabilityform-div.noflex.tagForm_tag_check{
+    padding:12px!important
+  }
+  .tagForm_tag_check input[type=checkbox] + label {
+    padding:5px 12px!important;
+
+}
+  .availability-in-box .popupboxmain button i{
+    font-size:23px!important;
+  }
+  .availablityform-maindiv .main-div .specific1{
+    width:22vw!important;
+    height:22vw!important;
+    border-radius:50%!important;
+  }
+  .availablityform-maindiv .ant-row
+  {
+    margin:0px !important;
+    width:100% !important;
+        /*padding:15px;*/
+  }
+  .availability-in-box
+  {
+    width:100% !important;
+  }
+  .availability-in-box > div > .dropdown-btn
+  {
+    min-width:100%!important;
+  }
+  .availabilityform-div
+  {
+    /*display:none;*/
+  }
+  .availablityform-maindiv .main-menu-select1{
+    display:flex;
+    justify-content:center;
+  }
+ .availablityform-maindiv .main-menu-select1:before {
+       content:"";
+    position:absolute;
+    bottom:-1px;
+    /* left:50%; */
+    margin-left:0;
+    width:0px;
+    height:0px;
+    /* margin:0px auto; */
+    border-left:16px solid transparent;
+    border-right:16px solid transparent;
+    border-bottom:16px solid #907e7e;
+}.availablityform-maindiv .main-menu-select1:after {
+    content:"";
+    position:absolute;
+    bottom:-2px;
+    /* left:50%; */
+    margin-left:0;
+    width:0px;
+    height:0px;
+    /*margin:0px auto;*/
+    border-left:16px solid transparent;
+    border-right:16px solid transparent;
+    border-bottom:16px solid white;
+}
+  .availabilityform-div .save-div{
+    display:none!important;
+  }
+  .day1-text
+  {
+    background-color:#eee;
+    font-size:12px;
+    padding:12px;
+    color:#a2a0a0;
+  }
+  .clr_lblack
+  {
+    font-size:12px !important;
+    color:#afabab;
+    padding:8px !important;
+  } 
+  .availablityform-maindiv .ant-collapse
+  {
+    border:none !important;
+    background-color:#e4e3e3 !important;
+  }
+  .availablityform-maindiv .ant-collapse-content
+  {
+    /*border-bottom:none;
+    border-top:none;*/
+    /*border:none;*/
+  }
+/*   .availablityform-maindiv .ant-collapse-arrow
+  {
+      
+    color:#a5a0a0;
+  }*/
+  .availablityform-maindiv  .anticon-right
+  {
+    right:12px !important;
+    left:unset !important;
+    margin:0px !important;
+  }
+  .availablityform-maindiv .flexRow.availduration .ant-input
+  {
+    border-radius:0px;
+    height:32px !important;
+
+  }
+  .availabilityform-div .flexRow.availduration{
+    margin-right:0;
+    margin-bottom:14px;
+    width:100%;
+    justify-content:space-between;
+  }
+  .availabilityform-div .flexRow.availduration .availcol{
+    font-size:16px!important;
+  }
+  .ant-calendar-input-wrap{
+    display:none!important;
+  }
+  .availcol{
+    position:relative;
+  }
+  span.availerror {
+    position:absolute;
+    font-size:13px;
+    bottom:-34px;
+    left:6px;
+}
+  .availablityform-maindiv .ant-calendar-picker
+  {
+    padding:6px;
+    width:100%;
+  }
+  .availablityform-maindiv .availcol img
+  {
+    /*padding:10px !important;*/
+    width:31px;
+  }
+  .availabilityform-div
+  {
+    padding:0px !important;
+  }
+   .availablityform-maindiv .ant-collapse > .ant-collapse-item > .ant-collapse-header
+   {
+    /*padding:7px 16px !important;*/
+    color:#9a9999;
+    font-size:16px !important;
+        background:#f8f8f8;
+        /*transform:rotate(268deg);*/
+   }
+   .availablityform-maindiv{
+    border-bottom:none;
+   }
+   .availabilityform-div1
+   {
+    width:100% !important;
+    display:block;
+    margin-top:0px;
+   }
+   .availablityform-maindiv .ant-collapse-item 
+   {
+    border:none;
+   }
+    .availablityform-maindiv .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow svg
+    {
+      transform:rotate(268deg);
+    }
+    .addmore-input
+    {
+      width:100%;
+      padding-left:0px !important;
+    }
+}
+   .SecondAvailabilityDiv .CalendarBox{
+      width: 90%!important;
+      margin: 0 auto;
+    }
+    .ck-editor__editable_inline{
+      height: 170px;
+    }
+ @media screen and (max-width:1200px){
+    .availabilityform-div {
+      width:100%!important;
+    }
+  }
+  .ExcludeDaysError{
+    color:red;
+    margin-top:12px;
+    text-align:center;
+  }

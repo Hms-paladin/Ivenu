@@ -1,0 +1,67 @@
+.main-div
+{
+	display:flex;
+	width:100%;
+	justify-content:center;
+	position:relative;
+	border-bottom:3px solid #ea5b03;
+	margin-top:61px;
+}
+.venueCategory .main-div{
+	justify-content:flex-start;
+	padding-left:120px;
+}
+.venueCategory .main-div >div{
+	margin-right:4%
+}
+
+@media only screen and (max-width:767px) {
+.AuthorizeButton{
+	display:block;
+	text-align:center;
+}
+.FaciltyAuthorizeModal .ActionsReviewBtns button:nth-child(1){
+background:#073cb2!important;
+} 
+.AuthorizeButton button{
+	padding:6px;
+    min-width:104px;
+    border:none;
+    outline:0;
+    background:#ea5c04;
+    color:white;
+    border-radius:3px;
+    font-size:17px;
+}
+.FaciltyAuthorizeModal .ActionsReviewBtns button{
+	padding:5px 9px;
+}
+.FaciltyAuthorizeModal .ant-modal-content .ant-modal-header{
+	padding:15px;
+}
+.FaciltyAuthorizeModal .ant-modal-footer{
+	display:none;
+}
+.FaciltyAuthorizeModal .ant-modal-content .ant-modal-body{
+	padding:0px!important;
+}
+.FaciltyAuthorizeModal .ant-modal-content .ant-modal-body .form-maindiv{
+	    border-bottom:1px solid #ddd;
+    border-top:1px solid #ddd;
+}
+.FaciltyAuthorizeModal .ant-modal-content .form1-text{
+	margin-top:0;
+	margin-bottom:11px;
+}
+.FaciltyAuthorizeModal .ant-modal-content .ant-modal-header .ant-modal-title{
+	font-size:18px;
+	color:grey;
+	font-weight:normal;
+}
+.FaciltyAuthorizeModal .ant-modal-content .ant-modal-close{
+	padding:0!important;
+}
+}
+
+    /*filter:invert(16%) sepia(76%) saturate(4140%) hue-rotate(12deg) brightness(103%) contrast(98%);*/
+

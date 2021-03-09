@@ -1,0 +1,23 @@
+/**/
+.dummyCalendar{
+	display:flex;
+	height:700px;
+	border:1px solid #ddd;
+	margin:12px;
+}
+.dummyCalendar_firstCol{
+	width:100px;
+	border-right:1px solid #ddd;
+	
+}
+.dummyCalendar_firstCol div{
+	height:70px;
+	border-bottom:1px solid #ddd;
+}
+.dummyCalendar_secondCol{
+	width:calc(100% - 100px);
+}
+.dummyCalendar_secondCol > div{
+	border-bottom:1px solid #ddd;
+	height:35px;
+}

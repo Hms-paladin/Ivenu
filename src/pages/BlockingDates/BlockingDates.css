@@ -1,0 +1,29 @@
+/**/
+
+.BlockingDates .BoxHeader p{
+	padding-left: 0;
+}
+.BlockingDates .flexbox{
+	width: 90%;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+.BlockingDates .flexbox p{
+	margin: 0;
+	font-size: 14px;
+}
+.BlockingDates .flexbox .header{
+	color:#707070;
+}
+.BoxBody .text_flex div {
+    width: 50%;
+}
+.align_cardtext div:nth-child(1){
+	padding-right:10px;
+}
+.align_cardtext div{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

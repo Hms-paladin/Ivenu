@@ -1,0 +1,122 @@
+
+.text_flex{
+    display: flex;
+    font-size: 22px;
+    display: flex;
+    font-size: 22px;
+    border-radius: 0;
+    border-bottom: 1px solid#8080804a;
+    background: transparent;
+    width: 90%;
+    margin: 0 auto;
+}
+.cross_mr svg{
+    margin-bottom: 56px;
+}
+.clrred{
+    border-bottom: 3px solid red;
+}
+.bookborder_none .BoxCard{
+ border:none !important;
+}
+.norecords_avail{
+    text-align: center;
+    color: red;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.align_cardtext{
+    display: flex;
+    justify-content: space-between;
+}
+.card_btnclr{
+    color:#EB5C00;
+}
+.card_btnclr_booked{
+color:#103eb0;
+}
+.card_eventclr{
+    color: #8BC34A;
+}
+.cardbtn_clr{
+    height: 22px;
+    width: 72px;
+    background-color: #EB5C00;
+}
+.cardbtn_clr:hover{
+    background-color: #103EB0;
+    border-color: #103EB0;
+}
+.cardbtn_clr:active{
+    background-color: #103EB0;
+    border-color: #103EB0;
+}
+.flex_end_btn_block{
+display: flex;
+justify-content: flex-end;
+}
+.over_y_align .BoxBody{
+height: 419px;
+overflow-y: scroll;
+}
+.clrgrey_dash{
+    color:grey;
+}
+.mr_calendermodel.ant-modal{
+margin-top: -240px;
+}
+.textreason_cal{
+    display: flex;
+    font-size: 19px;
+}
+.mr_calendermodel .ant-modal-header {
+   padding: 0px;
+}
+.mr_calendermodel  .ant-modal-title {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+.mr_calendermodel .ant-modal-footer {
+  padding: 10px 16px;
+}
+.mr_calendermodel .ant-modal-close-x {
+    position: relative;
+    top: -20px;
+}
+.dis_none{
+    display: none;
+}
+.BoxCardContent button{
+    /*padding: 0;*/
+}
+.ant-popover-inner-content{
+    margin:0!important;
+}
+button.popoverSlots {
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+}
+span.popoverSlots{
+    cursor: pointer;
+}
+span.popoverSlots button {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+@media only screen and (max-width:768px){
+    .cross_mr svg {
+        margin-bottom: 52px;
+        margin-right: 6px;
+    }
+    .BoxBody{
+        margin-left: 14px;
+        padding-top: 10px;
+    }
+    .text_flex{
+        font-size: 20px;
+    }
+} 
+

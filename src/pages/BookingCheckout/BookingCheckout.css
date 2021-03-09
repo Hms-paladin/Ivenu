@@ -1,0 +1,1011 @@
+/**/
+.BookingMainPage{
+	min-height:100vh;
+	background-color:#e9ecee;
+	padding-top: 50px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.BookingMainContent{
+	width:1200px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	    padding-left: 12px;
+    padding-right: 12px;
+}
+.LeftSideContent{
+	width:63%;
+}
+.RightSideContent{
+	width:36%;
+}
+.PromoCodeBox{
+	display:flex;
+	margin-top:33px;
+	align-items:center;
+}
+.PromoCodeContent{
+	width:100%;
+}
+.PromoCodeBox input:focus{
+	outline:0;
+}
+.PromoCodeBox input::placeholder {
+	color:#D5D1D1;
+}
+.PromoCodeBox input {
+border:1.5px dashed #D5D1D1;
+    width:93%;
+    padding:7px 4px;
+    padding-left:8px;
+}
+.SlotsContent{
+	margin-top:12px;
+	margin-left:12px;
+}
+.SlotsContent label{
+	display:block;
+	font-family:poppins;
+}
+.SlotsContent label span{
+color:#EB5C00;
+font-weight:500;
+}
+.PromoCodeBox .btnavailability{
+	margin-top:0;
+	padding:5px 25px;
+	    height:36px;
+}
+.BoxCardContent{
+	padding:12px;
+}
+.BoxCard{
+	margin-bottom:25px;
+	margin-right:12px;
+}
+.Noavailability{
+	margin-top:25px;
+}
+.Noavailability >p {
+	font-family:poppins;
+	color:#ABA8A8;
+	font-weight:bold;
+	text-align:center;
+
+}
+.controlled >div{
+	/*width:auto!important;*/
+    height:auto!important;
+}
+.controlled >div {
+	font-family:poppins;
+}
+.controlledDiv{
+	text-align:center;
+	color:#ABA8A8;
+}
+.controlledDiv p{
+
+	margin-bottom:0;
+}
+.BookingBox{
+	background-color:white;
+	/*margin-bottom:12px; */
+	/*margin-right:16px; */
+}
+.LabelBox input{
+	width:100%;
+}
+.FormBoxBasic{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.FormBoxBasic .LabelBox{
+	width:48%;
+	margin-top:12px;
+	margin-bottom:12px;
+    position: relative;
+}
+.FormBoxBasic .LabelBox .errmsg{
+        position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: red;
+}
+.FormBoxBasic .LabelBox > input{
+	padding:3px;
+}
+.LabelBox label{
+	display:block;
+	margin-bottom:4px;
+}
+.btnavailability{
+	background-color:#324192;
+	outline:0;
+	padding:6px 9px;
+	color:white;
+	border:0;
+	border-radius:3px;
+}
+.btnavailability.red{
+	background: red;
+}
+.btnavailability i{
+	padding-right:12px;
+}
+.PricingDetailsbook{
+margin-left:37px;
+margin-top:8px;
+}
+.excludeDaysInfo{
+	align-items:center;
+	display:flex;
+	margin-left:-10px;
+}
+.excludeDaysData{
+	color:#EB5C00;
+}
+.excludeDaysInfo svg path {
+		fill:#ABA8A8;
+}
+.excludeDaysInfo svg{
+	margin-right:5px;
+}
+.excludeDaysInfo > span{
+	    color:#ABA8A8;
+	    font-family:poppins;
+}
+.venueDetailsInfo{
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-end;
+	flex-wrap:wrap;
+}
+.excludeDaysInfo,.btnavailability{
+	margin-top:12px;
+}
+
+.PricingDetailsbook .labelprice,.PricingDetailsbook .labelamt{
+	margin-bottom:0;
+display:inline-block;
+}
+.PricingDetailsbook .labelprice{
+	color:#EB5C00;
+}
+.cancellationpolicy {
+	color:#3a5fbe;
+	font-family:poppins;
+	font-size:14px;
+	margin-top:5px;
+    display: inline-block;
+}
+.PricingDetailsbook .labelamt{
+	color:#3a5fbe;
+	font-family:poppins;
+	margin-left:5px;
+}
+.userProfileName small{
+	    color:#103EB0;
+	font-size:14px;
+	font-family:poppins;
+}
+.userProfileName p{
+    display:inline-block;
+    margin-left:5px;
+    font-size:18px;
+    color:#EB5C00;
+    font-family:poppins;
+}
+.BillDetails{
+	padding-left:12px;
+}
+.BillDetails .PriceItem{
+	display:flex;
+	justify-content:space-between;
+	margin-top:10px;
+
+}
+.BillDetails .PriceItem .greeencolor{
+	color:#2CC110;
+}
+.BillDetails .PriceItem.bordered{
+	border-top:1px solid grey;
+	margin-top:18px;
+	padding-top:10px;
+	
+}
+.LoginRequired{
+	display: block;
+	margin-bottom: 12px;
+}
+.LoginRequired button{
+	outline: 0;
+    border: 0;
+    padding: 10px 52px;
+    background: #324192;
+    color: white;
+}
+.cancellationpolicy{
+	cursor: pointer;
+}
+.cancallationPolicyDiv{
+	width: 86vw;
+	font-family: poppins;
+    padding: 19px;
+
+}
+.cancallationPolicyDiv strong{
+	font-size: 18px;
+}
+.closeAnimationDrawer{
+    font-size: 30px;
+    position: absolute;
+    right: 12px;
+    top: 7px;
+    color: red;
+    cursor: pointer;
+}
+.ant-modal.splitSLotFormDivModal.percent_80 .ant-modal-content{
+	width: 80%!important;
+}
+.MuiPickersBasePicker-containerLandscape .MuiPickersToolbar-toolbar{
+	background: #ea5b02;
+}
+.MuiPickersBasePicker-containerLandscape .MuiPickersDay-daySelected{
+	background: #ea5b02;
+
+}
+.MuiPickersBasePicker-containerLandscape .MuiPickersDay-daySelected:hover{
+	background: #ea5b02;
+	
+}
+.HourlyAvailFlexdiv{
+	    display: flex;
+    padding: 15px;
+}
+.HourlyAvailFlexdiv .FirstDiv{
+	/*width: 50%;*/
+    padding: 12px;
+    box-shadow: 0 0 7.5px black;
+    border-right: 1px solid #ddd;
+}
+.HourlyAvailFlexdiv .SecondDiv{
+    border-left: 1px solid #ddd;
+    margin-left: 12px;
+    background: #f3f3f3;
+    width: 60%;
+    position: relative;
+
+
+}
+.noslotsavaialble{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+}
+.HourlyAvailFlexdiv .SecondDiv .SlotBoxMain {
+    width: 23%;
+}
+.splitSLotFormDivModal .flexbox{
+	display: block;
+	text-align: right;
+}
+.splitSLotFormDivModal .flexbox .SlotLegendMain{
+	display: inline-block;
+	padding-right: 12px;
+}
+
+@media screen and (max-width: 1200px){
+	.ant-modal.splitSLotFormDivModal.percent_80 .ant-modal-content{
+	width: 95%!important;
+}
+}
+@media screen and (max-width: 1023px){
+	.HourlyAvailFlexdiv .SecondDiv .SlotBoxMain {
+    width: 45%;
+}
+}
+.paybtnBooking{
+	    margin-left: auto;
+    width: 150px;
+}
+.paybtnBooking button {
+    width: 100%;
+    padding: 7px 13px;
+    margin: 9px 0;
+    background: #324192;
+    color: white;
+    font-size: 19px;
+    border: 0;
+    border-radius: 3px;
+}
+.minmaxcapacity{
+	margin:0;
+
+}
+.minmaxcapacity span{
+	color:#324192;
+}
+.minmaxpaxdiv{
+	padding: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+.minmaxpaxdiv .childdiv{
+/*display: inline-block;*/
+font-size: 20px;
+}
+.minmaxpaxdiv .childdiv:nth-child(1){
+	text-align: center;
+	/*width: 50%;*/
+}
+.minmaxpaxdiv .childdiv:nth-child(2){
+	text-align: center;
+	/*width: 50%;*/
+}
+.paxseatcenter{
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+.paxseatcenter > div{
+	font-size: 24px;
+    /*margin-bottom: 45px;*/
+    width: 71%;
+}
+.availablebooktextdiv {
+	text-align: center;
+}
+.controlplusminus{
+	display: flex;
+}
+.plus.controldiv{
+	text-align: center;
+}
+.controlplusminus input{
+	margin:12px;
+}
+.controlplusminus .controldiv {
+       font-size: 26px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #ea5b02;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loaderdivclass p{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 12px;
+}
+.dualcalendar .HourlyAvailFlexdiv{
+	justify-content: space-between;
+}
+.dualcalendar .HourlyAvailFlexdiv .SecondDiv,.dualcalendar .HourlyAvailFlexdiv .FirstDiv{
+	padding: 12px;
+    box-shadow: 0 0 7.5px black;
+    border-right: 1px solid #ddd;
+    width: 48%;
+    background: white;
+}
+.hrline{
+        border: 0.5px solid #c9c7c7;
+    /* height: 279px; */
+    width: 0px;
+    /* margin-top: 20px; */
+    /* margin-left: 21px; */
+    /* height: 350px; */
+    margin-top: 22px;
+    margin-bottom: 12px;
+    margin-left: 7px;
+}
+.dualcalendar .MuiPickersCalendar-transitionContainer{
+	/*min-height:100%;*/
+}
+.dualcalendar  .MuiPickersCalendarHeader-daysHeader .MuiPickersCalendarHeader-dayLabel{
+	width:15%;
+	align-items:center;
+    display:flex;
+    justify-content:flex-start;
+    margin-left: 2.3%;
+    font-size: 16px!important;
+	/*font-size:1.3rem;*/
+	/*height:60px;*/
+	/*margin-top:37px;*/
+}
+.dualcalendar  .MuiPickersCalendar-week div[role="presentation"]{
+	width:15%;
+	height:39px;
+	text-align:left; 
+	align-items:center;
+    display:flex;
+    justify-content:flex-start;
+    /*position: relative;*/
+}
+.dualcalendar .MuiPickersStaticWrapper-staticWrapperRoot{
+	width: 100%;
+	min-width: 100%;
+}
+.dualcalendar .MuiPickersBasePicker-pickerView{
+	width: 100%;
+	/*min-width: 100%;*/
+	max-width:100%;
+}
+.hoverdiv:hover button{
+/*background: blue;*/
+}
+.firstDivSelected button,.firstDivSelected.noselecteddate button{
+	border-radius:  50% 0 0 50%;
+	background: #ea5b02!important;
+	color: white;
+}
+.rangselected button{
+	background: #ea5b02!important;
+	color: white;
+	border-radius: 0;
+
+}
+
+.firstDivSelected button:after{
+	 content: '';
+    position: absolute;
+    width: 61%;
+    height: 100%;
+    background: #ea5b02;
+    right: -22px;
+}
+.rangselected button:after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background: #ea5b02;
+    right: -22px;
+}
+.rangselected button:hover,.firstDivSelected button:hover{
+	background: #ea5b02;
+}
+/*.disableddates button {
+    background: white!important;
+    color: black;
+}
+.disableddates button:after{
+	content: '';
+    clear: both;
+    width: 0;
+}*/
+.endDivSelected button,.endDivSelected.noselecteddate button{
+	border-radius:   0 50% 50% 0;
+	background: #ea5b02!important;
+	color: white;
+
+}
+.disabledblock button{
+background: white!important;
+}
+.sameDateSelected.firstDivSelected.endDivSelected button{
+	border-radius: 50%!important;
+}
+.sameDateSelected.firstDivSelected.endDivSelected button:after {
+    content: '';
+    clear: both;
+    width: 0;
+}
+.notselected button{
+	background: grey;
+}
+.MuiPickersDay-dayDisabled{
+	background: transparent!important;
+	color:black;
+}
+.noselecteddate button{
+	background: white!important;
+	color: rgba(0, 0, 0, 0.87);
+}
+.noselecteddate button.MuiPickersDay-daySelected.MuiPickersDay-dayDisabled{
+	background: white!important;
+	color: rgba(0, 0, 0, 0.38);
+}
+button.MuiPickersDay-daySelected.MuiPickersDay-dayDisabled:after{
+	 content: '';
+    clear: both;
+    width: 0;
+}
+.SecondCalendar .MuiPickersCalendarHeader-switchHeader button.Mui-disabled.Mui-disabled{
+	visibility: hidden;
+
+}
+
+.disableMonthfirst .MuiPickersCalendarHeader-switchHeader button[disablebtn='true']{
+	visibility: hidden!important;
+
+}
+.disableMonth .MuiPickersCalendarHeader-switchHeader button[disablebtn='true']{
+	visibility: hidden!important;
+}
+.disableBtn{
+	position: absolute;
+	background: transparent;
+	border:0;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+}
+.noselecteddate button.MuiButtonBase-root.MuiIconButton-root.MuiPickersDay-day.MuiPickersDay-dayDisabled {
+    opacity: 0.5;
+}
+.fillwidthCalendar{
+	width: 100%;
+}
+.SecondDiv.disableSecondCalendar{
+	display: none;
+
+}
+.fillwidth{
+	justify-content: space-around!important;
+}
+
+
+
+@media only screen and (max-width:320px){
+    .editdate{
+        font-size: 13px !important;
+        font-weight: 600 !important;
+    }
+    .paymentamt,.paybtnBooking {
+        width: 100%;
+    }
+    .paymentamt button, .paybtnBooking button {
+        font-size: 13px;
+    }
+    .FirstDiv .MuiPickersCalendarHeader-switchHeader, .FirstDiv  .MuiPickersCalendarHeader-daysHeader, .FirstDiv .MuiPickersCalendar-week{
+        width: 90%;
+    }
+}
+/* Css for calculating number of dates */
+.editdate{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 38px;
+    font-size: 18px;
+}
+.colorsl{
+    color:#ea5b02
+}
+.availbtn{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 767px){
+	.firstDivSelected button:after {
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    background: #ea5b02;
+    right: -12px;
+    /* z-index: 0; */
+}
+.ant-modal.splitSLotFormDivModal.percent_80 .ant-modal-content{
+	width: 100%!important;
+}
+.dualcalendar .HourlyAvailFlexdiv .FirstDiv{
+	box-shadow: none;
+}
+}
+span.taghourcoast.inactive {
+    background: white;
+    border: 1px solid #969393;
+    color: #969393!important;
+}
+.PricingDetailsbook .taghourcoast{
+    cursor: pointer;
+}
+.cancellationpolicy {
+    margin-top: 12px;
+    display: block;
+}
+.labelprice{
+    display: flex!important;
+    align-items: center;
+}
+.labelprice div{
+    border: 1px solid #EB5C00;
+    padding: 3px 12px;
+    border-radius: 2px;
+    margin-right: 15px;
+    font-size: 14px;
+}
+.labelprice a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #324192;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: white!important;
+}
+.PaxSeatPackageDiv{
+    padding:10px;
+}
+.PaxSeatPackageDiv_header{
+    border-bottom: 1px dashed #aaa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.PaxSeatPackageDiv_header h4{
+    font-size: 20px;
+    margin:0;
+}
+.rightfloatdiv h5 {
+    display: inline-block;
+    margin:0;
+    margin-left: 12px;
+    font-size: 16px;
+}
+.paxFormBox{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-top: 15px;
+    align-items: center;
+}
+.paxFormBox h5{
+    color: #324192;
+    color: #324192;
+    font-size: 18px;
+}
+.paxFormBox *{
+    margin:0!important;
+}
+
+.paxFormBoxflexinside{
+    display: inline-flex;
+    align-items: center;
+}
+.SecondDiv.nobackground{
+    background: transparent;
+}
+.paxFormBoxflexinside .incrementbox input {
+    width: 61px;
+    text-align: center;
+    border: 0;
+    height: 100%;
+    font-size: 15px;
+    padding: 0px 4px;
+}
+.paxFormBoxflexinside .incrementbox input:focus{
+    outline: 0;
+}
+.paxFormBoxflexinside .incrementbox{
+    border: 1px solid #aaa;
+    height: 35px;
+    margin-left: 50px!important;
+    margin-right: 50px!important;
+}
+.perpaxdiv{
+    font-size: 16px;
+}
+.finalPriceBoxFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.finapriceBoxInside{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.finapriceBoxInside p.orange{
+    color: #ea5b02;
+}
+.finapriceBoxInside span{
+    color: #324192;
+}
+.borderbottomtop{
+    border-top: 1px dashed #201f1fba;
+    border-bottom: 1px dashed #201f1fba;
+    padding: 8px 0px;
+    width: 100px;
+    text-align: right;
+    font-size: 16px;
+}
+.PaxSeatPackageDiv_footer {
+    text-align: right;
+    margin-top: 60px;
+}
+.PaxSeatPackageDiv_footer button.btn.btn-submit:focus,.PaxSeatPackageDiv_footer  button.btn.btn-submit:hover {
+    background: #324192;
+    color: white;
+}
+.PaxSeatPackageDiv_footer button {
+    background: #324192;
+    color: white;
+}
+.Showpaxlist{
+    width: 450px;
+
+}
+.showpaxlistheader{
+    width: 88%;
+    margin: 0;
+    margin-top: 18px;
+    padding-left: 7px;
+}
+.cardpaxbox{
+        box-shadow: 0 0 2.5px black;
+    padding: 8px;
+    margin: 12px;
+}
+.cardpaxbox.active{
+    padding: 8px;
+    margin: 12px;
+    border-radius: 4px;
+    box-shadow: none;
+    /* border-top-right-radius: 135px; */
+    background: #FF5722;
+    color: white;
+}
+@media screen and (max-width:768px){
+    .bookingAvailError{
+        color:#a5a5a5!important;
+    }
+    .BigCalendarMUI.rangecalendardiv .MuiPickersBasePicker-pickerView{
+        height: inherit!important;
+    }
+   .HourlyAvailablityDiv.rangecalendardiv.BigCalendarMUI .HourlyAvailFlexdiv .FirstDiv{
+    box-shadow: none;
+    padding: 0;
+   }
+   .BigCalendarMUI.rangecalendardiv .MuiPickersStaticWrapper-staticWrapperRoot{
+    min-width: 100%;
+   }
+    .noslotsavaialble{
+        font-size: 18px;
+    }
+    .BoxCardContent{
+        padding: 0px;
+        padding-right: 0px;
+    }
+    .paxFormBox{
+        width: 100%!important;
+    }
+    .paxFormBoxflexinside .incrementbox {
+    margin-left: 10px!important;
+    margin-right: 10px!important;
+}
+    .cancallationPolicyDiv strong{
+        font-size: 15px;
+    }
+    .editdate {
+        display: flex;
+        margin-top: 5px;
+        margin-left: 21px !important;
+        font-size: 15px !important;
+    }
+    .BoxHeader-avail {
+        font-size: 18px !important;
+    }
+    .BookingMainContent .FormBoxBasic .LabelBox input{
+            border: 1px solid #ABA8A8;
+    }
+    .BookingMainContent{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .BookingMainPage{
+        padding-right: 0px;
+        padding-top: 26px;
+    }
+    .LeftSideContent {
+        width: 100%;
+    }
+    .FormBoxBasic .LabelBox {
+        width: 100%;
+    }
+    .paybtnBooking{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .paymentamt{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .paybtnBooking button{
+        font-size: 14px;
+        border-radius:0 !important;
+    }
+    
+    .excludeDaysInfo svg {
+        margin-left: 8px;
+    }
+    .ruppes-sign{
+        font-size: 15px !important;
+        margin-right: 3px;
+        font-weight: 100 !important;
+    }
+    
+    .paymentamt button {
+        width: 100%;
+        padding: 7px 13px;
+        margin: 9px 0;
+        background: #E9ECEE;
+        color: #EB5C00;
+        font-size: 15px;
+        border: 0;
+    }
+    .HourlyAvailFlexdiv{
+        display: inline;
+    }
+    .HourlyAvailFlexdiv .SecondDiv{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 12px;
+        padding-top: 12px;
+    }
+    
+        .HourlyAvailFlexdiv .SecondDiv .SlotBoxMain {
+        width: 49%;
+    }
+    .dualcalendar .HourlyAvailFlexdiv .SecondDiv,.dualcalendar .HourlyAvailFlexdiv .FirstDiv{
+        padding: 12px;
+        box-shadow: none;
+        border-right: 1px solid #ddd;
+        width: 100%;
+        background: white;
+    }
+    .bookingAvailError{
+    text-align: center;
+    margin: 12px;
+    font-size: 19px;
+    color: red;
+}
+.HourlyAvailFlexdiv .FirstDiv .MuiPickersBasePicker-containerLandscape,.HourlyAvailFlexdiv .SecondDiv .MuiPickersBasePicker-containerLandscape{
+    flex-direction: column!important;
+}
+.HourlyAvailFlexdiv .FirstDiv .MuiPickersDatePickerRoot-toolbarLandscape,.HourlyAvailFlexdiv .SecondDiv .MuiPickersDatePickerRoot-toolbarLandscape{
+    max-width: 100%!important;
+}
+.noslotsavaialble_width{
+    padding:10px
+}
+.BoxCardContent .BoxHeader{
+    padding-top: 10px;
+    /*padding-left: 15px;*/
+} 
+.BoxCardContent .BoxBody{
+    padding-bottom: 10px !important;
+    padding-right: 14px !important;
+}
+.FirstDiv .MuiPickersBasePicker-pickerViewLandscape{
+    padding:0px !important;
+}
+.dualcalendar .HourlyAvailFlexdiv .FirstDiv{
+    padding:5px;
+}
+.FirstDiv .MuiPickersCalendarHeader-switchHeader, .FirstDiv  .MuiPickersCalendarHeader-daysHeader, .FirstDiv .MuiPickersCalendar-week{
+    width: 100%;
+}
+.paxFormBox h5 {
+    font-size: 14px;
+}
+.perpaxdiv{
+    font-size: 14px;
+}
+.PaxSeatPackageDiv_footer{
+    margin-top: 0
+}
+.HourlyAvailFlexdiv{
+    padding: 0;
+}
+.splitSLotFormDivModal.ant-modal .ant-modal-header{
+    padding-bottom: 0!important;
+}
+.HourlyAvailFlexdiv .SecondDiv{
+    padding-bottom: 35px;
+}
+.Showpaxlist {
+    width: 87vw;
+}
+.chippax {
+    font-size: 14px;
+}
+.PricingDetailsbook{
+margin-left: 0;
+}
+.PricingDetailsbook div:nth-child(1){
+    display: flex;
+    white-space: nowrap;
+    flex-wrap: wrap; 
+}
+.flexdivblockprice{
+  display: flex;
+    white-space: nowrap;
+    flex-wrap: wrap;   
+}
+.perpaxDate{
+    font-size: 16px;
+}
+}
+.marginTopPackage{
+    margin-top: 20px;
+}
+.incrementbox.bgwhite{
+    background: white;
+}
+.editSlotsData{
+    font-size: 16px;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    background: #324192;
+    color: white!important;
+    display: inline-flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.removeTopBottomfooter{
+    margin-top:0;
+    margin-right: 30px; 
+}
+.rangecalendardiv .MuiPickersCalendar-week{
+    justify-content: center;
+}
+.BigCalendarMUI.rangecalendardiv .MuiPickersBasePicker-pickerView{
+    height: auto;
+}
+.BigCalendarMUI.rangecalendardiv .MuiPickersCalendarHeader-daysHeader .MuiPickersCalendarHeader-dayLabel{
+height: auto;
+font-size: initial;
+}
+.BigCalendarMUI.rangecalendardiv .MuiPickersCalendar-week div[role="presentation"]{
+    height: auto;
+        margin-bottom: 5px;
+}
+.BigCalendarMUI.rangecalendardiv .MuiPickersCalendar-week div[role="presentation"] p{
+    font-size: initial;
+}
+.BigCalendarMUI.rangecalendardiv .MuiPickersCalendar-week div[role="presentation"] .MuiPickersDay-day{
+    width: 36px;
+    height: 36px;
+}
+.SecondDiv.hidecalendar.SecondCalendar.disableMonth{
+    display: none;
+}
+.flexboxmargitoppackage{
+    display: flex;
+    flex-wrap: wrap;
+}

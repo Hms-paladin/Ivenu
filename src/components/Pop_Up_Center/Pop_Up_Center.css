@@ -1,0 +1,480 @@
+
+.search-venue-input-6 .popupbox-div:before{
+
+	content:unset !important;
+
+}
+.search-venue-input-6 .popupbox-div:after{
+
+	content:unset !important;
+
+}
+.cancellationPolicy a {
+    font-size:14px;
+    color:#3F51B5;
+    font-weight:500;
+}
+ .popupboxcentermodal .ant-modal-content{
+    width:100%!important;
+    padding:12px;
+  }
+ .popupboxcentermodal .ant-modal-close-x{
+ 	top:0;
+    position:absolute;
+    right:0;
+ }
+.search-venue-input-6 .popupbox-div{
+
+	border:0px solid #979797;
+}
+
+.search-venue-input-6 .popupboxmain{
+	width:70% !important;
+	display:inline-block;
+}
+
+.search-venue-input-6 .dropdown-btn{
+	background-color:transparent;
+	color:black;
+	border:1px solid #ddd;
+	border-radius:0px;
+	height:32px;
+	line-height:19px !important;
+	min-width:100% !important;
+	text-align:left !important;
+}
+
+.time_to {
+	margin:0px;
+	padding-left:5px;
+	width:10%;
+	text-align:center;
+}
+
+
+
+
+
+.popupbox_promocode .close-icon{
+	width:20%;
+	text-align:right;
+	display:none;
+}
+
+
+.close-icon i{
+	font-size:30px;
+	color:black;
+}
+.pop_up_center_flex{
+	display:inline-flex;
+	align-items:center;
+	width:100%;
+	padding:11px;
+	padding-bottom:0px;
+	text-align:left;
+
+}
+
+.main-pop-box{
+	width:100%;
+	/*height:100vh;*/
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+}
+.center_popup{
+	min-width:100%;
+	/*min-height:600px;*/
+	/*border:solid 1px #979797;*/
+	background-color:#ffffff;
+	border-radius:6px;
+	padding:14px;
+
+}
+.popup-heading{
+	width:80%;
+}
+.welcome-word{
+	padding-right:8px;
+	font-size:14px;
+}
+.welcome-Name{
+
+	font-size:16px;
+	font-weight:600;
+}
+.popup-heading-2{
+	width:100%;
+	text-align:left;
+	padding:11px;
+	padding-top:0px;
+}
+
+.popup-heading-3{
+	width:100%;
+	text-align:left;
+	padding:11px;
+	padding-top:0px;
+	
+}
+
+.soccer-title{
+	font-size:24px;
+	color:#565656;
+}
+
+.Book-venue{
+	color:#ea5b02;
+	font-size:18px;
+	padding-right:5px;
+	border-right:2px solid #ea5b02;
+}
+
+.change-venue{
+	cursor:pointer;
+	color:#103eb0;;
+	font-size:16px;
+	padding-left:5px;
+}
+.Soccer-title{
+	display:inline-flex;
+	align-items:center;
+	width:100%;
+}
+.soccer-image img{
+	width:40px;
+	padding-left:10px;
+}
+.soccer-image{
+	width:20%;
+	text-align:right;
+}    
+.soccer-header-width{
+	width:80%;
+}
+
+.star-images{
+	width:30%;
+	display:inline-flex;
+	align-items:center;
+}
+
+.star-images img{
+	width:14px;
+	height:auto;
+}
+
+.flex-group-image{
+	display:inline-flex;
+	align-items:center;
+	width:100%;
+	padding:11px;
+}
+.border-line{
+	display:inline-flex;
+	align-items:center;
+	width:100%;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	padding-top:10px;
+	padding-bottom:10px;
+	position:relative;
+}
+.box-inline-block{
+	display:inline-block;
+	width:50%;
+
+}
+.width-set-button{
+	width:70%;
+}
+.kms-line{
+	padding-right:10px;
+	border-right:2px solid #ea5b02;
+	color:#ea5b02;
+}
+.mins-line{
+	padding-left:10px;
+	color:#ea5b02;
+
+}
+.show-available-btn{
+	background-color:#103eb0;
+	border:none;
+	padding:5px;
+	color:#fff;
+	padding-left:10px;
+	padding-right:10px;
+	white-space:nowrap;
+
+}
+
+.search-venue-input-6 input{
+	border:solid 1px #dcdcdc;
+	height:32px;
+	width:70%;
+	padding-left:10px;
+}
+
+.search-venue-input-6 input:focus{
+	outline:none;
+}
+
+.search-venue-input-9{
+	padding:11px;
+}
+.search-venue-input-9>input{
+	border:solid 1px #dcdcdc;
+	height:32px;
+	width:100%;
+	padding-left:10px;
+}
+
+.search-venue-input-9 input:focus{
+	outline:none;
+}
+
+
+
+.search-venue-input-7{
+padding-left:0!important;
+padding-right:0!important;
+}
+.search-venue-input-7 input{
+	border:solid 1px #dcdcdc;
+	height:32px;
+	width:40%;
+	padding-left:10px;
+}
+
+.search-venue-input-7 input:focus{
+	outline:none;
+}
+
+.search-venue-input-6 textarea{
+	border:solid 1px #dcdcdc;
+	height:auto;
+	width:70%;
+	padding-left:10px;
+}
+
+.search-venue-input-6 textarea:focus{
+	outline:none;
+}
+
+.padding-align{
+	padding-top:10px;
+	padding:11px;	
+}
+.popupbox_promocode{
+	width:100%;
+}
+.popupbox_promocode .label-width-2{
+	width:30%;
+	color:#696969;
+	font-size:14px;
+	margin:0px !important;
+	text-align:left;
+}
+.popupbox_promocode .ant-calendar-picker{
+	width:70%;
+}
+.price-promo{
+	padding-left:10px;
+	color:#103eb0;
+}
+
+
+.search-left-1{
+	text-align:left;
+	width:50%;
+}
+
+.search-left-1 button{
+	border-radius:4px;
+	background-color:#ea5b02;
+	padding:10px;
+	font-size:16px;
+	border:none;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.search-left-1 button:focus{
+	outline:none;
+}
+
+.search-right-1 button:focus{
+	outline:none;
+}
+
+.search-right-1{
+	text-align:right;
+	width:50%;
+}
+
+.search-right-1 button{
+	border-radius:4px;
+	background-color:#103eb0;
+	padding:10px;
+	font-size:16px;
+	border:none;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:#fff;
+	text-transform:uppercase;
+}
+.center_popup{
+	padding:0;
+}
+.popupboxcentermodal .ant-modal-body{
+	padding:0;
+
+}
+@media only screen and (max-width:767px) {
+	.ant-calendar.ant-calendar-range{
+		width:90vw;
+		margin:0 auto;
+	}
+	.ant-calendar-range-left,.ant-calendar-range-right{
+		width:100%;
+		float:unset;
+	}
+	.ant-calendar-picker-container{
+		top:50vw!important;
+    height:75vh!important;
+    overflow:scroll!important;
+	}
+	 .popupboxcentermodal .ant-modal-content{
+    padding:0px;
+  }
+  .search-venue-input-7 .label-width-2{
+  	    padding:7px;
+  }
+.price-promo{
+	font-size:2.8vw;
+}
+	.center_popup {
+		min-width:100% !important;
+	}
+	.star-images{
+		width:24% !important;
+	}
+	.width-set-button{
+		width:76% !important;
+	}
+}
+.popupbox_promocode{
+	position:relative;
+}
+.promo_code_div{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	background:#0000006b;
+}
+.flex_promo_code{
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+	width:100%;
+	height:100%;
+}
+.flex_content{
+	width:90%;
+	margin:auto;
+	display:inline-flex;
+}
+.promo_background{
+	width:95%;
+	margin:auto;
+	/* height:37%; */
+	background:white;
+	padding:10px;
+	border-radius:4px;
+	z-index:9;
+}
+.Enter_promo_code{
+	padding:10px;
+}
+
+.Enter_promo_code input:focus{
+	outline:none;
+	box-shadow:none;
+}
+
+.apply_btn{
+	padding:10px;
+	text-align:center;
+}
+
+.apply_btn button{
+	text-transform:uppercase;
+}
+
+.remove_btn button{
+	text-transform:uppercase;
+}
+
+.remove_btn{
+	padding:10px;
+	text-align:right;
+}
+
+.applyed_promo_code{
+	display:inline-flex;
+	align-items:center;
+	padding-top:20px;
+}
+
+.applyed_promo_successfully{
+	width:80%;
+	display:inline-flex;
+	flex-wrap:wrap;
+}
+
+.applyed_promo_successfully span{
+	width:100%;
+	display:block;
+	text-align:center;
+	font-size:16px;
+	font-family:sans-serif;
+	overflow-wrap:break-word;
+	padding:4px;
+	text-transform:uppercase;
+	font-weight:500;
+}
+
+
+
+.dollor_amount{
+	width:20%;
+	text-align:center;
+}
+.dollor_amount span{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.display_none{
+	display:none;
+}
+
+
+.date_picker_slots .anticon {
+	font-size:14px !important;
+	color:#103eb0 !important;
+	width:10px;
+	height:10px;
+}
+.date_picker_slots .ant-calendar-picker{
+	width:30%;
+}

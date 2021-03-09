@@ -1,0 +1,136 @@
+
+/*@font-face {
+	font-family:SFProDisplay-light;
+	src:url(../../font/SF-UI-Display-Light.otf);
+}
+
+@font-face {
+	font-family:SFProDisplay-Regular;
+	src:url(../../font/SF-Pro-Display-Regular.ttf);
+}
+
+@font-face {
+	font-family:SFProDisplay-Bold;
+	src:url(../../font/SF-Pro-Display-Bold.ttf);
+}*/
+.loadercss{
+    display:block;
+    text-align:center;
+    margin-top:12px;
+}
+.Popupbox-div-position{
+	position:absolute;
+	left:0;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	z-index:999999;
+	max-height:250px;
+	overflow:auto;
+	
+}
+.availability-in-box .error{
+    position:absolute;
+    left:0;
+    bottom:-25px;
+    color:red;
+	
+}
+.popupbox-div{
+	
+	/*	border:1px solid red;*/
+	/*right:0;*/
+}
+
+.dropdown-popup-ul{
+	border-radius:5px;
+	box-shadow:0 8px 2px 0 rgba(0, 0, 0, 0.28);
+	background-color:#ffffff;
+	margin:0px !important;
+	padding:0px;
+	border:1px solid #9e9e9e29;
+	-webkit-transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out;
+	transition:all 5s ease-in-out;
+}
+
+.dropdown-popup-ul li{
+	list-style:none;
+	padding:9px;
+	
+	margin:10px;
+	border-bottom:1px solid #e8e8e8;
+	color:#303030;
+	font-family:SFProDisplay-Regular;
+	font-size:12px;
+	font-weight:300;
+	font-style:normal;
+	font-stretch:normal;
+	line-height:normal;
+	letter-spacing:0.1px;
+	white-space:nowrap;
+	-webkit-transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out;
+	transition:all 5s ease-in-out;
+	text-align:left;
+
+
+}
+.li-border-remove{
+	border:none !important;
+}
+.centerFlex{
+	/*margin:200px auto;*/
+	/*width:50%;*/
+	text-align:center;
+}
+
+.dropdown-btn{
+	border-radius:42px;
+	background-color:#ea5b02;
+	min-width:120px;
+	border:none;
+	padding:5px;
+	font-family:SFProDisplay-Regular;
+	font-size:18px;
+	font-weight:500;
+	font-style:normal;
+	font-stretch:normal;
+	line-height:normal;
+	letter-spacing:0.2px;
+	color:#ffffff;
+	padding-left:9px;
+    padding-right:9px;
+        line-height:32px!important;
+    font-size:18px!important;
+}
+.dropdown-btn:focus{
+	outline:none;
+}
+.popupboxmulitpleitmes{
+	display:flex;
+	width:100%;
+	overflow:auto;
+}
+.popupboxmulitpleitmes .remove-name{
+	white-space:nowrap;
+}
+.popupboxmulitpleitmes .popup-text-toggle{
+	flex-wrap:nowrap;
+}
+.popupbox-icon
+{
+	padding-left:9px;
+    font-size:15px;
+    float:right;
+    bottom:6px;
+    padding-top:4px;
+}
+@media only screen and (max-width:767px) {
+	.dropdown-btn{
+		min-width:60px;
+		padding-right:24px!important;
+	}
+}

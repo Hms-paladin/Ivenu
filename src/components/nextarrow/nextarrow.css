@@ -1,0 +1,26 @@
+.nextarrow-div {
+	min-width:50.8px;
+    /*height:50px;*/
+    border-radius:42px;
+    background-color:#ea5b02;
+    position:relative;
+
+}
+
+/*.right-arrow-div
+{
+	position:absolute;
+
+    right:22px;
+    bottom:0px;
+}
+*/
+.nextarrow-icon
+{
+	font-size:24px;
+    color:#fff;
+    cursor:pointer;
+    justify-content:center;
+    display:flex;
+    padding:5px;
+}

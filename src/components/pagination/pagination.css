@@ -1,0 +1,52 @@
+
+.pagination {
+ /* position:relative;
+  left:40%;
+  top:40%;*/
+
+  display:flex;
+  justify-content:space-between;
+  background:#ea5c04;
+}
+.visiblehidden{
+  visibility:hidden;
+}
+.dotparent p{
+	color:white;
+	margin:0;
+	    margin-top:8px;
+
+}
+.dotbefore{
+	position:relative;
+	margin:0 auto;
+}
+  .dotbefore:before{
+  content:'';
+    position:absolute;
+    width:4px;
+    height:3px;
+    background:white;
+    top:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+/*.visiblehidden{
+	visibility:hidden;
+}*/
+
+.pagination-wrapper
+{
+
+}
+
+@media only screen and (max-width:767px) {
+  .pagination{
+    padding-left:3px!important;
+    padding-right:3px;
+  }
+  .dotparent p{
+    font-size:12px;
+  }
+}

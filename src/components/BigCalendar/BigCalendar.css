@@ -1,0 +1,189 @@
+/**/
+.BigCalendarMUI{
+	min-width:500px;
+}
+.BigCalendarMUI .MuiPickersBasePicker-pickerView{
+	max-width:100%;
+	    min-height:inherit;
+	    justify-content:flex-start;
+        height:380px;
+}
+.BigCalendarMUI .MuiPickersCalendarHeader-switchHeader{
+    position:absolute;
+    top:23px;
+    right:0;
+    min-width:246px;
+    margin-top: 0px;
+}
+.ant-modal-confirm-title,.ant-modal-confirm-content{
+	text-align: left;
+}
+
+.BigCalendarMUI .MuiPickersCalendarHeader-daysHeader{
+
+    margin-top:20px;
+}
+.BigCalendarMUI.MuiPickersCalendar-transitionContainer{
+    min-height:100%;
+    margin: 0px;
+}
+.BigCalendarMUI .MuiPickersCalendarHeader-daysHeader .MuiPickersCalendarHeader-dayLabel{
+	width:15%;
+	font-size:1.3rem;
+	height:60px;
+	/*margin-top:37px;*/
+}
+.BigCalendarMUI .MuiPickersCalendar-week div[role="presentation"]{
+	width:15%;
+	height:60px;
+	text-align:center; 
+	align-items:center;
+    display:flex;
+    justify-content:center;
+    /*position: relative;*/
+}
+.badgecountdiv {
+    position: relative;
+}
+.badgecount {
+position: absolute;
+    top: -9px;
+    right: -47px;
+    width: auto;
+    min-height: auto;
+    /* background: #1c1a19b3; */
+    left: 0;
+    margin: auto;
+    z-index: 99;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* border-radius: 36%; */
+    color: #8BC34A;
+    /* text-shadow: 0px 0px 0px #1c1a1a; */
+    font-weight: bold;
+    font-size: 16px;
+    /* border: 1px solid; */
+    /* width: 37px; */
+    /* box-shadow: 0 0 0.5px black;*/
+}
+.BigCalendarMUI .MuiPickersCalendar-week div[role="presentation"] p{
+	font-size:1.2rem;
+}
+.BigCalendarMUI .MuiPickersCalendar-week div[role="presentation"] .MuiPickersDay-day{
+	width:43px;
+    height:43px;
+}
+.BigCalendarMUI button.MuiButtonBase-root.MuiIconButton-root.MuiPickersCalendarHeader-iconButton{
+	background:transparent;
+}
+
+.BigCalendarMUI .MuiPickersCalendarHeader-switchHeader svg{
+	fill:white;
+}
+.BigCalendarMUI .MuiPickersSlideTransition-transitionContainer{
+	color:white;
+}
+.BigCalendarMUI .MuiPickersDay-hidden{
+	color:#cbc2c2;
+    opacity:1;
+}
+.BigCalendarMUI .MuiPickersToolbar-toolbar, .BigCalendarMUI .MuiPickersDay-daySelected{
+	background-color:#EB5C00;
+}
+.BigCalendarMUI .MuiPickersDay-daySelected:hover{
+
+	background-color:#EB5C00;
+}
+.BigCalendarMUI .MuiPickersSlideTransition-transitionContainer >p{
+
+	font-size:1.2em;
+}
+.BigCalendarMUI .MuiPickersYearSelection-container{
+	height: 100%;
+}
+@media only screen and (max-width:768px){
+	.BigCalendarMUI .MuiPickersBasePicker-pickerView{
+		height: 445px;
+	}
+.BigCalendarMUI button.MuiButtonBase-root.MuiIconButton-root.MuiPickersCalendarHeader-iconButton{
+	background:white;
+}
+.BigCalendarMUI .MuiPickersCalendarHeader-switchHeader svg{
+	fill:black;
+	width:1.5em;
+	height:1.5em;
+}
+.BigCalendarMUI .MuiPickersCalendarHeader-switchHeader{
+	position:relative;
+	top:0;
+}
+.BigCalendarMUI .MuiPickersCalendarHeader-switchHeader{
+	margin-bottom:0px;
+}
+.BigCalendarMUI .MuiPickersSlideTransition-transitionContainer >p{
+	color:black;
+}
+.BigCalendarMUI .MuiPickersCalendar-transitionContainer{
+	    min-height:320px;
+}
+.BigCalendarMUI .MuiPickersCalendarHeader-switchHeader .MuiPickersSlideTransition-transitionContainer{
+	      height:30px!important;
+}
+
+/* Mobile Modify*/
+.BigCalendarMUI{
+    min-width: 0px;
+    width: 100% !important;
+    margin-bottom: 7px;
+}
+
+.BigCalendarMUI .MuiPickersCalendarHeader-daysHeader{
+    margin-top: 0px;
+}
+.BigCalendarMUI .MuiPickersCalendarHeader-daysHeader .MuiPickersCalendarHeader-dayLabel{
+    height: 30px;
+}
+.BigCalendarMUI .MuiPickersCalendar-week{
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.BigCalendarMUI .MuiPickersBasePicker-pickerView{
+    height: 288px;
+}
+.BigCalendarMUI .MuiPickersCalendar-transitionContainer{
+    min-height: 0px;
+}
+.BigCalendarMUI .MuiPickersCalendar-week div[role="presentation"] p{
+    font-size: 15px;
+}
+.BigCalendarMUI .MuiPickersCalendarHeader-daysHeader > span.MuiTypography-root.MuiPickersCalendarHeader-dayLabel.MuiTypography-caption, .MuiPickersToolbarText-toolbarBtnSelected, .MuiMenuItem-root, .MuiInputBase-root, .MuiTypography-body1, .MuiTypography-h2, .MuiButton-root, .MuiTypography-subtitle1{
+    font-size: 18px;
+}
+.BigCalendarMUI .MuiPickersCalendar-transitionContainer {
+    margin-top: 0px;
+}
+.BigCalendarMUI .MuiPickersBasePicker-container {
+    height: 400px !important;
+}
+
+}
+.BigCalendarMUI .Blocked .MuiPickersDay-dayDisabled {
+    /*background: transparent!important;*/
+    /*color: rgba(0,0,0,0.37)!important;*/
+}
+.BigCalendarMUI.resetheader .MuiPickersCalendarHeader-switchHeader{
+    position: relative;
+    top:0;
+}
+.BigCalendarMUI.resetheader .MuiPickersSlideTransition-transitionContainer{
+    color:black;
+}
+.BigCalendarMUI.resetheader .MuiPickersCalendarHeader-switchHeader svg{
+    fill: black;
+}
+.BigCalendarMUI div[role='presentation'] div.Booked > button.MuiPickersDay-dayDisabled {
+    background: #ddd!important;
+}

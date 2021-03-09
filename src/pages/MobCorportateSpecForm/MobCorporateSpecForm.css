@@ -1,0 +1,16 @@
+/*Mob Corporate css*/
+.ActionsReviewBtns{
+display:flex;
+    justify-content:space-between;
+    padding:12px;
+}
+.ActionsReviewBtns.CorporateSpecForm button {
+    outline:0;
+    border:none;
+    padding:5px 9px;
+    min-width:93px;
+    border-radius:3px;
+    color:white;
+    font-size:16px;
+    background:#073CB2;
+}

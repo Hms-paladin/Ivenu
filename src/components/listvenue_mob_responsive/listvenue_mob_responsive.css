@@ -1,0 +1,257 @@
+/*************nearByPlayGround*/
+
+@media only screen and (max-width:767px) {
+  .listvenue-main-div
+  {
+    display:flex;
+    flex-wrap:wrap;
+        align-items:flex-end;
+        position:relative;
+  }
+   .listvenue-main-div .swiper-slide 
+  {
+    /*width:135px !important;*/
+    margin-right:5px !important;
+  }
+  .listvenue-main-div .side-arrow
+{
+  position:absolute;
+    right:14px;
+    transform:rotate(1deg) !important;
+    height:19px !important;
+    width:22px !important;
+    margin:1px !important;
+
+
+}
+  .ListMyVenueslider{
+    height:75px;
+    width:120px!important;
+  }
+  .ListMyVenueslider img{
+    height:100%;
+  }
+  .listvenue-main-div{
+    border-bottom:1.5px solid #eee;
+  }
+  .sample
+  {
+    width:90%;
+    margin:0 auto;
+  }
+
+  .listvenuePlayGround{
+        width:64%;
+    /*margin:0 auto;*/
+
+    position:relative;
+  }
+  .listvenue-main-div
+  {
+    /*background:#f7f7f7;*/
+  }
+
+/*.bookVenuIcon{
+ transform:rotate(1deg);
+    height:19px;
+    width:22px;
+    margin:1px;
+    }*/
+    .listvenue_cardpadd{
+      /*padding:8px;*/
+
+    }
+/*.learndown{
+  font-size:24px !important;
+  color:#ff9102;
+  }*/
+/*.widthCalc{
+  width:calc(100% - 144px);
+  }*/
+/*.traingspan{
+  font-weight:100;
+  opacity:.7
+}
+.training_btn{
+  width:104px !important;
+  height:52px !important;
+  background-color:#ea5b02 !important;
+  float:right;
+  position:absolute !important;
+  top:0;
+  right:0;
+  border-radius:0 !important;
+
+  color:#fff !important;
+  
+}
+.addtrain{
+ 
+  width:200px !important;
+  height:21px !important;
+  font-family:SFProDisplay;
+  font-size:18px;
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.2px;
+  color:#ea5b02;
+  margin-left:0px !important;
+
+}
+.addtrainspan{
+  color:#8a8a8a;
+  font-size:10px !important;
+  transform:rotate(270deg);
+  }*/
+  .listvenue_specialimg{
+
+    width:100%;
+    padding:5px;
+    height:auto;
+
+    border-radius:10px;
+  }
+/*.rateup{
+  position:absolute;
+  left:7px;
+  bottom:7px;
+  font-size:22px !important;
+  color:#FF9008 !important; 
+ 
+  }*/
+  .lightborder{
+    border-bottom:1px solid #CFCFCF;
+  }
+
+  .homeMakersNew{
+    font-size:22px;
+  }
+
+  .Back-Arrow {
+    width:10px;
+    height:15.8px;
+    transform:rotate(180deg);
+    background-color:#959595;
+
+  }
+
+  .homemakers{
+
+    justify-content:flex-start !important;
+    text-align:left !important;
+    font-family:SFProDisplay;
+    font-size:25px;
+    font-weight:100;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:42px;
+    letter-spacing:0.3px;
+    color:#24479d;
+  }
+
+  .bookVenuLeft{
+
+    display:inline-flex;
+  }
+
+
+
+/*.nearByStyle2
+{
+  display:none;
+  }*/
+/* .listvenuePlayGround .slick-list
+ {
+  width:90%;
+ }
+ */.slick-dots {
+
+  text-align:right !important;
+  top:-16% !important;
+  height:0 !important;
+  
+}
+.slick-dots li.slick-active button:before{
+  color:#FF9008;
+}
+.slick-dots li button:before{
+  font-size:15px !important;
+}
+.slick-dots li {
+  position:relative;
+  display:inline-block;
+  width:18px !important;
+  height:18px !important;
+  margin:0px !important;
+  padding:0;
+  cursor:pointer;
+}
+.near-slick-special {
+  text-align:right !important;
+  position:absolute;
+  top:32px !important;
+
+}
+.slick-slider{
+  position:unset !important;
+}
+
+
+.listvenue-main-div .side-arrow
+{
+  position:absolute;
+  right:0px !important;
+  transform:rotate(1deg) !important;
+  height:19px !important;
+  width:22px !important;
+  top:0;
+  bottom:0;
+  margin:auto!important;
+  /*margin:1px !important;*/
+
+
+}
+.inlinePluss img
+{
+  width:100%;
+}
+.listvenue_Style2
+{
+ padding:0 4px 5px 9px;
+ width:30%;
+}
+.responsive-listvenue-text
+{
+  font-size:11px !important;
+  /*margin-left:10px;*/
+  /*font-size:30px;*/
+  font-weight:600;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.4px;
+  color:#103eb0;
+
+}
+.listvenue-text2
+{
+  font-size:14px !important;
+  color:#b52e2e;
+  font-weight:500;
+  display:block;
+      line-height:normal;
+}
+.listvenue_more_icon
+{
+  width:13px;
+  transform:rotate(0deg);
+}
+.listvenuePlayGround .ant-card-body
+{
+  padding:0px;
+}
+}
+
+

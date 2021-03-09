@@ -1,0 +1,228 @@
+.main-div
+{
+	display:flex;
+	width:100%;
+	justify-content:center;
+	position:relative;
+	border-bottom:3px solid #ea5b03;
+	margin-top:61px;
+}
+.Ameneties .main-div{
+	justify-content:flex-start;
+	padding-left:120px;
+
+}
+	.Ameneties .drop-part2{
+		flex-wrap:wrap;
+}
+.Ameneties .main-div >div{
+	margin-right:4%;
+}
+.amenities-main-div{
+	padding-bottom:25px;
+}
+ .flexendAmenties .dropdown-in-box,.Ameneties .dropdown-in-box
+{
+	margin-left:12px;
+	margin-bottom:12px;
+}
+.Ameneties .drop-part2 .number1{
+	margin-bottom:12px;
+}
+@media only screen and (max-width:767px) {
+	.flexendAmenties{
+		/*align-items:flex-end!important;*/
+	}
+	.amenities-main-div{
+
+	}
+	.Ameneties .main-menu	{
+		display:none;
+
+	}
+	.amentiesName{
+		display:block;
+		text-align:center;
+		width:100%;
+		font-size:14px;
+	}
+	.amenitiesProfile{
+		/*display:flex;*/
+		width:30vw;
+		margin:0 auto;
+		padding-top:17px;
+	}
+	.Ameneties .main-div{
+		margin-top:21px;
+		padding-left:12px!important;
+		padding:4px!important;
+		flex-wrap:wrap;
+		justify-content:space-between!important;
+		border-bottom:none;
+	}
+	.Ameneties .main-div > div{
+		width:22vw;
+		margin-right:0!important;
+		margin-bottom:18px;
+	}
+	.Ameneties .main-div .specific1{
+		width:22vw!important;
+    height:22vw!important;
+		border-radius:50%!important;
+	}
+	.amenitiesProfile >div{
+		width:30vw;
+		height:30vw;
+		position:relative;
+    border:1px solid #a60202;
+	}
+	.amenitiesProfile >div>div{
+	width:95%;
+    height:95%;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+	}
+	.amenitiesProfile .under-text{
+		    margin-top:8px;
+    font-size:18px;
+	}
+	.amenitiesProfile .specific1{
+	}
+	.flexendAmenties .checkbox{
+		width:40%!important;
+	}
+	.flexendAmenties  .checkbox > span {
+    /*display:block;*/
+    width:63%;
+    /*overflow:hidden;*/
+    /*text-overflow:ellipsis;*/
+    /*white-space:nowrap;*/
+    word-break:break-word;
+
+	}
+	.flexendAmenties .drop-part2{
+		width:60%!important;
+	}
+	.flexendAmenties .ant-modal-footer{
+		padding:0 14px 9px 0!important;
+	}
+	.flexendAmenties .checkbox-div{
+	    padding:11px 12px;
+    display:flex;
+    /* padding:0 6px; */
+    border-bottom:1px solid #c3c3c3;
+    margin:0;
+}
+	.flexendAmenties .styled-checkbox + label{
+		margin-bottom:0!important;
+	}
+	.flexendAmenties .ant-modal-content{
+		padding:0!important;
+	}
+	.flexendAmenties .drop-part2 .number1 input {
+ padding:6px 4px;
+    font-size:17px;
+}
+.dummyauto{
+	margin-left:auto;
+}
+
+.flexendAmenties .dropdown-in-box {
+	/*overflow:visible;*/
+	/*max-width:90%;*/
+	max-width:94%;
+	margin-left:auto;
+}
+.flexendAmenties .dropdown-in-box .popupboxmain > button{
+	/*overflow:visible;*/
+	/*max-width:90%;*/
+	    /*width:77%!important;*/
+}
+.flexendAmenties .dropdown-in-box > div > .dropdown-btn > span {
+	    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.flexendAmenties .dropdown-in-box > div > .dropdown-btn{
+	color:black;
+	font-weight:normal;
+	height:100%!important;
+	min-width:60px!important;
+	/* line-height:42.8px!important; */
+	padding:0;
+	padding-right:4px!important;
+	padding-left:4px;
+	font-size:12px!important;
+}
+.flexendAmenties .styled-checkbox + label:before {
+    content:'';
+    margin-right:10px;
+    display:inline-block;
+    vertical-align:text-top;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:50%;
+    border:1px solid #aaa;
+    /* border:none !important; */
+    font-weight:500;
+}
+.flexendAmenties .styled-checkbox:checked + label:before {
+    background:#f35429;
+    border:none !important;
+}
+.flexendAmenties .styled-checkbox:checked + label:after {
+    content:'';
+    display:block;
+    position:absolute;
+    top:6px;
+    left:11px;
+    width:9px;
+    height:17px;
+    border:solid #ffffff;
+    border-width:0 2px 2px 0;
+    transform:rotate(45deg);
+}
+.flexendAmenties .checkbox-div{
+	width:100%;
+	align-items:center;
+}
+.flexendAmenties .ant-modal-body{
+	text-align:unset!important;
+	padding:0!important;
+}
+.flexendAmenties .drop-part2 {
+    height:100%!important;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+}
+.flexendAmenties .ant-modal-close {
+	padding:0!important;
+}
+.flexendAmenties .drop-part2 .number1 {
+    width:37px;
+    margin-bottom:12px;
+} 
+.flexendAmenties .ant-modal-close i{
+	font-size:19px;
+}
+.amenitiesBtn{
+	padding:12px;
+	display:block;
+	text-align:right;
+}
+.amenitiesBtn button{
+	    outline:0;
+    border:none;
+    padding:12px;
+    background:#ea5c04;
+    color:white;
+    border-radius:4px;
+    min-width:200px;
+     font-size:18px;
+}
+}

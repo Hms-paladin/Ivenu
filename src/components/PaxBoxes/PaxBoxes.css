@@ -1,0 +1,76 @@
+/**/
+.paxPricingDiv {
+
+    /*box-shadow: 0 0 4.5px black;*/
+}
+.PaxBoxDiv > p {
+    text-align: center;
+    color: #103eb0;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: roboto;
+    }
+    .paxPricingBox > p {
+    font-weight: bold;
+}
+.paxpricebody {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.paxpricechild{
+	margin-bottom: 12px;
+	margin-right: 5px;
+}
+.paxpricechild * {
+    margin: 0;
+}
+.paxpricechild p:nth-child(1) {
+    color: #103eb0;
+    font-weight: bold;
+}
+.paxpricechild {
+    width: 45%;
+    
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 12px;
+}
+.PaxBoxDiv > p{
+	text-align: center;
+}
+.PaxBoxDiv{
+
+    /* padding: 12px; */
+    /*box-shadow: 0 0 5.5px black;*/
+    border: 1px solid #aaaa;
+    margin-left: 11px;
+    margin: 15px;
+    padding: 15px;
+}
+.paxBookingbox {
+	text-align: center;
+}
+.paxBookingbox button{
+	background:#103eb0;
+	border: 0;
+	outline: 0;
+	margin-top: 15px;
+	padding:5px 10px;
+border-radius: 3px;
+color:white;
+}
+.infobox{
+    position: absolute;
+    right: 12px;
+    font-size: 25px;
+    color: #FF5722;
+    cursor: pointer;
+}
+.cancallationPolicyDiv #bulkdata{
+}
+.packageInfo{
+    color:#FF5722;
+    margin-bottom: 15px;
+}

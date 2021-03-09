@@ -1,0 +1,395 @@
+/**/
+.GridView{
+	display: flex;
+	height: 350px;
+	justify-content: space-between;
+}
+.VenueImages{
+	width: 1100px;
+	margin:0 auto;
+}
+.GridView.threeview .colflex.first{
+width: 49%;
+}.GridView.threeview .colflex.second{
+width: 24%;
+}.GridView.threeview .colflex.three{
+width: 24%;
+}
+.colflex  img{
+	width: 100%;
+	height: 100%;
+}
+.colflex.cloflex_fullwidth{
+	width: 100%;
+}
+.colflex.colflex_1{
+width: 49%;
+}
+.colflex.colflex_2{
+	width: 49%;
+}
+.colflex.first {
+    width: 49%;
+}
+.colflex.second {
+    width: 24%;
+}
+.colflex.coldiv {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.colflex.coldiv >div{
+	height: 48%;
+}
+.gridcol {
+	position: relative;
+}
+.gridcol .moreImages {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(10, 10, 10, 0.87);
+    color: white;
+    cursor:pointer;
+}
+.venueDetailsBlock{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 15px;
+
+}
+.venueDetailsBlock .rightpanel{
+	text-align: right;
+}
+.venueDetailsBlock .leftpanel .venue_name_left{
+	/*font-family: poppins;*/
+	color:#103eb0;
+	font-size: 28px;
+}
+.venueDetailsBlock .leftpanel .venue_name_location{
+	font-size: 18px;
+}
+.venueDetailsBlock .leftpanel .venue_name_location i{
+	font-size: 28px;
+	padding-left: 12px;
+	color: #103eb0;
+}
+.venueDetailsBlock .leftpanel .venue_name_location span{
+	color:#eb5e04;
+	padding-left: 12px;
+	font-weight: 500;
+	
+}
+.bold{
+	font-weight: bold;
+}
+.venueDetailsBlock .rightpanel div{
+color:black;
+font-weight: bold;
+margin-top: 5px;
+font-size: 18px;
+}
+.line{
+height: 1px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.contentVenu h3{
+	color:#eb5e04;
+	font-size: 18px;
+	font-weight: bold;
+	    margin-bottom: 17px;
+}
+.contentVenu p{
+	color:#979494dd;
+}
+.wrappingcolumncontent{
+    display: flex;
+    /* flex-flow: column wrap; */
+    /* max-height: 350px; */
+    /* overflow: auto; */
+    align-content: flex-start;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.boxData{
+	display: flex;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	align-items: center;
+	position: relative;
+
+}
+
+.boxData .imgdiv{
+	width: 35px;
+    height: 35px;
+    position: relative;
+    background: darkgrey;
+    border-radius: 5px;
+    background: #103eb0;
+    margin-right: 12px;
+
+
+}
+.boxData.subBoxData{
+	margin-bottom: 53px;
+	margin-right: 35px;
+}
+.addonData .lineData{
+padding-left: 0;
+    padding-right: 2px;
+    color: #707070;
+}
+.boxData.subBoxData .addonData{
+bottom: -48px;
+    position: relative;
+        right: 46px;
+    display: flex;
+    /*width: 150px;*/
+    /*text-overflow:  ellipsis;*/
+    /*overflow: hidden;*/
+    /*white-space: nowrap;*/
+    /*flex-wrap: wrap;*/
+}
+.boxData .imgdiv img{
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	filter: brightness(100);
+}
+.boxData.subBoxData:after{
+	content: '';
+    width: 28px;
+    border-bottom: 1.5px dashed;
+    /* position: absolute; */
+    /* margin-bottom: -38px; */
+    /* margin-left: 12px; */
+    /* padding-left: 12px; */
+    position: absolute;
+    left: 17px;
+    bottom: -32px;
+    margin-top: auto;
+    border-color: #707070;
+}
+.boxData.subBoxData:before {
+content: '';
+    height: 29px;
+    border-left: 1.5px dashed;
+    /* position: absolute; */
+    margin-top: 38px;
+    /* margin-left: 12px; */
+    /* padding-left: 12px; */
+    position: absolute;
+    left: 17px;
+    top: 0;
+    border-color: #707070;
+}
+span.amnsname {
+	    width: 5%;
+    white-space: nowrap;
+}
+.reviews i{
+	color:#f1b52a;
+}
+.reviews .ratingpoint{
+	margin-left: 12px;
+	font-weight: bold;
+	color:black;
+}
+.reviews .ratingpoint span{
+	color:#777171;
+	font-weight: normal;
+}
+.AvatContent{
+	display: flex;
+}
+.AvatContent img{
+width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.avatartitlecontent{
+	margin-left: 12px; 
+}
+.avatartitlecontent h5,.avatartitlecontent p{
+	margin: 0;
+}
+.avatartitlecontent h5{
+	color:#707070;
+}
+.VenueImages button.btnclass {
+    outline: 0;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px 19px;
+    color: white;
+    background: #143eb0;
+}
+.booknowBtn{
+	display: block;
+	text-align: center;
+	margin-bottom: 12px;
+}
+.venue_name_location{
+	display: flex;
+	align-items: center;
+}
+.venue_name_location p{
+    display: inline-block;
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+.cursorpointer{
+	cursor: pointer;
+}
+.novenuefound{
+	    text-align: center;
+    font-size: 24px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68vh;
+}
+.colflex_fullwidth{
+	width: 100%;
+}
+.loadingCenter{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.loadingCenter .MuiCircularProgress-colorSecondary{
+    /*width: 25px!important;*/
+    /*height: 25px!important;*/
+    color: #103eb0;
+}
+.loadingCenter p{
+    font-size: 24px;
+}
+.dateloc_From{
+    margin:0;
+}
+.dateloc_From i{
+    padding-left: 0px!important;
+}
+.dateloc_From span{
+    color:red;
+    padding-right: 5px;
+}
+.dateloc_From:nth-child(2){
+    margin-top: 2px;
+}
+.venue_name_location.wrapcontent{
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+.dateloc_From >span{
+    color:inherit!important;
+}
+.dateloc_From > .header_avail{
+    color:grey!important;
+    padding-left: 0!important;
+}
+@media screen and (max-width:800px){
+    .VenueImages{
+    width: 95%;
+    margin:0 auto;
+}
+}
+
+@media screen and (max-width:767px){
+.colflex.first.mobile{
+    width: 100%;
+}
+.rightpanel{
+    float: left;
+}
+.container-mobile{
+    width: 100%;
+}
+.VenueImages{
+    width: 100%;
+    margin:0 auto;
+}
+.contentVenu{
+    margin-left: 17px;
+}
+.boxData.subBoxData .addonData {
+    right: 20px;
+}
+.venue_name_location{
+    display: block;
+}
+.dateloc_From {
+    margin: 0;
+    font-size: 15px;
+    display: inline-block;
+}
+.venueDetailsBlock{
+    padding-left:17px;
+    padding-right:17px;
+}
+
+.venueDetailsBlock .leftpanel .venue_name_left{
+    font-size: 22px;
+}
+.boxData.subBoxData:before,.boxData.subBoxData:after{
+    content: none!important;
+}
+.venueDetailsBlock .rightpanel{
+    text-align: left;
+}
+.venueDetailsBlock .leftpanel .venue_name_location > span{
+    padding-left: 0;
+    font-size: 15px;
+}
+.boxData{
+    flex-wrap: wrap;
+}
+span.amnsname{
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.boxData.subBoxData .addonData{
+    left: 0;
+        flex-wrap: wrap;
+        bottom: 0;
+        margin:12px 0 ;
+        width: 100%;
+}
+.boxData.subBoxData{
+    margin-bottom: 0;
+}
+.contentVenu{
+margin-right: 17px;
+}
+.venueDetailsBlock .rightpanel div{
+    font-size: 15px;
+}
+.GridView{
+    height: 250px;
+}
+}

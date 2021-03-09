@@ -1,0 +1,210 @@
+.part1
+{
+	width:50%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+}
+
+.part2
+{
+	width:50%;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+.Webpage_List-My-Venue-Open {
+  width:100%;
+  margin:0 auto;
+  height:144.1px;
+  background-color:#fff;
+  /*border:1px solid gray;*/
+  justify-content:flex-start;
+    align-items:center;
+    display:flex;
+}
+
+.in-header
+{
+	/*width:1262.8px;*/
+	/*width:100%;*/
+	/*width:calc(100% - 163px);*/
+	margin:0 auto;
+	align-items:flex-end;
+	/*display:inline-flex;*/
+	display:flex;
+    padding:12px;
+
+}
+
+.pic
+{
+	width:100%;
+	height:auto;
+
+	/*margin-left:58.4px;*/
+}
+
+.search-lence
+{
+	padding-left:21px;
+	/*padding-right:70.9px;*/
+}
+
+.logo-div
+{
+	/*width:135.7px;*/
+	width:auto;
+	height:auto;
+	
+}
+
+.Add-Your-Venue {
+	white-space:pre-wrap;
+  /*width:214px;*/
+  height:29px;
+  font-family:SFProDisplay;
+  font-size:24px;
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.2px;
+  color:#a60202;
+  float:right;
+  display:inline-flex;
+  align-items:center;
+  margin:0;
+  
+ 
+    justify-content:flex-end;
+    width:100%;
+}
+/*.drop-down-div
+{
+	margin-left:74.8px;
+}
+*/.Add-Your-Venue .text-style-1 {
+  font-weight:600;
+}
+
+.drop-div,.ant-select-selection
+{
+	border:none !important;
+	background-color:transparent !important;
+}
+
+/*.drop-div,.dropDownFild
+{
+	margin-left:39px;
+}
+*/
+.drop-div,.ant-select-selection-selected-value
+{
+	color:#000 !important;
+}
+
+.drop-div,.ant-select-selection__placeholder
+{
+	top:90% !important;
+	left:41px !important;
+}
+.drop-div,.ant-select-arrow
+{
+	top:87% !important;
+}
+.menu-div
+{
+	display:none;
+}
+
+
+@media only screen and (max-width:768px) {
+	/*header*/
+	.drop-div
+	{
+		display:inherit;
+    align-items:flex-end;
+    height:57px;
+	}
+	.logo-div
+	{
+		width:75.5px;
+    height:47px;
+    margin-bottom:0px !important;
+	}
+	.in-header
+	{
+		width:100% !important;
+    margin:0 auto !important;
+	}
+  .drop-div,.ant-select
+  {
+  	min-width:78px;
+  }
+  .search-lence
+  {
+  	padding:0px;
+  	padding-left:10px;
+  	height:20px;
+  }
+  .Add-Your-Venue
+  {
+  	font-size:12px;
+  }
+  .Webpage_List-My-Venue-Open
+  {
+  	height:auto;
+  }
+.drop-div,.ant-select-selection__placeholder
+{
+	/*left:16px !important;*/
+	/*top:45px !important;*/
+	color:#0e0e0e !important;
+
+}
+.drop-div,.ant-select-arrow
+{
+	/*left:26px !important;*/
+	top:96% !important;
+	color:#ec6207 !important;
+  right:27px !important;
+  font-size:10px !important;
+
+
+}
+.part2
+{
+
+	flex-wrap:wrap;
+	height:auto;
+}
+
+.icon-div
+{
+	display:flex;
+	/*padding-right:32px;*/
+	padding-top:8px;
+}
+.menu-div
+{
+	padding-left:19px;
+    height:20px;
+    color:#103eb0;
+    display:flow-root;
+
+}
+.ant-select
+{
+  min-width:106px;
+    top:-3px;
+    left:-15px;
+}
+
+.menu-icon
+{
+      width:18px;
+    height:18px;
+}
+}
+

@@ -1,0 +1,75 @@
+.upload-text{
+	font-size:34px;
+	font-weight:500;
+	color:#073cb2;
+	padding-right:20px;
+}
+
+.information-icon{
+	width:35px;
+	height:35px;
+	display:inline-flex;
+	border-radius:50%;
+	align-items:center;
+	border:1px solid #ff9102;
+	justify-content:center;
+	padding:10px;
+	order:1;
+}
+
+.information-icon i{
+	color:#ff9102;
+	font-size:18px;
+}
+.plusinformationicon{
+	display:none;
+}
+/*//767*/
+  @media (max-width:767px)
+{
+.popup-div{
+	width:100%;
+}
+.PhotoPicFlex{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.information-icon{
+	order:1;
+	width:20px;
+	height:20px;
+	/*padding-right:12px;*/
+}
+.information-icon i{
+	font-size:16px;
+}
+.upload-text{
+	order:2;
+	font-size:16px;
+	padding:0;
+	padding-left:5px;
+	padding-right:0px;
+}
+.plusinformationicon{
+	display:block;
+	border:none;
+	width:48px;
+	order:3;
+	padding-top:0;
+}
+.plusinformationicon img{
+	width:100%;
+	height:auto;
+}
+.ant-upload.ant-upload-select-picture-card{
+	display:none!important;
+}
+.photos .ant-upload-list-item{
+	width:33%;
+	height:85px!important
+}
+.clearfix{
+	width:100%;
+}
+}

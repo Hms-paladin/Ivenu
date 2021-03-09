@@ -1,0 +1,62 @@
+  .closeicon{
+  	position:absolute;
+  	top:4%;
+  	right:5%;
+  	font-size:35px;
+  	color:#2f2f2f;
+  	font-weight:100 !important;
+  }
+  .modal-content {
+    height:auto!important;
+}
+.profile_img{
+	width:100%;
+}
+
+ @media only screen and (max-width:767px){
+.modal-body-login {
+    width:100%!important;
+    margin-left:0!important;
+  }
+ .modal-dialog.width-set-signup  button{
+        height:37px;
+    line-height:19px;
+    font-size:16px;
+    min-width:111px!important;
+    text-align:center!important;
+  }
+  .signupmodal.modal-body{
+    padding:10px!important;
+  }
+  .signupmodal.modal-body tr td:nth-child(1){
+    width:35%!important;
+    font-size:14px;
+    align-items:center;
+    display:inline-flex;
+  }
+  .signupmodal.modal-body tr td:nth-child(2){
+    width:65%!important;
+
+  }
+  .signupmodal.modal-body tr td:nth-child(2) input{
+    height:34px;
+  }
+  .width-set-signup .modal-header{
+    padding-left:10px!important;
+    border-bottom:0!important;
+    padding-bottom:7px;
+  }
+  .width-set-signup .headerstyle{
+    font-size:24px!important;
+  } .width-set-signup .subheaderstyle{
+    font-size:16px!important;
+    font-weight:normal;
+  }
+  .modal-dialog.width-set-signup{
+    display:flex;
+    align-items:flex-end;
+  }
+  .modal-dialog.width-set-signup .closeicon{
+    top:0!important;
+  }
+}

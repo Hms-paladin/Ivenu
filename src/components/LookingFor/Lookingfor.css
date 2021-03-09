@@ -1,0 +1,16 @@
+/*looking for*/
+.lookingflex{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	/*flex-wrap:wrap;*/
+	width:100%;
+}
+.lookingflex .lookingflexTitle{
+	width:150px;
+	font-size:26px;
+}
+.lookingSquare{
+	display:flex;
+	flex-wrap:wrap;
+}

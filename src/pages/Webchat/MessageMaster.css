@@ -1,0 +1,32 @@
+.web_message-list-container {
+  padding: 10px;
+  padding-bottom: 70px;
+}
+.web_managelist-conversation-search-input {
+  background: #f4f4f8;
+  padding: 14px 10px;
+  border: none;
+  font-size: 14px;
+  width: 100%;
+} 
+.flex-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.flex-container > div {
+  width: 100px;
+  text-align: center;
+}
+
+.web_msg-sent-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.web_sent-icon {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 5px;
+}

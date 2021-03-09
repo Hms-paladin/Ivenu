@@ -1,0 +1,101 @@
+/**/
+.splitSLotFormDivModal .ant-modal-content{
+	width:70%;
+}
+button.availablitysave-button.disablebtn {
+    background-color:grey;
+    opacity:0.5;
+}
+.SlotBoxGrid > .redColor{
+display:block;
+    text-align:center;
+    color:#707070;
+    font-size:20px;
+    margin-bottom:25px;
+    width:100%;
+    position:relative!important;
+}
+.splitSLotFormDivModal .redColor{
+	position:absolute;
+    margin:0;
+    margin-top:-7px;
+}
+.splitSLotFormDivModal input{
+	margin-bottom:12px;
+}
+.splitSLotFormDivModal .ant-modal-body{
+	text-align:left!important;
+	padding-top:0px!important;
+	padding-left:0;
+    padding-right:0;
+    padding-bottom:0;
+}
+.splitSLotFormDivModal .ant-modal-header{
+	    padding-bottom:25px!important;
+
+}
+.splitSlotFormHeader span {
+    font-size:22px;
+    color:#eb5c00;
+}
+.FormBoxDiv{
+	display:inline-block;
+    padding:0 24px;
+}
+.FormBoxDiv label{
+	display:block;
+	font-size:18px;
+	    margin-bottom:2px;
+}
+.FormBoxDiv label span{
+	color:red;
+}
+
+.FormBoxDiv  input{
+	padding:4px;
+    outline:0;
+    border-radius:2px;
+    border:1px solid #c5c5c5;
+    width:350px;
+    height:39px;
+    font-size:17px;
+}
+.splitSlotFormHeader{
+	display:flex;
+	width:40%;
+	justify-content:space-between;
+}
+.ant-modal-title{
+	padding-bottom:12px;
+	border-bottom: 1px solid grey;
+} 
+.splitSLotFormDivBox{
+	background:#f3f3f3;
+	margin-top:18px;
+	padding:20px 24px;
+}
+.splitSLotFormDivBox .SlotBoxGrid{
+	    margin-bottom:12px;
+}
+@media screen and (max-width:767px){
+	.splitSlotFormHeader{
+		display:block;
+		width:auto;
+		
+	}
+	.splitSLotFormDivModal{
+		width: 100%!important;
+	}
+	
+	.FormBoxDiv{
+		display:block;
+	}
+	.splitSLotFormDivBox{
+		    padding:20px 12px;
+	}
+	.FormBoxDiv input{
+		width:100%;
+	}
+	
+	
+}

@@ -1,0 +1,118 @@
+/**/
+.CalendarMain{
+	margin-bottom:12px;
+	width:90%;
+	margin:0 auto;
+}
+.CalendarBox{
+	margin-top:25px;
+	    min-width:250px;
+}
+.CalendarBox > h4{
+	font-size:25px;
+	/*font-weight:bold;*/
+}
+.CalendarBox  p{
+	margin-top:6px;
+}
+.CalendarHeader{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.CalendarBoxHeaders{
+	display:flex;
+	margin-top:25px;
+}
+.spaceBetween{
+
+	justify-content:space-between;
+}
+.excludeDays{
+	/*margin-right:	12px;*/
+	display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-right:16px;
+    width:27px;
+}
+.excludeDays .CalendarCheckbox{
+	width:1.4em;
+    height:1.4em;
+}
+.excludeDays p{
+	margin:0;
+	color:#707070;
+	font-size:15px;
+}
+.CalendarThirdDiv{
+	/*display:flex;*/
+	/*margin-top:25px;*/
+}
+.CalendarBoxHeaders div{
+	/*margin-right:55px;*/
+}
+.CalendarBoxHeaders div h4{
+	font-size:18px;
+	color:#707070;
+	margin:0;
+}
+.CalendarCheckbox{
+	position:relative;
+	/*margin-left:px;*/
+}
+.CalendarCheckbox:before {
+    content:'';
+    width:1.4em;
+    height:1.4em;
+    background:#707070;
+    position:absolute;
+}
+
+.CalendarCheckbox:after {
+    content:'';
+    position:absolute;
+    width:9px;
+    height:15px;
+    border:0px 0px 0px 0px;
+    /* border-color:white; */
+    top:2px;
+    left:7px;
+    border:1px solid white;
+    transform:rotate(45deg);
+    border-width:0 1.5px 1.5px 0;
+    }
+    .CalendarAction{
+    	display:flex;
+    	align-items:center;
+    	color:#eb5c00;
+    	width:100px;
+    	margin-left:auto;
+    	font-size:20px;
+    	cursor:pointer; 
+    }
+    .CalendarAction i{
+    	padding-left:12px;
+    }
+    .full_line{
+    	border-bottom:1px solid grey;
+    }
+    .redColor{
+    	color:red;
+    }
+    @media only screen and (max-width:767px) {
+    .CalendarBox h3{
+		font-size:20px;
+    }
+	.CalendarBox{
+		width:100%;
+	    min-width:100%;
+	}
+	
+}
+
+
+

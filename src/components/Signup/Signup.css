@@ -1,0 +1,35 @@
+.watermark {
+	color:#D5D5D5!important;
+}
+.form-control:focus {
+	border-color:#eee !important;
+	box-shadow:none !important;
+}
+
+.form-control{
+	width:100% !important;
+	border-radius:unset !important;
+}
+.form-control::placeholder{
+	color:#D5D5D5 !important;
+}
+.react-tel-input .flag-dropdown {
+	border-radius:unset;
+}
+@media (min-width:767px){
+.width-set-signup {
+    max-width:450px !important;
+    margin:1.75rem auto;
+}
+
+}
+@media (max-width:767px){
+	.signupfooter{
+	background-color:#eee;
+    height:15vh;
+    border-top:2px solid #e5e1e1;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+}
+}

@@ -1,0 +1,84 @@
+/**/
+.seatpricingheader{
+	align-items: center;
+    display: flex;
+}
+.currencyList div{
+	display: inline-block;
+}
+.seatpricingheader h4{
+	/*margin-right: 28px;*/
+	min-width: 210px;
+}
+.seatpricingcurrency{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.currencybox{
+	min-width: 70px;
+	border:1px solid #ddd;
+	padding: 4px;
+	margin-left: 12px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.currencybox.active {
+    background: #0f3eb0;
+    color: white;
+}
+.seatpricingbodytype{
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 8px;
+	flex-wrap: wrap;
+
+}
+.seatpricingbodytype input{
+	height: 34px!important;
+    outline: 0;
+    border: 1px solid #a6a0a0;
+}
+.seatpricingbodytype input:focus{
+	outline:0;
+}
+.seatpricingbodytype > input{
+	margin-right: 50px;
+}
+.seatpricingbodytype > input[readOnly] {
+    background: #eeeef0;
+    color: black;
+    padding-left: 7px;
+}
+.seatpricingbodytypesub > div{
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+}
+.seatpricingbodytypesub > div > input {
+    display: block;
+    width: 55px;
+    padding: 4px;
+}
+.pricetypered{
+	color: red;
+}
+.seatpricingdiv .popupbox-div{
+	width: 100%;
+}
+.seatpricingdiv .popupboxmulitpleitmes{
+	display: none;
+}
+.seatpricingcurrency .currencyList .popupboxmain{
+	margin-left: 50px;
+	border: 1px solid #9d9797;
+}
+.seatpricingcurrency .currencyList .popupboxmain .dropdown-btn{
+	height: 35px!important;
+    font-size: 14px!important;
+    padding: 2px 6px;
+}
+.seatpricingcurrency .currencyList .popupboxmain .Popupbox-div-position{
+	margin-top: 1px;
+}

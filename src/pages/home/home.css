@@ -1,0 +1,42 @@
+/*home css*/
+.home_droddownflex{
+	display:flex;
+	justify-content:center;
+	width:100%;
+	align-items:center;
+
+}
+.home_droddownflex >span{
+	color:white;
+	padding-right:10px;
+    padding-left:10px;
+	font-size:22px;
+}
+.home_droddownflex .home_dropdownflexItem{
+	padding-left:8px;
+	padding-right:8px;
+	position:relative;
+}
+.venue-palces
+{
+	display:flex;
+}
+.home_dropdownflexItem .dropdown-btn{
+	min-width:100px!important;
+	    line-height:24px!important;
+    font-size:16px!important;
+
+}
+@media only screen and (max-width:980px) {
+	.HomePageDiv .rectangle:nth-child(1) .home_droddownflex{
+		justify-content:center;
+	}
+	.HomePageDiv .rectangle:nth-child(1) .in-header{
+		    width:100%!important;
+	}
+	.HomePageDiv .rectangle:nth-child(1) .logoutBtn{
+		
+	}
+}
+
+

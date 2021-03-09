@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator:Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon_ios_search_filled</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VP-Success-Message" transform="translate(-308.000000, -72.000000)">
+            <g id="icon_ios_search_filled" transform="translate(304.000000, 68.000000)">
+                <rect id="@bounds" x="0" y="0" width="26" height="26"></rect>
+                <path d="M10.9522951,17.9045902 L10.9522951,17.9045902 C7.11264855,17.9045902 4,14.7919417 4,10.9522951 C4,7.11264855 7.11264855,4 10.9522951,4 C14.7919417,4 17.9045902,7.11264855 17.9045902,10.9522951 C17.9045902,14.7919417 14.7919417,17.9045902 10.9522951,17.9045902 L10.9522951,17.9045902 Z M10.9522951,16.8068594 C7.71890853,16.8068594 5.09773081,14.1856817 5.09773081,10.9522951 C5.09773081,7.71890853 7.71890853,5.09773081 10.9522951,5.09773081 C14.1856817,5.09773081 16.8068594,7.71890853 16.8068594,10.9522951 C16.8068594,14.1856817 14.1856817,16.8068594 10.9522951,16.8068594 Z M15.2728215,16.3077721 L16.3077721,15.2728215 L22,20.9650495 L20.9650495,22 L15.2728215,16.3077721 Z" id="Shape" fill="#FF9008" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

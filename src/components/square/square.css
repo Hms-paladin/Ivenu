@@ -1,0 +1,58 @@
+.square-div
+{
+	border-radius:5px;
+	/*background-color:#ea5b02;*/
+	position:relative;
+    margin:12px;
+}
+
+.square-div p
+{
+	color:rgb(255, 255, 255);
+    margin:0;
+    padding:8px;
+     white-space:wrap; 
+    overflow:hidden;
+    text-overflow:ellipsis;
+    text-align:left;
+    /*word-break:break-all;*/
+    line-height:normal;
+    font-size:16px;
+ 
+}
+
+.Back-Arrow
+{
+    transform:rotate(-90deg);
+    transform:rotate(180deg);
+    width:100%;
+    height:auto;
+    background-color:transparent !important;
+}
+
+.arrow-div
+{
+	position:absolute;
+    right:20px;
+    bottom:5px;
+}
+
+@media only screen and (max-width:768px) {
+
+.square-div
+{
+	/*width:62px !important;*/
+    /*min-height:50px !important;*/
+    /*border-radius:3px !important;*/
+    /*background-color:#ea5b02 !important;*/
+}
+
+.arrow-div
+{
+	display:none;
+}
+.square-div p
+{
+	/*padding:9px !important;*/
+}
+}

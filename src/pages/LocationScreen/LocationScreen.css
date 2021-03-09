@@ -1,0 +1,46 @@
+.flexBackgroundLocation{
+	background:url('../../images/onekey.jpg')no-repeat;
+	background-size:cover;
+}
+.fetchingButton{
+	display:block;
+	text-align:center;
+}
+.fetchingButton button{
+	font-size:24px;
+    height:auto;
+    padding-bottom:10px;
+}
+.buttonloading{
+	border:0;
+    padding:4px 16px;
+    background:transparent;
+    color:black;
+    border-radius:5px;
+}
+.flexImageDiv{
+	width:80%;
+	height:80%;
+	background:url('../../images/onekey.jpg')no-repeat center;
+	background-size:contain;
+}
+.backgroundred{
+	background:#a60202;
+	color:white;
+}
+@media only screen and (max-width:1023px) {
+.LocationSecondDiv{
+	/*width:100%;*/
+	display:none!important;
+}
+.LocationFirstDiv{
+	width:100%!important;
+	padding:15px;
+}
+.locationheaderlogo img{
+width:80px!important;
+}
+.locationmarker i{
+	font-size:60px!important;
+}
+}

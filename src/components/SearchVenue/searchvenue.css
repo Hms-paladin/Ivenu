@@ -1,0 +1,134 @@
+.venue-palces
+{
+	/*padding:70px;*/
+	/*flex-wrap:wrap;*/
+	white-space:nowrap;
+    width:100%;
+}
+.searchvenueflex{
+	display:inline-flex;
+	flex-wrap:wrap;
+}
+.searchvenueflex .popupboxmain{
+	padding-right:10px;
+}
+.select-venue
+{
+	font-size:28px;
+	padding:8px;
+}
+.select-venue-div
+{
+	padding:45px;
+	flex-wrap:wrap;
+}
+.search-venue-arrow-div .nextarrow-div
+{
+	min-width:75.8px !important;
+
+}
+.square-main-div
+{
+  display:flex;
+  flex-wrap:wrap;
+}
+@media only screen and (max-width:767px) {
+	
+.venue-palces
+{
+	padding:0px;
+	 display:block!important;
+    justify-content:space-between;
+    overflow-x:scroll; 
+    overflow-y:hidden; 
+    width:100%;
+
+}
+.select-venue-div
+{
+	padding:5px;
+}
+.select-venue-main-div
+{
+	padding:0px !important;
+}
+.Mobsearchvenuelist .venue-palces .circle1.removeheight{
+	height:0!important;
+}
+.select-venue-main-div .circle1{
+	width:21vw!important;
+	height:21vw!important;
+	margin-right:1vw!important;
+}
+.select-venue-main-div .circle1 p {
+    margin:0;
+    padding:6px;
+    /* white-space:nowrap; */
+    overflow:hidden;
+    text-overflow:ellipsis;
+    max-height:3.6em;
+    text-align:center;
+    }
+.select-venue
+{
+	font-size:16px;
+}
+.select-venue-div .dropdown-btn
+{
+	/*min-width:auto!important; */
+	/*min-width:100px !important;*/
+    height:26px !important;
+        line-height:normal!important;
+    font-size:14px!important;
+}
+.select-venue-div .popupboxmain{
+padding-right:5px;
+margin-bottom:15px;
+}
+.search-venue-arrow-div .nextarrow-div
+{
+	width:40.8px !important;
+
+}
+.search-venue-arrow-div .nextarrow-div
+{
+	min-width:22.8px !important;
+
+}
+.search-venue-arrow-div .nextarrow-icon
+{
+	    font-size:18px !important;
+	    padding:4px;
+}
+.venue-palces .circle1
+{
+	margin-left:5px;
+    margin-top:12px;
+    /*margin-left:5px;*/
+    /* margin-top:18px; */
+    display:inline-block;
+    line-height:17vw;
+    overflow:hidden;
+}
+.venue-palces .circle1 p{
+	    line-height:normal;
+	        white-space:pre-wrap;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    max-height:none;
+    font-size:3.5vw;
+}
+.search-venue-arrow-div
+{
+	padding:0px !important;
+	padding-bottom:15px!important;
+}
+.select-venue
+{
+	padding:0px;
+	padding-right:5px;
+	margin-bottom:15px;
+}
+}

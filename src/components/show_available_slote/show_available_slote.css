@@ -1,0 +1,127 @@
+.show_available_slote_main_div{
+	min-width:350px;
+	min-height:250px;
+	border:1px solid #b1b1b1;
+	position:absolute;
+	border-radius:3px;
+	background:#fff;
+	box-shadow:0px 0px 15px #0808086b;
+	top:42px;
+	right:0;
+	/* bottom:0; */
+	z-index:9;
+}
+.show_content_padding{
+	padding:15px;
+}
+
+.check_input input[type = "radio"]:checked + label{
+	line-height:1.2;
+	border:1px solid #f44336;
+	background-color:#FFF;
+	color:#f44336;
+	padding:10px;
+	margin:0px;
+	cursor:pointer;
+}
+.scrollTimeSlot{
+	    max-height:300px;
+    overflow:auto;
+}
+
+.select_input input[type = "radio"]:checked + label{
+	line-height:1.2;
+	border:1px solid #f44336;
+	background-color:#ea5b00;
+	color:#fff;
+	padding:10px;
+	margin:0px;
+	cursor:pointer;
+}
+
+
+.select_input_book input[type = "checkbox"]:checked + label{
+	line-height:1.2;
+    border:1px solid #0094ea;
+    background-color:#00dfea;
+	color:#fff;
+	padding:10px;
+	margin:0px;
+	cursor:unset;
+}
+
+.select_input,.select_input_book{
+	display:inline-block;
+	white-space:nowrap;
+	width:100%;
+	margin-top:10px;
+}
+
+.check_input{
+	display:inline-block;
+	white-space:nowrap;
+	width:unset !important;
+}
+
+.none_input{
+	display:none;
+}
+
+.label-check{
+	line-height:1.2;
+	border:1px solid #c1c0c0;
+	background-color:#FFF;
+	color:#c1c0c0;
+	padding:10px;
+	margin:0px;
+	cursor:pointer;
+
+}
+
+.select-check{
+	line-height:1.2;
+	border:1px solid #c1c0c0;
+	background-color:#FFF;
+	color:#c1c0c0;
+	padding:10px;
+	margin:0px;
+	cursor:pointer;
+	width:100%;
+
+}
+
+.available_dates{
+	display:block;
+	background:#d4d4d4;
+	padding:3px;
+	padding-left:10px;
+	margin-top:10px;
+	font-size:16px;
+	color:#4e4e4e;
+}
+.Time_set{
+
+	display:inline-block;
+	width:50%;
+	font-size:16px;
+	text-transform:capitalize;
+
+}
+.time_select_button{
+	display:inline-block;
+	width:50%;
+	text-align:right;
+	font-size:16px;
+	text-transform:capitalize;
+}
+@media screen and (max-width:767px){
+	.popupbox_promocode .show_available_slote_main_div{
+		width:100%!important;
+	}
+	.popupbox_promocode .border-line{
+		flex-wrap:wrap;
+	}
+	.popupbox_promocode .width-set-button{
+		width:100%!important;
+	}
+}

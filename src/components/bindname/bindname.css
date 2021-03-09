@@ -1,0 +1,26 @@
+.bindname-div
+{
+	width:calc(100% - 200px);
+	margin:0 auto;
+	padding:6px;
+}
+
+.bindname-div h2
+{
+	color:#0f3eb0;
+}
+
+.main-bindname
+{
+	width:100%;
+	border-bottom:1px solid #e2e0e0;
+}
+@media only screen and (max-width:767px) {
+	.bindname-div{
+		width:100%;
+	}
+	.bindname-div h2{
+		font-size:15px;
+		margin:0;
+	}
+}

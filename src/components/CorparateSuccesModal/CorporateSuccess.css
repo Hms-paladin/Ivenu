@@ -1,0 +1,220 @@
+/*.modalview-div.ant-modal-content
+{
+	width:435px
+  object-fit:contain;  
+  border-radius:6px;
+  -webkit-backdrop-filter:blur(15px);
+  backdrop-filter:blur(15px);
+  background-color:#ffffff;
+  margin:0 auto;
+}
+.modalview-div,.modal-content
+{
+  border:none !important;
+}
+
+.modalview-div,.ant-modal-header
+{
+	padding:43px 24px;
+	padding-bottom:none;
+}
+
+.modalview-div,.ant-modal-body
+{
+	text-align:center !important;
+}*/
+
+.corporate-login-here-span
+{
+  object-fit:contain;
+  font-family:SFProDisplay;
+  font-size:18px;
+  /*font-weight:400 !important;*/
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.5px;
+  text-align:center;
+  color:#ea5b02;
+  /*padding:20px;*/
+  padding-left:4px;
+}
+.corporate-login-here
+{
+  object-fit:contain;
+  font-family:SFProDisplay;
+  font-size:18px;
+  font-weight:600;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.5px;
+  text-align:center;
+  color:#ea5b02;
+  padding:20px;
+}
+.corporate-message
+{
+  object-fit:contain;
+  font-family:SFProDisplay;
+  font-size:23px;
+  font-weight:400;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.5px;
+  text-align:center;
+  color:#ea5b02;
+  padding:5px 42px 5px 42px;
+}
+
+
+.corporate-You-have-booked-the {
+
+  object-fit:contain;
+  font-family:SFProDisplay;
+  font-size:23px;
+  font-weight:400;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.5px;
+  text-align:center;
+  color:#ea5b02;
+  padding:25px;
+}
+.corporate-success-head
+{
+	width:auto;
+  height:16px;
+  object-fit:contain;
+  font-family:SFProDisplay;
+  font-size:23px;
+  font-weight:500;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.5px;
+  color:#3d3d3d;
+}
+
+.corporate-success-style1
+{
+  font-size:21px;
+	font-weight:600;
+  letter-spacing:0.5px;
+}
+
+
+
+
+
+
+.corporate-button2
+{
+	width:auto !important;
+    height:40px !important;
+    border-radius:4px !important;
+    background-color:#ea5b02 !important;
+}
+
+
+.corporate-button2-text {
+  width:auto;
+  height:19px;
+  object-fit:contain;
+  font-family:SFProDisplay;
+  font-size:16px;
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.6px;
+  color:#ffffff;
+}
+.corporate-success .ant-modal-close
+{
+	padding:14px !important;
+}
+
+.corporate-success .anticon
+{
+	font-size:24px !important;
+	color:#141313 !important;
+}
+.corporate-success .ant-modal-title
+{
+  display:none !important;
+}
+
+.corporate-success .ant-modal-header
+{
+  border:none !important;
+}
+.corporate-success .ant-modal-header
+{
+	border-bottom:none !important;
+}
+
+.corporate-success .ant-modal-head
+{
+	border-bottom:none !important;
+}
+
+.corporate-success .ant-modal-footer
+{
+	border-top:none !important;
+  padding:0px 30px 30px 30px;
+  text-align:center !important;
+  border:none !important;
+}
+
+
+.corporate-social-text
+{
+	
+	object-fit:contain;
+  font-family:SFProText;
+  font-size:18px;
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:0.93;
+  letter-spacing:0px;
+  color:#000000;
+}
+
+
+.corporate-social-div{
+	display:inline-flex;
+  align-items:center;
+  padding:49px;
+  justify-content:center;
+}
+.corporate-social-image{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding-left:9px;
+}
+.corporate-social-image img{
+    width:41px;
+    height:auto;
+    padding-left:5px;
+}
+
+    
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+.modalview-div .ant-modal-content
+{
+	width:auto;
+}	
+	}

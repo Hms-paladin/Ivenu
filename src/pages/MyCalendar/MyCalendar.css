@@ -1,0 +1,291 @@
+.MyCalendar{
+	display:flex;
+	/*flex-wrap: wrap;*/
+}
+.MyCalendar .CalendarHeader{
+	width:450px;
+	background-color:#f3f3f3;
+	/*order:1;*/
+	transition: 0.5s;
+}
+ .begincap button {
+	background-color: #EB5C00!important;
+	border-radius: 50% 0 0 50%!important;
+	color: white;
+}
+.excludeLegend{
+        font-size: 18px;
+    font-weight: 500;
+    font-family: poppins;
+}
+.Blocked.begincap button {
+    border-radius: 50%!important;
+}
+.Blocked.filledCap :after,.Blocked.filledCap button :before {
+    content: ''!important;
+}
+.Booked button {
+    background: #7070702e!important;
+    /* color: white; */
+    color: #31393f9e!important;
+}
+.Blocked.filledCap button {
+    color: #844921!important;
+}
+.Blocked button{
+    background: rgba(235, 92, 0, 0.24)!important;
+    /* opacity: 0.5; */
+    color: #eb5c00eb!important;
+}
+.fillcap{
+	z-index: 99;
+}
+.fillcap  button{
+	background-color: #EB5C00!important;
+	border-radius: 0;
+	color: white;
+}
+.endgap button {
+    border-radius: 0 50% 50% 0;
+    background-color: #EB5C00!important;
+    color: white;
+}
+.fillcap:not(.endgap):not(.begincap):before{
+	position: absolute;
+    content: '';
+    width: 15%;
+    background: #eb5c00;
+    height: 43px;
+}
+.Blocked.endgap button {
+    border-radius: 50%;
+    background: rgb(250, 216, 194)!important;
+}
+.filledCap.endgap.begincapextra button{
+	border-radius: 50% 0 0 50%;
+}
+.filledCap.begincap.endcapextra button{
+	border-radius: 0 50% 50% 0!important;
+}
+.filledCap.begincap.endcapextra:after{
+	content: ''!important;
+	display: none!important
+}
+
+
+.begincap.filledCap:not(.equalCap):after,.filledCap.endgap.begincapextra:after {
+    position: absolute;
+    content: '';
+    /* width: 12px; */
+    /* border-radius: 48% 0 0 36%; */
+    /* left: 25px; */
+    width: 12%;
+    height: 43px;
+    /* left: 0; */
+    background: blue;
+    margin-left: -3px;
+    z-index: 9;
+    background: #eb5c00;
+    margin-top: 0;
+    border-radius: 0;
+    z-index: 1;
+}
+.equalCap button{
+	border-radius: 50%!important;
+}
+.MyCalendar button.MuiButtonBase-root.MuiIconButton-root.MuiPickersDay-day.MuiPickersDay-current {
+    /*background: rgba(0,0,0,0.5);*/
+    /*color: white;*/
+}
+.MyCalendar .flexbox{
+	display: flex;
+	margin-top: 10px;
+}
+.MyCalendar .CalendarHeader .labelBoxLegend span{
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+.MyCalendar .CalendarHeader .labelBoxLegend p{
+	font-size: 15px;
+}
+.MyCalendar .CalendarHeader .BoxCard{
+border-radius: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+    background: transparent;
+    width: 100%;
+    margin: 0 auto;
+}
+.MyCalendar .CalendarHeader .BoxHeader{
+	position: relative;
+}
+.closeIcon{
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+.MyCalendar .CalendarHeader .BoxCard .BoxCardContent{
+	padding-left: 5px;
+	padding-right: 0;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+}
+.MyCalendar .CalendarHeader > div{
+	width: 100%;
+}
+.MyCalendar .CalendarHeader .SlotLegendMain{
+	width: auto;
+	margin-right: 14px;
+}
+.Width100form{
+	width: 250px;
+}
+.MyCalendar .BigCalendarMUI{
+	width:100%;
+	position: relative;
+}
+.LegendMyCalendar{
+	display: flex;
+	/*margin-left: 8%;*/
+	    padding-left: 6%;
+}
+.LegendMyCalendar .labelBoxLegend{
+	margin-right: 53px;
+}
+.errorCalendar {
+     justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 27px;
+    flex-direction: column;
+    color: #b7b4b4;
+}
+@media only screen and (max-width: 800px)
+{
+	.MyCalendar .BigCalendarMUI{
+		width: 100%;
+	}
+} 
+.BigCalendarMUI div:not(.Blocked) > button.MuiPickersDay-dayDisabled{
+    background: white!important;
+    color:rgba(0,0,0,0.37);
+}
+.calendarflexdiv{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.clendarflexdivchild{
+    display: inherit;
+    align-items: center;
+}
+.calendarflexdiv h4{
+    font-size: 16px;
+    /*margin-right: 12px; */
+    /*margin:0;*/
+    margin-bottom: 5px;
+    border-right: 1px solid black;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.calendarflexdiv h4 span{
+    font-weight: bold;
+}
+
+/*Mobile Page My calendar*/
+
+.mob_venue_list{
+    background-color: #EB5C00;
+    width: 100%;
+}
+.mob_venue_list .MuiInputLabel-animated{
+    color: antiquewhite;
+}
+.mob_venue_list .MuiInputBase-input{
+    color: white;
+}
+.mob_venue{
+    float: right;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+.mob_venue .venue_type_tag {
+    margin-bottom: 0px;
+    color: antiquewhite;
+}
+.mob_venue .venue_type_tag_txt {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    color:white;
+}
+
+
+@media only screen and (max-width: 768px){
+    .BlockFormContent{
+        background: #dddddd6e;
+    }
+    .col-6.p-0.mob_venue_list.width99 .Width100form {
+    width: 80%;
+}
+    .MyCalendar {
+        display: inline;
+    }
+    .MyCalendarMain{
+        width: 100%;
+    }
+    .business_title{
+        margin-top: 10px;
+        padding-right: 0px !important;
+        padding-left: 16px !important;
+    }
+    .avail_title{
+        margin-top: 10px;
+        padding: 0px !important;
+    }
+    .bunisesshrs, .availhrs{
+        font-size: 12px;
+    }
+    .LegendMyCalendar .labelBoxLegend{
+        margin-right: 0px !important;
+    }
+    .LegendMyCalendar{
+        padding-left: 18px;
+    }
+    .excludeLegend{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: poppins;
+        margin-top: 10px;
+        margin-left: 18px;
+    }
+    .MyCalendar .CalendarHeader{
+        width: 100% !important;
+    }
+    .MyCalendar .CalendarHeader .BoxCard{
+        width: 100%;
+        margin: 0px;
+    }
+}
+ .row.m-0.width100{
+        width: 100%;
+    }
+@media only screen and (max-width: 320px){
+    .LegendMyCalendar .labelBoxLegend p{
+        font-size: 17px;
+    }   
+   
+}
+.hidenewcalendar{
+    display: none;
+}

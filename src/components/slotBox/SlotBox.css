@@ -1,0 +1,31 @@
+/**/
+.SlotBoxMain{
+	width:auto;
+    background:white;
+    text-align:center;
+    display:inline-block; 
+    margin-right:20px;
+    margin-bottom:15px;
+}
+
+.SlotBoxMain label{
+	margin:0;
+    padding:11px 20px;
+    color:#888080;
+    text-align:center;
+    /* width:100%; */
+    display:block;
+	cursor:pointer;
+}
+@media screen and (max-width:767px){
+	.SlotBoxMain{
+		width:45%;
+		margin-right:5%;
+	}
+	.SlotBoxMain label {
+    margin:0;
+    padding:11px 5px;
+    color:black;
+    font-size:3.5vw;
+}
+}

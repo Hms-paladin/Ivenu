@@ -1,0 +1,21 @@
+/**/
+.labelBoxLegend *{
+	margin:0;
+	padding:0;
+}
+
+.labelBoxLegend{
+	display:flex;
+	    align-items:center;
+}
+.labelBoxLegend span{
+	border:1px solid #70707045;
+	width:20px;
+	height:20px;
+	margin-right:12px;
+	border-radius:2px;
+
+}
+.labelBoxLegend p{
+	font-size:20px;
+}

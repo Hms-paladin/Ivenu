@@ -1,0 +1,386 @@
+ .learndown{
+ 	font-size:24px !important;
+ 	color:#ff9102;
+ }
+.soccerGround-main-div
+ {
+    width:90%;
+    margin:0 auto;
+ }
+.soccerGround_mobile .slider-inline-header .popupboxmain .dropdown-btn{
+  font-size:20px!important;
+}.soccerGround_mobile .slider-inline-header .popupboxmain .dropdown-btn i{
+  font-size:20px!important;
+}
+ @media only screen and (max-width:768px){
+ 	.nomargin .slick-prev{
+ 		left:-5% !important;
+   }
+   .nomargin .slick-next {
+    right:-1% !important;
+  }
+  .nomargin .slick-prev{
+    left:-8% !important;
+  }
+
+}
+
+.cardpadd{
+ padding:8px;
+}
+.ratecolor{
+ color:#FF9008 !important;
+}
+
+.h1style {
+ margin:0 auto;
+ width:100%;
+ color:#1f459e;
+ padding:10px;
+ font-size:46px;
+}
+
+.ivenustyle{
+ margin-left:10px;
+ font-size:42px;
+ font-weight:500;
+ font-style:normal;
+ font-stretch:normal;
+ line-height:normal;
+ letter-spacing:0.4px;
+ color:#103eb0;
+
+}
+.title-font-slider{
+  color:grey;
+  font-size:42px;
+}
+
+.nearByStyle{
+ width:100%;
+ display:inline-flex;  
+ align-items:center; 
+}
+
+.soccerGround-slick-dots{
+ text-align:right !important;
+
+}
+
+.soccerGround-slick-dots{
+  /*width:87% !important;*/
+  bottom:unset !important;
+}
+.inlinePluss{
+ width:48px;
+ background-color:blue;
+ display:inline-flex;
+ align-items:center;
+ justify-content:center;
+ padding:7px;
+}
+
+.downArowIcon{
+ width:35px;
+ height:42px;
+ transform:rotate(90deg);
+}
+
+
+.input_round:checked + label .circle_ground{
+  display:inline-flex;
+}
+
+.circle_ground,.input_round{
+  display:none ;
+}
+.lable_radio{
+  display:block;
+
+}
+.soccerGround-main-div .slick-dots {
+
+ text-align:right !important;
+    top:5% !important;
+    /* padding:29px; */
+    left:36px !important;
+
+}
+.slick-dots li.slick-active button:before{
+  color:#a60202;
+}
+
+.slick-dots li button:before{
+  font-size:15px !important;
+}
+
+.slick-dots li {
+  position:relative;
+  display:inline-block;
+  width:18px !important;
+  height:18px !important;
+  margin:0 0px !important;
+  padding:0;
+  cursor:pointer;
+}
+
+.slider-inline-header{
+  display:inline-flex;
+  align-items:center;
+  width:100%;
+}
+
+.slick-slider{
+  position:unset !important;
+}
+
+.ant-card{
+  background:transparent !important;
+}
+
+.ant-card-bordered{
+  border:none !important;
+}
+
+.text_size-1{
+
+  font-size:30px;
+
+}
+.text_size-2{
+  font-size:25px;
+}
+.circle_ground{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  background:#fff;
+  /*display:inline-flex !important;*/
+  align-items:center;
+  justify-content:center;
+  position:absolute;
+}
+.circle_ground_flex{
+  height:90%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:flex-start;
+  position:absolute;
+  left:10%;
+}
+.circle_ground i{
+  font-size:35px;
+  color:#207ff0;
+}
+
+.slider-button-remove>.nomargin>.slick-slider>button{
+  display:none !important;
+}
+.nomargin{
+  width:92%;
+  margin:0 auto;
+}
+
+
+@media only screen and (max-width:767px) {
+  .soccerGround_mobile{
+        border-bottom:1px solid #ddd;
+        padding:0!important;
+            padding-left:10px!important;
+  }
+  .soccerGround_mobile .circle_ground
+  {
+    width:30px;
+    height:30px;
+
+  }.arrowupcss{
+    margin-top:28px;
+    transform:skew(31deg);
+    margin-left:9px; 
+  }
+  .soccerGround_mobile .slider-button-remove{
+    /*padding:8px;*/
+  }
+.arrowupcss::before {
+bottom:0px;
+    content:'';
+    width:0;
+    height:0;
+    position:absolute;
+    border-left:12px solid transparent;
+    border-right:16px solid transparent;
+    border-bottom:22px solid #ddd;
+    /* top:0; */
+    left:5px;
+}
+.arrowupcss::after {
+content:'';
+    width:0;
+    height:0;
+    position:absolute;
+    border-left:11.5px solid transparent;
+    border-right:15px solid transparent;
+    border-bottom:22px solid #ffffff;
+    /* z-index:999; */
+    bottom:-2px;
+    left:5.2px;
+}
+.soccerGround_mobile .nearby-text2{
+  font-size:18px!important;
+  font-weight:normal;
+}
+  .soccerGround_mobile .circle_ground i
+  {
+    font-size:20px;
+  }
+  .soccerGround_mobile .swiper-container{
+    
+    /*overflow:visible;*/
+  }
+  .soccerGround_mobile .circle_ground_flex{
+    height:70%;
+   bottom:12px !important;
+    display:inline-flex;
+    align-items:center;
+    justify-content:flex-start;
+    position:absolute;
+    left:10%;
+  }
+
+  .soccerGround_mobile .title-font-slider {
+    color:grey;
+    font-size:16px;
+  }
+  .soccerGround_mobile .ivenustyle {
+
+    font-size:12px;
+    padding-top:5px;
+  }
+  .soccerGround_mobile .downArowIcon {
+    width:20px;
+    height:25px;
+    transform:rotate(90deg);
+  }
+
+
+.soccerGround_mobile .ant-card-body
+{
+  padding:0px !important;
+}
+.soccerGround_mobile .soccer_img-div
+{
+  width:135px;
+  height:94px;
+  position:relative;
+}
+.soccerGround_mobile .soccer_img-div img
+{
+  height:100% !important;
+}
+
+.soccerGround_mobile .ant-col-14
+{
+      padding-left:18px !important;
+      font-size:12px !important;
+      width:100%;
+}
+.soccerGround_mobile .swiper-slide
+{
+  width:120px;
+}
+.soccerGround_mobile .ant-rate
+{
+  font-size:11px;
+  color:#0f3eb0 !important;
+}
+.soccerGround_mobile .text_size-1,.soccerGround_mobile .text_size-2  {
+    font-size:15px!important;
+    width:124px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.soccerGround_mobile .number_div
+{
+  font-size:12px !important;
+}
+.soccerGround_mobile
+{
+  width:100%;
+  padding:8px;
+}
+.soccerGround_mobile .clear {
+  clear:both;
+}
+.soccerGround_mobile .page-wrap {
+  width:100%;
+  margin:0px auto;
+  height:100%;
+}
+
+
+.soccerGround_mobile .main-menu {
+  background:white;
+  height:55px;
+  width:100%;
+  padding:0px;
+  margin:0px auto;
+  border-bottom:3px solid #ea5b03;
+}
+
+
+.soccerGround_mobile .main-menu-select:after{
+  content:"";
+    position:absolute;
+    bottom:-3px;
+    left:50%;
+    margin-left:-12px;
+    width:0px;
+    height:0px;
+    margin:0px auto;
+    border-left:0px solid transparent;
+    border-right:58px solid transparent;
+    border-bottom:44px solid white;
+}
+
+.soccerGround_mobile .main-menu-select:before{
+   content:"";
+    position:absolute;
+    bottom:2px;
+    left:50%;
+    margin-left:-15px;
+    width:0px;
+    height:0px;
+    margin:0px auto;
+    border-left:0px solid transparent;
+    border-right:60px solid transparent;
+    border-bottom:45px solid #ea5b03;
+}
+.slick-slide{
+  position:relative;
+}
+.soccerGround_mobile .h1style
+{
+  /*width:100%;*/
+  /*padding:0px;*/
+  padding-bottom:0;
+  padding-left:0;
+}
+.title-font-slider
+{
+  font-size:15px;
+}
+.plus-style
+{
+  display:none;
+}
+.plusStyle
+{
+  display:none;
+}
+.soccerGround_mobile .slick-dots
+{
+  display:none;
+}
+}
+

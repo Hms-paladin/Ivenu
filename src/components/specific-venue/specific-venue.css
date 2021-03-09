@@ -1,0 +1,179 @@
+.circle-wrapper
+{
+	
+	/*background-color:#ea5b03;*/
+}
+.specific1.text.disabled {
+    background:rgba(197, 197, 197, 0.5)!important;
+    border:transparent;
+}
+.specific1.text.disabled .svgblock.activesvg{
+filter:saturate(0)!important;
+    opacity:0.5;
+}
+.under-text.disabled{
+  opacity:0.5;
+}
+.disabledMain .main-menu{
+  visibility:hidden;
+}
+.specific1.text.disabled svg g, .specific1.text.disabled svg path {
+  fill:grey!important;
+  opacity:0.8;
+} 
+.specific1
+{
+  border-radius:55px;
+  border:solid 1px #a60202;
+  justify-content:center;
+  display:flex;
+  align-items:center;
+  /*margin-left:20px;*/
+
+  position:relative;
+}
+.specific1 p{
+  margin:0;
+  padding:6px;
+  white-space:nowrap; 
+  overflow:hidden;
+  text-overflow:ellipsis; 
+  max-height:3.6em;
+}
+
+.circle-div
+{
+ width:1439px;
+ height:469px;
+ background-color:#ea5b03;
+
+}
+
+.in-circle
+{
+	width:calc(100% - 290px);
+	margin:0 auto;
+	display:flex;
+
+}
+
+.Rectangle {
+
+  width:351.9px;
+  height:50px;
+  border-radius:42px;
+  background-color:#fff;
+}
+
+.main-menu {
+  background:white;
+  height:55px;
+  width:100%;
+  padding:0px;
+  margin:0px auto;
+  border-bottom:1px solid transparent !important;
+}
+
+
+.main-menu-select1:after{
+  content:"";
+    position:absolute;
+    bottom:-6px;
+    /*left:50%;*/
+    margin-left:39px;
+    width:0px;
+    height:0px;
+    /*margin:0px auto;*/
+    border-left:0px solid transparent;
+    border-right:90px solid transparent;
+    border-bottom:44px solid white;
+}
+
+.main-menu-select1:before{
+   content:"";
+
+    position:absolute;
+    bottom:-1px;
+    /*left:50%;*/
+    margin-left:36px;
+    width:0px;
+    height:0px;
+    /*margin:0px auto;*/
+    border-left:0px solid transparent;
+    border-right:90px solid transparent;
+    border-bottom:45px solid #ea5b03;
+}
+.under-text
+{
+  text-align:center;
+  width:100px;
+  /*margin-left:20px;*/
+}
+
+.line-div
+{
+  width:100%;
+    height:3px;
+    background-color:orange;
+}
+.circleProp{
+    position:absolute;
+    width:37px;
+    height:37px;
+    background:white;
+    top:-12px;
+    right:3px;
+    border:1px solid #a60202;
+    border-radius:50%;
+    text-align:center;
+    display: flex;
+    align-items:center;
+  }
+.circleProp span{
+  width:100%;
+}
+.svgblock{
+  width:55%;
+  height:55%;
+}
+.specificimage{
+  width:55%;
+  height:55%;
+}
+.specificimage img{
+  width:100%;
+  height:100%;
+}
+.main-div{
+  flex-wrap:wrap;
+}
+@media only screen and (min-width:768px) {
+.soccerclass .main-menu{
+  border-bottom:3px solid #ea5b03!important;
+}
+}
+
+@media only screen and (max-width:767px) {
+  .specific1
+  {
+    
+  }
+  .nomenuselect{
+    display:none;
+  }
+  .under-text{
+        overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:pre-wrap;
+    font-size:14px;
+    width:24vw
+  }
+  .circleProp{
+    width:25px;
+    height:25px;
+    /* padding:5px; */
+    font-size:11px;
+  }
+
+}
+

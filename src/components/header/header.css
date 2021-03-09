@@ -1,0 +1,495 @@
+.part1
+{
+	/*width:50%;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.logoutDropdownBtn > button{
+  display:flex;
+    align-items:center;
+    padding:0;
+    background:transparent;
+    border:0;
+}.logoutDropdownBtn > button:focus,.logoutDropdownBtn > button:hover{
+  box-shadow:none!important;
+  background-color:transparent!important;
+}
+.logoutDropdownBtn .dropdown-menu.show{
+  right:0!important;
+  left:initial!important;
+  top:4px!important;
+}
+.logoutDropdownBtn .dropdown-menu .dropdown-item{
+  padding:0;
+}
+.logoutDropdownBtn .dropdown-menu .dropdown-item a{
+  /*padding:0;*/
+  padding:.25rem 1.5rem;
+  text-decoration:none;
+  color:black!important;
+}
+.logoutDropdownBtn > button > p{
+  margin:0;
+  padding-right:12px;
+  padding-left:12px;
+  color:black;
+}
+.logoutDropdownBtn img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+
+.part2
+{
+	/*width:50%;*/
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+.LogoutHeader{
+    padding-left:12px;
+      margin-bottom:-5px;
+}
+.Add-Your-Venue.loggedinHeader {
+    /*height: 33px;*/
+    background: #ea5b02;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    color: white;
+    font-family: SFPRODISPLAYLight;
+    padding: 3px 7px;
+}
+.loggedinHeader .text-style-1{
+  color:white!important;
+
+}
+.LogoutHeader>a{
+ color:#a70808!important;
+    font-size:22px;
+}
+
+ .drawerHeaderRight{
+        width:20%;
+        display:inherit;
+        justify-content:flex-end;
+      }
+      .ant-drawer-body{
+        padding:0px!important;
+      }
+      .ant-drawer-content-wrapper{
+        width:87%!important;
+      }
+      .drawerCustomHeader{
+        padding:9px;
+        display:flex;
+        align-items:center;
+        border:1px solid #D3D3D3;
+      }
+      .drawerCustomHeader p{
+        margin:0!important;
+        white-space:nowrap;
+        padding-left:10px;
+        text-overflow:ellipsis;
+        font-size:15px;
+        color:#b5b2b2;
+        /* width:33px; */
+        overflow:hidden;
+      }
+      .drawerCustomHeader i{
+        color:orange;
+        font-style:normal;
+      }
+      .drawerCustomImg{
+           width:40px;
+    float:left;
+    height:40px;
+    border-radius:50%;
+     }
+     .drawerCustomImg img{
+          width:100%;
+    height:100%;
+    border-radius:50%;
+    }
+    .drawerCustomBody ul{
+      padding:0!important;
+      
+    }
+
+    .drawerCustomBody ul li{
+      text-decoration:none;
+      list-style:none;
+      padding:12px;
+      width:100%;
+      /* background:grey; */
+      border-bottom:1px solid #D3D3D3;
+      color:#b5b2b2!important;
+    }
+    .drawerCustomBody ul li.active{
+      color:orange!important;
+    }
+.Webpage_List-My-Venue-Open {
+  width:100%;
+  margin:0 auto;
+  /*height:144.1px;*/
+  background-color:#fff;
+  /*border:1px solid gray;*/
+  justify-content:flex-start;
+    align-items:center;
+    display:flex;
+}
+
+.in-header
+{
+	/*width:1262.8px;*/
+	/*width:100%;*/
+	/*width:calc(100% - 163px);*/
+	margin:0 auto;
+	align-items:flex-end;
+	/*display:inline-flex;*/
+	display:flex;
+    padding:12px;
+    position:relative;
+
+}
+
+.pic
+{
+	width:100%;
+	height:auto;
+
+	/*margin-left:58.4px;*/
+}
+
+.search-lence
+{
+	padding-left:21px;
+	/*padding-right:70.9px;*/
+}
+
+.logo-div
+{
+	width:135.7px;
+	/*width:auto;*/
+	height:auto;
+  text-decoration: none!important;
+	
+}
+.Add-Your-Venue a,.Add-Your-Venue a:hover{
+      text-decoration:none;
+    color:unset;
+}
+.closeicon{
+  cursor:pointer;
+}
+.Add-Your-Venue {
+    cursor:pointer;
+width:auto;
+	white-space:pre-wrap;
+  /*width:214px;*/
+  /*height:29px;*/
+  font-family:SFProDisplay;
+  font-size: 16px;
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.2px;
+  color:#a60202;
+  float:right;
+  display:inline-flex;
+  align-items:center;
+  margin:0;
+  
+ 
+    justify-content:flex-end;
+    /*width:100%;*/
+}
+/*.drop-down-div
+{
+	margin-left:74.8px;
+}
+*/.Add-Your-Venue .text-style-1 {
+  font-weight:600;
+}
+
+.drop-div,.ant-select-selection
+{
+	border:none !important;
+	background-color:transparent !important;
+}
+
+/*.drop-div,.dropDownFild
+{
+	margin-left:39px;
+}
+*/
+.drop-div,.ant-select-selection-selected-value
+{
+	color:#000 !important;
+}
+
+.drop-div,.ant-select-selection__placeholder
+{
+	top:90% !important;
+	left:41px !important;
+}
+.drop-div,.ant-select-arrow
+{
+	top:87% !important;
+}
+.menu-div
+{
+	display:none;
+}
+.logoutBtn{
+    border-radius:50px!important;
+    padding:6px 20px 6px 21px!important;
+    /*background:#fff!important;*/
+    color:#ff9008!important;
+    border:none!important;
+    right:0;
+    position:absolute;
+  }
+.logoutBtn button{
+      background:white;
+    color:rgb(166, 2, 2);
+    border-radius:50px;
+}
+.userDivName{
+  display:none;
+}
+.searchboxCornerHeader{
+  justify-content: space-between;
+}
+.searchboxCornerHeader .popupboxmain .dropdown-btn{
+  padding-top:0!important;
+  padding-bottom:0!important; 
+}
+.searchboxCornerHeader .part1 .popupboxmain {
+  top:10px;
+}
+@media only screen and (max-width:767px) {
+	/*header*/
+  .drop-div .locationName{
+    font-family: inherit;
+    font-size: 12px!important;
+  }
+  .LogoutHeader{
+    margin-bottom:0;
+  }
+  .LogoutHeader a{
+    font-size:15px;
+  }
+  .searchboxCornerHeader .part1 .popupboxmain {
+  top:0;
+}
+  .userDivName{
+    padding-left:5px;
+    display:block!important;
+  }
+	.drop-div
+	{
+		display:inherit;
+    align-items:flex-end;
+    height:57px;
+	}
+	.logo-div
+	{
+		width:64.5px;
+    height:41px;
+    margin-bottom:0px !important;
+    display:flex;
+    align-items:center;
+	}
+  .LogoutHeader{
+    display:none;
+  }
+	.in-header
+	{
+		width:100% !important;
+    margin:0 auto !important;
+	}
+  .drop-div,.ant-select
+  {
+  	min-width:78px;
+  }
+  .search-lence
+  {
+  	padding:0px;
+  	padding-left:10px;
+  	height:20px;
+  }
+  .Add-Your-Venue
+  {
+    cursor:pointer;
+  	font-size:12px;
+    white-space: nowrap;
+  }
+  .Webpage_List-My-Venue-Open
+  {
+  	height:auto;
+  }
+.drop-div,.ant-select-selection__placeholder
+{
+	/*left:16px !important;*/
+	/*top:45px !important;*/
+	color:#0e0e0e !important;
+
+}
+.drop-div,.ant-select-arrow
+{
+	/*left:26px !important;*/
+	top:96% !important;
+	color:#ec6207 !important;
+  right:27px !important;
+  font-size:10px !important;
+
+
+}
+.part2
+{
+width:auto;
+	flex-wrap:wrap;
+	height:auto;
+  flex-direction: row;
+
+}
+.part1{
+      width:80%;
+      flex-direction: row;
+}
+
+.icon-div
+{
+	display:flex;
+	/*padding-right:32px;*/
+	padding-top:8px;
+}
+.menu-div
+{
+	padding-left:19px;
+    height:20px;
+    color:#103eb0;
+    display:flow-root;
+
+}
+.ant-select
+{
+  min-width:106px;
+    top:-3px;
+    left:-15px;
+}
+
+.menu-icon
+{
+      width:18px;
+    height:18px;
+}
+.searchboxCornerHeader{
+  padding:5px!important;
+      min-height:60px;
+}
+
+.searchboxCornerHeader .icon-div{
+  padding:0!important;
+}
+.searchboxCornerHeader .part1 .dropdown-btn{
+font-size:12px!important;
+    min-width:auto!important;
+    padding:0!important;
+    line-height:24px!important;
+    margin-bottom:-7px;
+    margin-left:3px;
+}
+.drop-div {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    height:50px;
+    margin-left:12px;
+        justify-content:space-around;
+}
+.userDivName{
+      white-space:nowrap;
+    text-overflow:ellipsis;
+    width:auto;
+    overflow:hidden;
+    width:40vw;
+    
+  /*padding-left:12px;*/
+}
+.userDivName span{
+  color:#797979;
+}
+.userDivName img{
+      width:18px;
+    height:18px;
+    border-radius:50%;
+    margin-right:3px;
+}
+}
+.logoutDropdownBtn button{
+  display: block;
+}
+.ivneulistvenue{
+  display: flex;
+  align-items: center;
+      border: 1px solid #ddd;
+    border-radius:4px;
+    padding: 1px 20px;
+}
+.ivneulistvenue>span {
+    width: 187px;
+    font-size: 13px;
+    text-align: right;
+    padding-right: 8px;
+}
+  .Add-Your-Venue.loggedinHeader{
+    /*width: 200px;*/
+    /*width: 200px;*/
+  }
+  .socialheadericons span {
+    /*font-size: 12px;*/
+    font-family: robotoregular;
+    margin-right: 12px;
+}
+.socialheadericons{
+  margin-bottom: 5px;
+}
+.socialheadericons *{
+  /*margin-bottom: 5px;*/
+  font-size: 12px;
+}
+.socialheadericons small{
+  
+  /*width: 20px;*/
+  /*height: auto;*/
+  /*height: 16px;*/
+}
+.socialheadericons .marginleft{
+  margin-left: 4px;
+}
+.logoutDropdownBtn.btn-group button >p {
+    color: #707070;
+}
+.ivneulistvenue span{
+  font-family: robotolight;
+}
+.locationName{
+  font-size: 16px!important;
+  font-family: robotolight;
+}
+.locationName{
+      align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+.locationName img{
+ width: 16.66px;
+    height: 23px;
+    margin-right: 5px;
+}

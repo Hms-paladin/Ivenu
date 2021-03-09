@@ -1,0 +1,19 @@
+.clr_lblack {
+    color:#c3c3c3;
+}
+.clr_orange {
+    color:#ea5c04;
+}
+
+.otpcenter {
+    text-align:center;
+    height:100% !important;
+    font-size:15px;
+}
+
+.otphgt {
+    height:100%;
+}
+.otp1 {
+	padding:5px !important;
+}

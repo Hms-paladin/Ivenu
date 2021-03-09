@@ -1,0 +1,281 @@
+.ant-modal-wrap {
+	width:100%;
+	height:100vh;
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+}
+.modal-design{
+	box-sizing:border-box;
+  margin:0;
+  padding:0;
+  color:rgba(0, 0, 0, 0.65);
+  font-size:14px;
+  font-variant:tabular-nums;
+  line-height:1.5;
+  list-style:none;
+  font-feature-settings:'tnum', "tnum";
+  position:relative;
+  top:0px !important;
+  width:auto;
+  margin:0px !important;
+  padding-bottom:0px !important;
+}
+.padding-top-modal{
+  padding-top:10px;
+}
+
+.modal-popup-btn button{
+  background:#eb5a00;
+  color:#fff;
+  border:none;
+  border-radius:4px;
+  padding:6px;
+  padding-right:20px;
+  padding-left:20px;
+}
+.bold-popup-modal{
+  font-weight:600;
+}
+.modal-design .ant-modal-title{
+  visibility:hidden;
+}
+
+.modalview-div,.ant-modal-content
+{
+  width:435px;
+  /*height:533px;*/
+  object-fit:contain;
+  border-radius:6px;
+  -webkit-backdrop-filter:blur(15px);
+  backdrop-filter:blur(15px);
+  /*border:solid 1px #979797;*/
+  background-color:#ffffff;
+  margin:0 auto;
+}
+.modalview-div,.modal-content
+{
+  border:none !important;
+}
+
+.modalview-div,.ant-modal-header
+{
+  padding:43px 24px;
+  padding-bottom:none;
+}
+
+.modalview-div,.ant-modal-body
+{
+  text-align:center !important;
+}
+
+.You-have-booked-the {
+/*  width:217px;
+height:50px;*/
+object-fit:contain;
+font-family:SFProDisplay;
+font-size:18px;
+font-weight:300;
+font-style:normal;
+font-stretch:normal;
+line-height:normal;
+letter-spacing:0.5px;
+text-align:center;
+color:#ea5b02;
+padding:19px;
+}
+.You-have-booked-the .text-style-1 {
+  font-size:24px;
+
+}
+.font-style-new{
+  color:#ea5b02 !important;
+}
+.modal-head
+{
+  width:auto;
+  height:16px;
+  object-fit:contain;
+  font-family:SFProDisplay;
+  font-size:14px;
+  font-weight:500;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.5px;
+  color:#3d3d3d;
+}
+
+.text-style1
+{
+  font-weight:600;
+  letter-spacing:0.5px;
+}
+
+.Booking-Details
+{
+/*  width:124px;
+  height:21px;
+  */  object-fit:contain;
+  font-family:SFProDisplay;
+  font-size:18px;
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.6px;
+  color:#565656;
+}
+
+.button1
+{
+  width:auto !important;
+  height:40px !important;
+  border-radius:4px !important;
+  background-color:#ea5b02 !important;
+  float:left;
+}
+
+
+.BOOK-MORE {
+  width:auto;
+  height:19px;
+  object-fit:contain;
+  font-family:SFProDisplay;
+  font-size:16px;
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.6px;
+  color:#ffffff;
+  text-transform:uppercase;
+}
+
+.button2
+{
+  width:auto !important;
+  height:40px !important;
+  border-radius:4px !important;
+  background-color:#ea5b02 !important;
+}
+
+
+.ADD-VENUE {
+  width:auto;
+  height:19px;
+  object-fit:contain;
+  font-family:SFProDisplay;
+  font-size:16px;
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.6px;
+  color:#ffffff;
+  text-transform:uppercase;
+}
+.modalview-div,.ant-modal-close
+{
+  padding:14px !important;
+}
+
+.modalview-div,.anticon
+{
+  /*font-size:24px !important;*/
+  /*color:#141313 !important;*/
+}
+
+.modalview-div,.ant-modal-header
+{
+  border-bottom:none !important;
+}
+
+.modalview-div,.ant-modal-head
+{
+  border-bottom:none !important;
+}
+
+.modalview-div,.ant-modal-footer
+{
+  border-top:none !important;
+  padding:0px 30px 30px 30px;
+}
+/*
+.modalview-div,.ant-modal-title
+{
+    display:none;
+    }*/
+    .Soccer-Club-Academy {
+      margin-top:15px;
+      object-fit:contain;
+      font-family:SFProDisplay;
+      font-size:22px;
+      font-weight:300;
+      font-style:normal;
+      font-stretch:normal;
+      line-height:normal;
+      letter-spacing:0.8px;
+      color:#565656;
+    }
+
+    .date-time-div
+    {
+/*  width:210px;
+height:21px*/;
+object-fit:contain;
+font-family:SFProDisplay;
+font-size:18px;
+font-weight:300;
+font-style:normal;
+font-stretch:normal;
+line-height:normal;
+letter-spacing:0.6px;
+text-align:center;
+color:#565656;
+}
+.social-text
+{
+
+  object-fit:contain;
+  font-family:SFProText;
+  font-size:15px;
+  font-weight:300;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:0.93;
+  letter-spacing:0px;
+  color:#000000;
+}
+
+
+.social-div{
+  display:inline-flex;
+  align-items:center;
+  padding:49px;
+  justify-content:center;
+}
+.social-image{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding-left:9px;
+}
+.social-image img{
+  width:35px;
+  height:auto;
+  padding-left:5px;
+}
+
+
+
+@media only screen and (max-width:768px) {
+  .modalview-div,.ant-modal-content
+  {
+    width:auto!important;
+  }   
+}
+
+.ant-modal-close:focus{
+  outline:none;
+}

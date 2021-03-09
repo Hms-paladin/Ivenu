@@ -1,0 +1,266 @@
+.priceform-div
+{
+	/*display:flex;*/
+	width:calc(100% - 250px);
+	border-bottom:1px solid #cac9c9;
+	margin:0 auto;
+	padding-bottom:28px;
+	margin-top:31px;
+
+}
+/*.checkform-heading
+{
+	width:100%;
+	display:inline-flex;
+	align-items:center;
+	font-size:31px;
+}
+*/
+.priceform-maindiv
+{
+  width:100%;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding-bottom:20px;
+  border-bottom:3px solid #ea5b03;
+}
+.priceform-maindiv .dropdown-in-box{
+  height:50px;
+}
+.priceform-maindiv .dropdown-in-box > div > .dropdown-btn{
+  padding-top:0!important;
+  padding-bottom:0!important;
+  padding-left:10px!important;
+  background:white!important;
+  text-align:left;
+  height:50px!important;
+
+}
+.priceform-maindiv input{
+  height:50px!important;
+
+}
+
+
+.priceform-maindiv .main-div{
+  justify-content:flex-start;
+  padding-left:120px;
+}
+.priceform-maindiv .main-div >div{
+  margin-right:4%;
+}
+
+.pricesave-button
+{
+	padding:15px 30px 15px 30px;
+	background-color:#0f3eb0;
+	border:none;
+	border-radius:5px;
+}
+
+.pricesave-span
+{
+	font-size:22px;
+	color:#fff;
+}
+
+
+.price-in-box 
+{
+	width:50%;  
+	display:flex;
+}
+
+
+.price-in-box > div >  .dropdown-btn{
+  border-radius:0px;
+  /*background-color:#eee !important;*/
+  min-width:121px;
+  border:none;
+  padding:9px;
+  font-family:SFProDisplay-Regular;
+  font-size:23px;
+  font-weight:500;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:normal;
+  letter-spacing:0.2px;
+  color:#676666;
+  padding-left:14px;
+  padding-right:9px;
+  border:1px solid #c7c7c7;
+  text-align:left;
+
+      margin-left:21px;
+  /*margin-left:104px;*/
+}
+
+
+
+.price-text
+{
+  font-size:30px;
+  /*padding:9px;*/
+  padding-right:97px;
+      color:#1f459e;
+}
+
+.save-div
+{
+  width:100%;
+  text-align:right;
+}
+
+.price-box
+{
+  padding:12px;
+     border:1px solid #d4d3d3; 
+    font-size:25px;
+    /*min-width:22%;*/
+      height:53px;
+    /* min-width:127px; */
+    width:100px;
+    margin-right:12px;
+}
+
+.price-in-box i
+{
+  padding-left:9px;
+    font-size:30px;
+    float:right;
+}
+
+.customrate-text
+{
+   font-size:30px;
+  /*padding-right:97px;*/
+  color:#1f459e;
+}
+
+.customrate-div
+{
+  width:calc(100% - 250px);
+  margin:0 auto;
+  margin-top:31px;
+  display:flex;
+}
+
+.customrate-arrow
+{
+  width:35px;
+  padding-top:9px;
+}
+
+.customrate-arrow img
+{
+  width:100%;
+}
+@media only screen and (max-width:767px) {
+  .priceform-div{
+    padding-bottom:12px;
+    margin-top:12px;
+  }
+.priceform-maindiv  .save-div{
+  padding-right: 12px;
+  }
+  .seatpricingdiv{
+    padding: 15px;
+  }
+  .pricesave-button{
+    padding:5px 20px;
+  }
+  .pricesave-span{
+    font-size: 18px;
+  }
+.priceform-maindiv .main-div{
+margin-top:0;
+padding-left:0!important;
+padding:8px!important;
+flex-wrap:wrap;
+justify-content:space-between!important;
+}
+.priceform-maindiv .main-div > div{
+margin-right:0!important;
+margin-bottom:18px;
+width:21vw!important;
+}
+.priceform-maindiv .main-div .specific1{
+width:21vw!important;
+height:21vw!important;
+border-radius:50%!important;
+}
+ .priceform-maindiv .main-menu-select1:before {
+       content:"";
+    position:absolute;
+    bottom:-1px;
+    /* left:50%; */
+    margin-left:0;
+    width:0px;
+    height:0px;
+    /* margin:0px auto; */
+    border-left:16px solid transparent;
+    border-right:16px solid transparent;
+    border-bottom:16px solid #907e7e;
+}.priceform-maindiv .main-menu-select1:after {
+    content:"";
+    position:absolute;
+    bottom:-2px;
+    /* left:50%; */
+    margin-left:0;
+    width:0px;
+    height:0px;
+    /*margin:0px auto;*/
+    border-left:16px solid transparent;
+    border-right:16px solid transparent;
+    border-bottom:16px solid white;
+}
+.priceform-maindiv .main-menu{
+  height:auto!important;
+  display: flex;
+  justify-content:center;
+
+}
+.price-in-box{
+  width:100%;
+  padding:0 15px;
+}
+.priceform-div{
+  width:100%;
+}
+.priceform-maindiv input.price-box{
+      height:37px!important;
+      font-size:14px;
+      width:70px;
+}
+.priceform-maindiv{
+  border-bottom:none;
+      margin:0;
+}
+.customrate-div{
+  display:none;
+}
+.priceform-maindiv .price-text{
+  font-size:18px;
+  padding-right:10px;
+      display:flex;
+    align-items:center;
+}
+.priceform-maindiv .dropdown-in-box{
+  height:auto!important;
+}
+.priceform-maindiv .dropdown-in-box .popupboxmain .dropdown-btn{
+      height:37px!important;
+      padding:0 5px!important;
+      font-size:16px!important;
+      min-width:100px!important
+
+}
+.priceform-maindiv .dropdown-in-box .popupboxmain .dropdown-btn i{
+
+      font-size:16px!important;
+
+}
+.priceform-maindiv .main-div{
+  border-bottom:1px solid #a3a0a0!important;
+}
+}

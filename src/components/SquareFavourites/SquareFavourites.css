@@ -1,0 +1,38 @@
+.SquareFavourites .popupboxmain{
+}
+.SquareFavourites{
+	width:100%;
+	margin:0 auto;
+	padding:8px;
+}
+.SquareFavourites .swiper-container{
+	    width:100%;
+    margin:0;
+}
+.SquareFavourites .nearByStyle2{
+
+    display:inline-flex;
+    align-items:center;
+}
+.SquareFavourites .nearby-text2{
+	font-size:16px!important;
+}
+.SquareFavourites .square-div{
+	/*margin:0;*/
+	/*margin-right:0!important;*/
+}
+.SquareFavourites .swiper-slide{
+	width:90px;
+	height:90px;
+}
+.FavoriteArrowDiv{
+	position:absolute;
+	top:0;
+	right:-5px;
+	display:flex;align-items:center;height:100%;
+}
+.FavoriteArrowDiv img{
+	    width:16px;
+    height:9px;
+    transform:rotate(-90deg);
+}

@@ -1,0 +1,43 @@
+.main-div
+{
+	display:flex;
+	width:100%;
+	justify-content:center;
+	position:relative;
+	border-bottom:3px solid #ea5b03;
+	margin-top:61px;
+}
+.venueCategory .main-div{
+	justify-content:flex-start;
+	padding-left:120px;
+}
+.venueCategory .main-div >div{
+	margin-right:4%
+}
+@media only screen and (max-width:767px) {
+	.venueCategory .main-div{
+		margin-top:0;
+		padding-left:0!important;
+		padding:12px!important;
+		flex-wrap:wrap;
+		justify-content:space-between!important;
+		border-bottom:none;
+	}
+	.venueCategory .main-div > div{
+		margin-right:0!important;
+		width:24vw!important;
+		margin-bottom:18px;
+	}
+	.venueCategory .main-div .specific1{
+		width:24vw!important;
+		height:24vw!important;
+		border-radius:50%!important;
+	}
+}
+
+
+
+
+
+    /*filter:invert(16%) sepia(76%) saturate(4140%) hue-rotate(12deg) brightness(103%) contrast(98%);*/
+

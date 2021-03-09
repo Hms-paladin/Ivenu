@@ -1,0 +1,40 @@
+.main-div
+{
+	display:flex;
+	width:100%;
+	justify-content:center;
+	position:relative;
+	border-bottom:3px solid #ea5b03;
+	margin-top:61px;
+}
+.venueCategory .main-div{
+	justify-content:flex-start;
+	padding-left:120px;
+}
+.venueCategory .main-div >div{
+	margin-right:4%
+}
+@media only screen and (max-width:767px) {
+	.venueCategory .main-menu{
+		display:none;
+	}
+	.actionheading{
+		display:none;
+	}
+	.corporateFormDiv .main-bindname{
+		background:rgb(166, 2, 2);
+		}  
+	.corporateFormDiv .bindname-div h2{
+			color:white;
+		}  
+	.corporateFormDiv .pagination{
+		display:none;
+	}
+}
+
+
+
+
+
+    /*filter:invert(16%) sepia(76%) saturate(4140%) hue-rotate(12deg) brightness(103%) contrast(98%);*/
+

@@ -1,0 +1,106 @@
+/**/
+.searchboxcomp .searchinputbox{
+    border-radius: 20px;
+    /*box-shadow: 0 0 4px #cccccc;*/
+    background:rgba(255,255,255,0.5);
+    padding: 8px 9px;
+    /*width: 400px;*/
+    position: relative;
+}
+.searchdivmainbox{
+	width: 78%;
+	margin:0 auto;
+}
+.searchboxcomp p{
+	text-align: center;
+	font-size: 25px;
+	color:white;
+	font-family: robotolight;
+
+}
+.searchboxcomp .searchinputbox input{
+	outline: 0;
+	border:0;
+	width: 100%;
+	padding-right: 35px;
+	padding-left: 5px;
+	font-size: 18px;
+	background-color:transparent;
+	/*font-weight: bold;*/
+	color:white;
+}
+.searchboxcomp .searchinputbox svg{
+	position: absolute;
+	font-size: 26px!important;
+	right: 10px;
+	top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.searchboxcomp .searchinputbox svg path{
+	color: #e5e5e5;
+	/*font-size: 12px;*/
+}
+.additionalBoxes{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin:0 auto;
+	color:white;
+	font-size: 16px;
+}
+.additionalBoxes .MuiIconButton-colorPrimary{
+	padding-right: 3px;
+	color:white!important;
+}
+.submitBtnClass{
+	text-align: center;
+}
+.submitBtnClass button{
+	outline: 0;
+    border: 0;
+    background: #ea5b02;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 18px;
+}
+.additionalBoxes a{
+	visibility: hidden;
+}
+.popover_quest{
+	/*width: 0;*/
+	padding:0;
+	color:white;
+	font-size: 24px;
+	border:0;
+}
+.popoverquestionbox{
+	background: transparent;
+}
+.popover_quest.ant-btn:hover,.popover_quest.ant-btn:focus{
+	background: transparent!important;
+	color:white;
+}
+.ant-popover-inner-content{
+	    margin-top: 50px!important;
+}
+@media screen and (max-width: 767px){
+	.searchdivmainbox{
+		width: 100%;
+	}
+.popover_quest{
+	background: transparent;
+}	
+.popover_quest i{
+	color: white;
+}
+.popover_quest.ant-btn:hover,.popover_quest.ant-btn:focus{
+	background: transparent!important;
+	color:rgb(166, 2, 2);
+}
+.searchboxcomp .searchinputbox input{
+	font-size: 100%;
+	color: black;
+}
+}
