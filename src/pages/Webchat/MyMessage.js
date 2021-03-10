@@ -11,8 +11,8 @@ import { Spin, Icon } from "antd";
 
 const { Title,Text } = Typography;
 
-import { SmileOutlined } from '@ant-design/icons';
-const antIcon =<SmileOutlined type="loading" style={{ fontSize:24,color:'#a60202' }} spin />
+// import { SmileOutlined } from '@ant-design/icons';
+const antIcon =<Icon type="loading" style={{ fontSize:24,color:'#a60202' }} spin />
 
 const links = "https://api.ivneu.com/api/v1/";
 

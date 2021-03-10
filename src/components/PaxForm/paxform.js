@@ -1,11 +1,12 @@
 import React from 'react';
 import PaxModal from './paxModal';
 import './paxform.css'
-import {Icon,Popconfirm} from 'antd';
-import { SmileOutlined } from '@ant-design/icons';
-
+import {Icon,Popconfirm,Spin} from 'antd';
 import dateFormat from 'dateformat';
 import DateFunctions from  '../../helpers/DateFunctions';
+// import { SmileOutlined } from '@ant-design/icons';
+const antIcon =<Icon type="loading"  style={{ fontSize:24 }}  spin />
+
 export default class PaxForm extends React.Component {
 	constructor(props) {
 		super(props);
@@ -43,7 +44,8 @@ export default class PaxForm extends React.Component {
 			<div className="paxListDiv">
 			<div className="addBoxPax bordered" onClick={()=>this.setState({paxmodal:true})}>
 			<div className="paxboxdiv">
-			<SmileOutlined type="plus-square" />
+			{/* <SmileOutlined type="plus-square" /> */}
+			<Spin indicator={antIcon}  />
 			<p>Add Pax</p>
 			</div>
 			</div>
@@ -65,7 +67,7 @@ export default class PaxForm extends React.Component {
     cancelText="No"
   	>
 		<a>
-			<SmileOutlined type="close" />
+			{/* <SmileOutlined type="close" /> */}
 			</a>
   </Popconfirm>
 			

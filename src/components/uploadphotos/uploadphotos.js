@@ -1,15 +1,16 @@
 import React from 'react';
 import './uploadphotos.css';
-// import plus from '../../images/+.png';
+import Bindname from '../bindname/bindname';
+import Choosediv from '../choosediv/choosediv';
+import plus from '../../images/+.png';
 import Upload_popup from '../../components/upload_popup/upload_popup';
 import Second_popup_style from '../../components/second-popup-style/second-popup-style';
 import Greyright from '../../images/greyright.png';
 
-import { Upload, Icon, Modal } from 'antd';
-import { SmileOutlined } from '@ant-design/icons';
-// const antIcon =<SmileOutlined type="loading" style={{ fontSize:24,color:'#a60202' }} spin />
-import Bindname from '../bindname/bindname';
-import Choosediv from '../choosediv/choosediv';
+import { Upload, Icon, Modal,Spin } from 'antd';
+// import { SmileOutlined } from '@ant-design/icons';
+const antIcon =<Icon type="loading" style={{ fontSize:24,color:'#a60202' }} spin />
+
 // import { Checkbox } from 'antd';
 
 var playarray={value:'id',name:'name',dropdown:[{id:1,name:'play'},{id:2,name:'work'},{id:3,name:'enjoty'}]}
@@ -76,7 +77,8 @@ sendUploadClick=()=>{
 		const { previewVisible, previewImage, fileList } = this.state;
     const uploadButton = (
       <div>
-        <SmileOutlined type="plus" />
+        {/* <SmileOutlined type="plus" /> */}
+		<Spin indicator={antIcon} style={{alignItems:'center',display:'flow-root'}} />
         <div className="ant-upload-text">Upload</div>
       </div>
     );

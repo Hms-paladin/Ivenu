@@ -4,8 +4,8 @@ import moment from "moment";
 import { Spin, Icon } from "antd";
 import "./MessageMaster.css";
 // const antIcon = <Icon type="loading" style={{ fontSize: 24 }} spin />;
-import { SmileOutlined } from '@ant-design/icons';
-const antIcon =<SmileOutlined type="loading" style={{ fontSize:24 }} spin />
+// import { SmileOutlined } from '@ant-design/icons';
+const antIcon =<Icon type="loading" style={{ fontSize:24 }} spin />
 
 export default class ChatView extends React.Component {
   state = {

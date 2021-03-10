@@ -10,8 +10,8 @@ import LoadAPIPost from '../../helpers/xhrapi';
 import {notification,Button,Icon,Spin} from 'antd';
 import CircularProgress from '@material-ui/core/CircularProgress';
 // const antIcon = <Icon type="loading" style={{ fontSize:24,color:'#ea5c04' }} spin />;
-import { SmileOutlined } from '@ant-design/icons';
-const antIcon =<SmileOutlined type="loading" style={{ fontSize:24,color:'#a60202' }} spin />
+// import { SmileOutlined } from '@ant-design/icons';
+// const antIcon =<SmileOutlined type="loading" style={{ fontSize:24,color:'#a60202' }} spin />
 var listingjson =require('../../FormJSON/venueListing.json');
 // import { Checkbox } from 'antd';
 

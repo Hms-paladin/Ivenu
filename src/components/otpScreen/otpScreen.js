@@ -5,9 +5,8 @@ import './otpScreen.css';
 import { Input,Button,Icon,Spin} from 'antd';
 import 'antd/dist/antd.css';
  import Apilink from '../../helpers/apilink';
-// const antIcon = <Icon type="loading" style={{ fontSize:24 }} spin />;
-import { SmileOutlined } from '@ant-design/icons';
-const antIcon =<SmileOutlined type="loading"  style={{ fontSize:24 }}  spin />
+const antIcon = <Icon type="loading" style={{ fontSize:24 }} spin />;
+// import { SmileOutlined } from '@ant-design/icons';
 class OtpScreen extends React.Component {
   constructor(props){
     super(props);
